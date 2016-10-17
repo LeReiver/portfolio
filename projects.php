@@ -99,69 +99,6 @@
 
                         <h2>More coming soon... </h2>
                     </div>
-
-<!--                    <div class="row" style="margin-bottom: 4em;">-->
-<!--                        <div class="col-md-6">-->
-<!--                            <div>-->
-<!--                                <div class="project-icon"><a href="includes/images/buddhaBellies.png" id="buddha_bellies"-->
-<!--                                                             data-lightbox="vector" data-title="Buddha Bellies Noodle House"><img src="includes/img/buddhaBellies.png" alt="Buddha Bellies Noodle House" title="Click To View"></a>-->
-<!--                                </div>-->
-<!--                            </div>-->
-<!--                            <h5 class="orange-underline">Buddha Bellies Noodle House</h5>-->
-<!--                            <p id="skills">This is my first website I built. Hand-Rolled HTML5 and CSS3. It is for a faux restaurant.</p>-->
-<!--                            <table class="button_table">-->
-<!--                                <tr>-->
-<!--                                    <td><h4><a href="/../web/buddha_bellies" target="_blank"><button id="_button" >Website</button></a></h4></td>-->
-<!--                                </tr>-->
-<!--                            </table>-->
-<!--                        </div>-->
-<!--                        <div class="col-md-6">-->
-<!--                            <div>-->
-<!--                                <div class="project-icon"><a href="includes/images/well_fed.jpg" id="well_fed"-->
-<!--                                                             data-lightbox="vector" data-title="Well Fed Adventures"><img src="includes/img/well_fed.jpg" alt="Well Fed Adventures" title="Click To View"></a>-->
-<!--                                </div>-->
-<!--                            </div>-->
-<!--                            <h5 class="orange-underline">Well Fed Adventures</h5>-->
-<!--                            <p id="skills">This is the second website I built. I t was created in Dreamweaver. It is a website about a ficticious culinary travel company.</p>-->
-<!--                            <table class="button_table">-->
-<!--                                <tr>-->
-<!--                                    <td><h4><a href="/../web/well_fed" target="_blank"><button id="_button" >Website</button></a></h4></td>-->
-<!--                                </tr>-->
-<!--                            </table>-->
-<!--                        </div>-->
-<!--                    </div>-->
-<!---->
-<!--                    <div class="row" style="margin-bottom: 4em;">-->
-<!--                        <div class="col-md-6">-->
-<!--                            <div>-->
-<!--                                <div class="project-icon"><a href="includes/images/kitchen_commons.jpg" id="kitchen_commons"-->
-<!--                                                             data-lightbox="vector" data-title="Kitchen Commons"><img src="includes/img/kitchen_commons.jpg" alt="Kitchen Commons" title="Click To View"></a>-->
-<!--                                </div>-->
-<!--                            </div>-->
-<!--                            <h5 class="orange-underline">Kitchen Commons</h5>-->
-<!--                            <p id="skills">This is a WordPress web site that was migrated from a Drupal site.I re-designed using custom-->
-<!--                                styling on a WordPress theme and created a child theme. Kitchen Commons is a local non-profit organization.</p>-->
-<!--                            <table class="button_table">-->
-<!--                                <tr>-->
-<!--                                    <td><h4><a href="https://kitchencommons.net/" target="_blank"><button id="_button" >Website</button></a></h4></td>-->
-<!--                                </tr>-->
-<!--                            </table>-->
-<!--                        </div>-->
-<!--                        <div class="col-md-6">-->
-<!--                            <div>-->
-<!--                                <div class="project-icon"><a href="includes/images/tip_calculator.jpg" id="tip_calculator"-->
-<!--                                                             data-lightbox="vector" data-title="A Tip Calculator"><img src="includes/img/tip_calculator.jpg" alt="Tip Calculator" title="Click To View"></a>-->
-<!--                                </div>-->
-<!--                            </div>-->
-<!--                            <h5 class="orange-underline">A Tip Calculator</h5>-->
-<!--                            <p id="skills">This is a tip calculator built in PHP.</p>-->
-<!--                            <table class="button_table">-->
-<!--                                <tr>-->
-<!--                                    <td><h4><a href="/../php/tip_calculator" target="_blank"><button id="_button" >Website</button></a></h4></td>-->
-<!--                                </tr>-->
-<!--                            </table>-->
-<!--                        </div>-->
-<!--                    </div>-->
                 </div>
 
 
