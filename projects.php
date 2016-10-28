@@ -23,7 +23,7 @@
         <div class="container">
             <div class="row section-header">
                 <div class="col-md-12">
-                    <h1 style="font-size: 1.85em; color: #ff8700; font-stretch: extra-expanded; font-weight: 200; text-align:start;  margin-bottom: -1em; margin-left: 1.75em">Projects</h1>
+                    <h1 style="font-size: 2.2em; color: #ff8700; font-stretch: extra-expanded; font-weight: 200; text-align:start;  margin-bottom: -1em; margin-left: 2.2em">Websites</h1>
                 </div>
             </div>
             <div id="about" class="section focus project-icon">
@@ -119,6 +119,11 @@
                             </table>
                         </div>
                     </div>
+                    <div class="row section-header">
+                        <div class="col-md-12">
+                            <h1 style="font-size: 2.2em; color: #ff8700; font-stretch: extra-expanded; font-weight: 200; text-align:start;  margin-bottom: -1em; margin-left: -.4em">Web Apps</h1>
+                        </div>
+                    </div>
                     <div class="row" style="margin-bottom: 4em;">
                         <div class="col-md-6">
                             <div>
@@ -131,7 +136,7 @@
                                 styling on a WordPress theme. Kitchen Commons is a local non-profit organization.</p>
                             <table class="button_table">
                                 <tr>
-                                    <td><h4><a href="/../php/volume_converter/" target="_blank"><button id="_button" >To Website</button></a></h4></td>
+                                    <td><h4><a href="/../php/volume_converter/" target="_blank"><button id="_button" >To Web App</button></a></h4></td>
                                 </tr>
                             </table>
                         </div>
@@ -145,7 +150,7 @@
                             <p id="skills">This is a tip calculator built in PHP, HTML, CSS.</p>
                             <table class="button_table">
                                 <tr>
-                                    <td><h4><a href="/../php/tip_calculator" target="_blank"><button id="_button" >To Website</button></a></h4></td>
+                                    <td><h4><a href="/../php/tip_calculator" target="_blank"><button id="_button" >To Web App</button></a></h4></td>
                                 </tr>
                             </table>
                         </div>
@@ -162,7 +167,7 @@
                                 styling on a WordPress theme. Kitchen Commons is a local non-profit organization.</p>
                             <table class="button_table">
                                 <tr>
-                                    <td><h4><a href="/../php/cart/" target="_blank"><button id="_button" >To Website</button></a></h4></td>
+                                    <td><h4><a href="/../php/cart/" target="_blank"><button id="_button" >To Web App</button></a></h4></td>
                                 </tr>
                             </table>
                         </div>
@@ -177,16 +182,21 @@
                             <p id="skills">This is the second website I built. I t was created in Dreamweaver. It is a website about a ficticious culinary travel company.</p>
                             <table class="button_table">
                                 <tr>
-                                    <td><h4><a href="/../php/proteins/" target="_blank"><button id="_button" >To Website</button></a></h4></td>
+                                    <td><h4><a href="/../php/proteins/" target="_blank"><button id="_button" >To Web App</button></a></h4></td>
                                 </tr>
                             </table>
+                        </div>
+                    </div>
+                    <div class="row section-header">
+                        <div class="col-md-12">
+                            <h1 style="font-size: 2.2em; color: #ff8700; font-stretch: extra-expanded; font-weight: 200; text-align:start;  margin-bottom: -5em; margin-left: -.4em">Android Apps</h1>
                         </div>
                     </div>
                     <div class="row" style="margin-bottom: 4em;">
                         <div class="col-md-6">
                             <div>
                                 <div class="project-icon"><a href="includes/images/pigLatin_phone.png" id="volume_converter"
-                                                             data-lightbox="vector" data-title="Pig Latin Name Converter"><img src="includes/img/pigLatin_phone.png"  style="height: 200px; margin-top: 50px;" alt="Pig Latin Name Converter" title="Click To View"></a>
+                                                             data-lightbox="vector" data-title="Pig Latin Name Converter"><img src="includes/img/pigLatin_phone.png"  style="height: 200px; margin:30px 0 0 -65px;" alt="Pig Latin Name Converter" title="Click To View"></a>
                                 </div>
                             </div>
                             <h5 class="orange-underline">Pig Latin Name Converter</h5>
@@ -197,6 +207,7 @@
                                 </tr>
                             </table>
                         </div>
+
                         <div class="col-md-6">
                             <div>
                                 <div class="project-icon"><a href="includes/images/drums_phone_tablet2.png" id="drums"

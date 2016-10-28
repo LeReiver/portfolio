@@ -37,14 +37,6 @@
                             </div>
                         </div>
                     </div>
-        <!--            <div class="row"></div>-->
-        <!--            <div class=" row col-md-4">-->
-        <!--                <div>-->
-        <!--                    <div class="logo_icon "> <a class="logo" id="my_logo2_w">-->
-        <!--                            <img src="includes/img/my_logo2_w.png" alt="Logo" title="Click To View"></a>-->
-        <!--                    </div>-->
-        <!--                </div>-->
-        <!--            </div>-->
                     <div id="align_right" >
                         <div class="row section-header">
                             <div class="col-md-12">
@@ -58,19 +50,22 @@
                     </div>
                 </div>
                     <div class="row section-header">
-                        <div class="col-md-12">
-                                <p id="about_2" class="about" >My name is Michael Le-Reiver. I live in downtown Portland Oregon. I love creating web sites, web applications, and Android Apps. I also love to produce audio, video, and other digital media.
-                                    Please take a look to see what I have been up to. Thank you for stopping by!</p>
+                        <div>
+                            <p id="about_2" class="about" >My name is Michael Le-Reiver. I live in downtown Portland Oregon. I love creating web sites, web applications, and Android Apps. I also love to produce audio, video, and other digital media.
+                                Please take a look to see what I have been up to. Thank you for stopping by!</p>
+                            <div class="down"><a href="#down">
+                                    <img src="includes/images/chevron_double_down.png" alt="Down" title="Down"></a><br>
+                            </div>
                         </div>
                     </div>
             </div>
         </div>
     </div>
-    <div class="jumbotron section  white-section" style="margin: -1.5em 0 0 0; padding-top: 3em;">
+    <div class="jumbotron section  white-section" style="margin: -1.5em 0 0 0; padding-top: 4em;" id="down">
         <div class="container">
             <div class="row section-header">
                 <div class="col-md-12">
-                    <h2>Skills</h2>
+                    <h2 >Skills</h2>
                 </div>
             </div>
             <div id =class="row">
@@ -159,6 +154,22 @@
         </div>
     </div>
 <?php require('footer.php'); ?>
-<?php require ('includes/header_slider.php')?>
+<?php require('includes/header_slider.php');?>
+<script>
+$(function() {
+  $('a[href*="#"]:not([href="#"])').click(function() {
+    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+      var target = $(this.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+      if (target.length) {
+        $('html, body').animate({
+          scrollTop: target.offset().top
+        }, 1000);
+        return false;
+      }
+    }
+  });
+});
+</script>
 </body>
 </html>

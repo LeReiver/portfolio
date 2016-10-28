@@ -700,6 +700,9 @@ a.button:hover {
 .wait {
     display: none;
 }
+.down {
+    margin-left: 46%;
+}
 
 /* ------------------------------  media queries ----------------------------------------*/
 @media (min-width: 1200px) {
@@ -752,6 +755,7 @@ a.button:hover {
     }
     #_button {
         margin: 0 0 0 8em;
+        width: 6em;
     }
     #_button a {
         font-size: 40%;
@@ -862,7 +866,7 @@ a.button:hover {
      }
     #_button  {
         font-size: 70%;
-        width: 6em;
+        width: 7em;
         height: 2em;
         font-weight: 200;
         margin 0 0 0 0;
