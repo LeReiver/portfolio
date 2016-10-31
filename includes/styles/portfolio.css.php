@@ -405,11 +405,15 @@ h1 {
     height: 35px;
 }
 .section.footer #footer-email {
-    height: 35px;
+    height: 38px;
 }
 .section.footer #footer-linkedIn {
     height: 35px;
 }
+.section.footer #footer-github {
+    height: 38px;
+}
+
 .section.footer .footer-item {
     margin-bottom: 20px;
 }
@@ -926,15 +930,6 @@ a.button:hover {
         width: 250px;
         height: 250px;
     }
-    .section.footer #footer-loc {
-        height: 25px;
-    }
-    .section.footer #footer-email {
-        height: 25px;
-    }
-    .section.footer #footer-linkedIn {
-        height: 25px;
-    }
     .section.footer  {
         padding: 3em;
     }
@@ -1271,7 +1266,7 @@ a.button:hover {
         margin-left: 42%;
     }
     .col-md-6 {
-        margin: 0 -1em 0 2em;
+/*        margin: 0 -1em 0 2em;*/
     }
     .down {
         margin-left: 41%;
@@ -1477,18 +1472,17 @@ a.button:hover {
     #network .button {
         padding: 13px 20px;
     }
-/*    .white-section .section-header h2 {*/
-/*        font-size: 6vw;*/
-/*        margin-top: -1em;*/
-/*    }*/
     .section.footer #footer-loc {
-        height: 25px;
+        height: 30px;
     }
     .section.footer #footer-email { 
-        height: 25px;
+        height: 30px;
     }
     .section.footer #footer-linkedIn {
-        height: 25px;
+        height: 30px;
+    }
+    .section.footer #footer-github {
+        height: 30px;
     }
     .section.footer  {
         margin-bottom: 0;

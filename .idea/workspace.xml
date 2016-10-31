@@ -2,13 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="23dfc474-f12c-408a-90d8-8542a8937ce5" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includes/contacts/form_data.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/includes/images/hero2_2_op.jpg" afterPath="$PROJECT_DIR$/includes/images/hero2_2_op.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/includes/contact_process.php" afterPath="$PROJECT_DIR$/includes/contact_process.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/footer.php" afterPath="$PROJECT_DIR$/footer.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/includes/styles/portfolio.css.php" afterPath="$PROJECT_DIR$/includes/styles/portfolio.css.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/projects.php" afterPath="$PROJECT_DIR$/projects.php" />
     </list>
     <ignored path="port_02.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -30,19 +26,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="portfolio.css.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/includes/styles/portfolio.css.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="370" column="19" selection-start-line="370" selection-start-column="19" selection-end-line="370" selection-end-column="19" />
-              <folding>
-                <marker date="1477938620000" expanded="true" signature="132:466" placeholder="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="projects.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="projects.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/projects.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="435">
@@ -55,12 +39,9 @@
       <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="575">
+            <state relative-caret-position="2505">
               <caret line="172" column="9" selection-start-line="171" selection-start-column="3" selection-end-line="172" selection-end-column="9" />
-              <folding>
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -104,7 +85,6 @@
         <option value="$PROJECT_DIR$/includes/head_files.php" />
         <option value="$PROJECT_DIR$/includes/header_slider.php" />
         <option value="$PROJECT_DIR$/about.php" />
-        <option value="$PROJECT_DIR$/footer.php" />
         <option value="$PROJECT_DIR$/resume.php" />
         <option value="$PROJECT_DIR$/success.php" />
         <option value="$PROJECT_DIR$/includes/contact_process.php" />
@@ -112,6 +92,7 @@
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/projects.php" />
         <option value="$PROJECT_DIR$/includes/styles/portfolio.css.php" />
+        <option value="$PROJECT_DIR$/footer.php" />
       </list>
     </option>
   </component>
@@ -125,10 +106,10 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="PHP" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="664" />
-    <option name="y" value="278" />
-    <option name="width" value="1256" />
-    <option name="height" value="852" />
+    <option name="x" value="113" />
+    <option name="y" value="52" />
+    <option name="width" value="1372" />
+    <option name="height" value="1100" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -155,7 +136,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -227,6 +207,7 @@
         </subPane>
       </pane>
       <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -365,7 +346,8 @@
       <workItem from="1477544769946" duration="3134000" />
       <workItem from="1477614933887" duration="9046000" />
       <workItem from="1477879984318" duration="2994000" />
-      <workItem from="1477927936898" duration="9322000" />
+      <workItem from="1477927936898" duration="9406000" />
+      <workItem from="1477947684544" duration="2425000" />
     </task>
     <task id="LOCAL-00001" summary="New branch">
       <created>1476738849746</created>
@@ -402,18 +384,25 @@
       <option name="project" value="LOCAL" />
       <updated>1477628281680</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Adjusted styles: spacing, font-size, button size">
+      <created>1477938759862</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1477938759862</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="327610000" />
+    <option name="totallyTimeSpent" value="330119000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="664" y="278" width="1256" height="852" extended-state="0" />
+    <frame x="113" y="52" width="1372" height="1100" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26606262" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.48947367" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -473,7 +462,8 @@
     <MESSAGE value="Added projects" />
     <MESSAGE value="Added Android projects" />
     <MESSAGE value="Added arrow down feature on Home page. Added titles to Projects" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added arrow down feature on Home page. Added titles to Projects" />
+    <MESSAGE value="Adjusted styles: spacing, font-size, button size" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adjusted styles: spacing, font-size, button size" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -494,7 +484,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1477938620000" expanded="true" signature="132:466" placeholder="{...}" />
+            <marker date="1477949414000" expanded="true" signature="132:466" placeholder="{...}" />
           </folding>
         </state>
       </provider>
@@ -624,13 +614,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/footer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="34" column="38" selection-start-line="34" selection-start-column="38" selection-end-line="34" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/includes/images/android2.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -740,32 +723,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/projects.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="34" column="66" selection-start-line="34" selection-start-column="66" selection-end-line="34" selection-end-column="66" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="575">
+        <state relative-caret-position="2505">
           <caret line="172" column="9" selection-start-line="171" selection-start-column="3" selection-end-line="172" selection-end-column="9" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/includes/styles/portfolio.css.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="370" column="19" selection-start-line="370" selection-start-column="19" selection-end-line="370" selection-end-column="19" />
+        <state relative-caret-position="765">
+          <caret line="1280" column="5" selection-start-line="1280" selection-start-column="5" selection-end-line="1280" selection-end-column="5" />
           <folding>
-            <marker date="1477938620000" expanded="true" signature="132:466" placeholder="{...}" />
+            <marker date="1477949414000" expanded="true" signature="132:466" placeholder="{...}" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projects.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="34" column="66" selection-start-line="34" selection-start-column="66" selection-end-line="34" selection-end-column="66" />
+          <folding />
         </state>
       </provider>
     </entry>
