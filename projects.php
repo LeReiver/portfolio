@@ -23,7 +23,7 @@
         <div class="container">
             <div class="row section-header">
                 <div class="col-md-12">
-                    <h1 style="font-size: 2.2em; color: #ff8700; font-stretch: extra-expanded; font-weight: 200; text-align:start;  margin-bottom: -1em; margin-left: 2.2em">Websites</h1>
+                    <h1 style="font-size: 2.2em; color: #ff8700; font-stretch: extra-expanded; font-weight: 200; text-align:start;  margin-bottom: -1em; margin-left: 2.2em">Websites</h1><h1></h1>
                 </div>
             </div>
             <div id="about" class="section focus project-icon">
@@ -255,128 +255,12 @@
                         </div>
 
                     </div>
-
-
                     <div class="row"></div>
                     <div class="col-md-12">
                         <h1>&nbsp;</h1>
                         <h1>&nbsp;</h1>
                     </div>
                 </div>
-
-
-
-                <!-- <div class="row" style="margin-bottom: 2em;">
-                    <div class="col-md-6">
-                        <div>
-                            <div class="project-icon"><a href="includes/images/planets_lg.jpg" id="planets"
-                                                         data-lightbox="vector" data-title="A Comparison of Planets"><img src="includes/img/planets_desktop.png" alt="A Comparison of Planets" title="Click To View"></a>
-                            </div>
-                        </div>
-                        <h5 class="orange-underline">A Comparison of Planets</h5>
-                        <p id="skills">This is my first website I built. Hand-Rolled HTML5 and CSS3. It is for a faux restaurant.</p>
-                        <table class="button_table">
-                            <tr>
-                                <td><h4><a href="/../web/planets/" target="_blank"><button id="_button" >To Website</button></a></h4></td>
-                            </tr>
-                        </table>
-                    </div> -->
-
-<!---->
-<!--            <div class="row"></div>-->
-<!--                <div class="col-md-12">-->
-<!--                    <h2>&nbsp;</h2>-->
-<!--                </div>-->
-<!--            <div class="row_project">-->
-<!--                <div class="col-md-6">-->
-<!--                    <div>-->
-<!--                        <div class="project-icon section focus " ><a href="includes/images/volume_converter.jpg" id="volume_converter" data-lightbox="vector" data-title="A Volume Converter"><img src="includes/img/volume_converter.jpg" alt="A Volume Converter" title="Click To View"></a>-->
-<!--                        </div>-->
-<!--                    </div>-->
-<!--                </div>-->
-<!--                <div class="col-md-6">-->
-<!--                    <h1>&nbsp;</h1>-->
-<!--                    <h5 class="orange-underline ">A Volume Converter</h5>-->
-<!--                    <p>This is a volume converter built using PHP, JQuery, AJAX, HTML5 and CSS3. </p>-->
-<!--                    <table class="button_table">-->
-<!--                        <tr>-->
-<!--                            <td><h4><a href="/../php/share_me" target="_blank"><button id="_button" >To Page</button></a></h4></td>-->
-<!--                        </tr>-->
-<!--                    </table>-->
-<!--                </div>-->
-<!--                <h1>&nbsp;</h1>-->
-<!--            </div>-->
-<!--            <div class="row"></div>-->
-<!--            <div class="col-md-12">-->
-<!--                <h2>&nbsp;</h2>-->
-<!--            </div>-->
-<!--            <div class="row_project">-->
-<!--                <div class="col-md-6">-->
-<!--                    <div>-->
-<!--                        <div class="project-icon section focus " ><a href="includes/images/record_store.jpg" id="record_store" data-lightbox="vector" data-title="Record Store Check Out"><img src="includes/img/record_store.jpg" alt="Record Store Check Out" title="Click To View"></a>-->
-<!--                        </div>-->
-<!--                    </div>-->
-<!--                </div>-->
-<!--                <div class="col-md-6">-->
-<!--                    <h1>&nbsp;</h1>-->
-<!--                    <h5 class="orange-underline ">Record Store Check Out</h5>-->
-<!--                    <p>This is an online record store check out page. It was a class project to learn how to style pages with PHP, HTML, and CSS3.</p>-->
-<!--                    <table class="button_table">-->
-<!--                        <tr>-->
-<!--                            <td><h4><a href="/../php/shopping_cart" target="_blank"><button id="_button" >To Page</button></a></h4></td>-->
-<!--                        </tr>-->
-<!--                    </table>-->
-<!--                </div>-->
-<!--                <h1>&nbsp;</h1>-->
-<!--            </div>-->
-<!--            <div class="row"></div>-->
-<!--            <div class="col-md-12">-->
-<!--                <h2>&nbsp;</h2>-->
-<!--            </div>-->
-<!--            <div class="row_project">-->
-<!--                <div class="col-md-6">-->
-<!--                    <div>-->
-<!--                        <div class="project-icon section focus " ><a href="includes/images/proteins.jpg" id="well_fed" data-lightbox="vector" data-title="Proteins in Europe"><img src="includes/img/proteins.jpg" alt="Proteins in Europe" title="Click To View"></a>-->
-<!--                        </div>-->
-<!--                    </div>-->
-<!--                </div>-->
-<!--                <div class="col-md-6">-->
-<!--                    <h1>&nbsp;</h1>-->
-<!--                    <h5 class="orange-underline ">Proteins in Europe</h5>-->
-<!--                    <p>This program outputs a comparison of protein consumption-->
-<!--                        for the nine food groups of three random European countries.-->
-<!--                        It was built in PHP using a randomizer to reload new data.</p>-->
-<!--                    <table class="button_table">-->
-<!--                        <tr>-->
-<!--                            <td><h4><a href="/../php/proteins" target="_blank"><button id="_button" >To Page</button></a></h4></td>-->
-<!--                        </tr>-->
-<!--                    </table>-->
-<!--                </div>-->
-<!--                <h1>&nbsp;</h1>-->
-<!--            </div>-->
-<!--            <div class="row"></div>-->
-<!--            <div class="col-md-12">-->
-<!--                <h2>&nbsp;</h2>-->
-<!--            </div>-->
-<!--            <div class="row_project">-->
-<!--                <div class="col-md-6">-->
-<!--                    <div>-->
-<!--                        <div class="project-icon section focus " ><a href="includes/images/movie.jpg" id="movie" data-lightbox="vector" data-title="Embedded Movie"><img src="includes/img/movie.jpg" alt="Embedded Movie" title="Click To View"></a>-->
-<!--                        </div>-->
-<!--                    </div>-->
-<!--                </div>-->
-<!--                <div class="col-md-6">-->
-<!--                    <h1>&nbsp;</h1>-->
-<!--                    <h5 class="orange-underline ">Embeded Movie</h5>-->
-<!--                    <p>This was a simple class assignment to embed a YouTube movie into an HTML page.</p>-->
-<!--                    <table class="button_table">-->
-<!--                        <tr>-->
-<!--                            <td><h4><a href="/../web/movie" target="_blank"><button id="_button" >To Page</button></a></h4></td>-->
-<!--                        </tr>-->
-<!--                    </table>-->
-<!--                </div>-->
-
-
                 <h1>&nbsp;</h1>
             </div>
 

@@ -6,48 +6,28 @@
  * Time: 8:43 PM
  */
 
-$EmailFrom = trim(stripslashes($_POST['email']));
-$EmailTo = "info@lereiver.com";
-$Subject = "Contact LeReiver";
-$Name = trim(stripslashes($_POST['name']));
-$Questions = trim(stripslashes($_POST['questions']));
-$current_date = date("Y-m-d"); // This date is created when the form is submitted.
 
+//if "email" variable is filled out, send email
+  if (isset($_REQUEST['email']))  {
 
-$validationOK=true;
-if ($EmailFrom=="") $validationOK=false;
-if ($Name=="") $validationOK=false;
-if (!$validationOK) {
-    print "<meta http-equiv=\"refresh\" content=\"0;URL=../error.php\">";
-    exit;
-}
+      //Email information
+      $admin_email = "info@lereiver.com";
+      $email = $_REQUEST['email'];
+      $Name = $_REQUEST['name'];
+      $Question = $_REQUEST['questions'];
 
+      //send email
+      mail($admin_email, "Name", $Question, "From:" . $email);
 
-$myFilePath = "includes/contacts/";
-$myFileName = "form-data.csv";
-$myPointer = fopen ($myFilePath.$myFileName, "a+");
-$form_data = $current_date . "," . $EmailFrom . "," . $Name . "," . $Questions . "\n";
-fputs ($myPointer, $form_data);
-fclose ($myPointer);
+      //Email response success
+      print "<meta http-equiv='refresh' content='0;URL=../success.php'>";
+  }
+  else  {
+      // Email response not success
+      ?>
 
+      print "<meta http-equiv='refresh' content='0;URL=../error.php'>";
 
-
-$Body = "";
-$Body .= "Name: ";
-$Body .= $Name;
-$Body .= "\n";
-$Body .= $Questions;
-$Body .= "\n";
-
-
-
-$success = mail($EmailTo, $Subject, $Body, "From: <$EmailFrom>");
-
-
-
-if ($success){
-    print "<meta http-equiv=\"refresh\" content=\"0;URL=../success.php\">";
-}
-else{
-    print "<meta http-equiv=\"refresh\" content=\"0;URL=../error.php\">";
-}
+      <?php
+  }
+?>

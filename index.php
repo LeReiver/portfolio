@@ -51,7 +51,7 @@
                 </div>
                     <div class="row section-header">
                         <div>
-                            <p id="about_2" class="about" >My name is Michael Le-Reiver. I live in downtown Portland Oregon. I love creating web sites, web applications, and Android Apps. I also love to produce audio, video, and other digital media.
+                            <p id="about_2" class="about phone" >My name is Michael Le-Reiver. I live in downtown Portland Oregon. I love creating web sites, web applications, and Android Apps. I also love to produce audio, video, and other digital media.
                                 Please take a look to see what I have been up to. Thank you for stopping by!</p>
                             <div class="down"><a href="#down">
                                     <img src="includes/images/chevron_double_down.png" alt="Down" title="Down"></a><br>
@@ -65,7 +65,7 @@
         <div class="container">
             <div class="row section-header">
                 <div class="col-md-12">
-                    <h2 >Skills</h2>
+                    <h2 id="skill_heading">Skills</h2>
                 </div>
             </div>
             <div id =class="row">
@@ -131,7 +131,7 @@
                 </div>
                 <div class="col-md-3 col-sm-6">
                     <div><div class="skills-icon lt_blue-hover-border"><img src="includes/images/database2.png"></div></div>
-                    <h3 class="orange-underline">Database </h3>
+                    <h3 class="orange-underline">Database</h3>
                     <table id="skills">
                         <tr><td>Database Design</td></tr>
                         <tr><td>Data Normalization</td></tr>
