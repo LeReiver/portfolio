@@ -23,14 +23,17 @@
             <div class="row section-header">
                 <div class="col-md-12">
                     <div class="col-md-7">
-                        <h1 style="font-size: 1.85em; color: #ff8700; font-stretch: extra-expanded; font-weight: 200; text-align:start;  margin-bottom: 1em;">About Me</h1>
+                        <h1 style="font-size: 1.85em; color: #ff8700; font-stretch: extra-expanded; font-weight: 200; text-align:start;  margin-bottom: 1em;">About</h1>
     
-                        <p id="about_2" >I am a multimedia developer living in Portland Oregon. I love to create mixed media within digital means. I have a background in audio production and video post production. I am currently studying web development and programing at Portland Community College. Thank you for stopping by and taking a closer look to see what I have been up to.
-    
+                        <p id="about_2" >Providing quality that continually exceeds client expectations.<br><br>I am a multimedia developer
+                            living in Portland Oregon. I have been creating digital media for over 15 years. With a background in music performance,
+                            audio production, and video production, I am currently studying web development and design as well as programming and IT at Portland
+                            Community College. My experience as well as my studies has gained me a wealth of knowledge that I inherently apply
+                            as I improve and perfect my multitude of skills in digital and creative media.
                         </p>
                     </div>
                     <div class="col-md-5">
-                        <h1 style="font-size: 1.85em; color: #ff8700; font-stretch: extra-expanded; font-weight: 200; text-align:start; margin-bottom: 1em;">Contact Me</h1>
+                        <h1 style="font-size: 1.85em; color: #ff8700; font-stretch: extra-expanded; font-weight: 200; text-align:start; margin-bottom: 1em;">Contact</h1>
     
                         <form id="contact" name="contact" method="post" action="includes/contact_process.php">
                             <div class="row_contact">

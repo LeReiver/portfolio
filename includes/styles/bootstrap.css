@@ -3974,6 +3974,15 @@ input[type="button"].btn-block {
   z-index: 1030;
 }
 
+
+.projects-navbar-fixed-top,
+.navbar-fixed-bottom {
+  position: fixed;
+  right: 0;
+  left: 0;
+  z-index: 1030;
+}
+
 @media (min-width: 544px) {
   .navbar-fixed-top,
   .navbar-fixed-bottom {
@@ -3983,6 +3992,16 @@ input[type="button"].btn-block {
 
 .navbar-fixed-top {
   top: 0;
+}
+
+.projects-navbar-fixed-top,
+.navbar-fixed-bottom {
+  border: none;
+}
+
+
+.projects-navbar-fixed-top {
+  top: 20px;
 }
 
 .navbar-fixed-bottom {

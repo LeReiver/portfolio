@@ -267,6 +267,68 @@ h1 {
 .nav_brand {
     margin-top: -2em;
 }
+
+/* --  projects navigation ------------------------------------------------------------------------------------------*/
+
+#projects_nav {
+    float: right;
+    display: inline;
+}
+
+ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+ul.topnav li {float: left;}
+
+ul.topnav li a {
+    display: inline-block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+ul.topnav li a:hover {background-color: #555;}
+
+ul.topnav li.icon {display: none;}
+
+@media screen and (max-width:680px) {
+    ul.topnav li:not(:first-child) {display: none;}
+    ul.topnav li.icon {
+        float: right;
+        display: inline-block;
+    }
+}
+
+@media screen and (max-width:680px) {
+    ul.topnav.responsive {position: relative;}
+    ul.topnav.responsive li.icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    ul.topnav.responsive li {
+        float: none;
+        display: inline;
+    }
+    ul.topnav.responsive li a {
+        display: block;
+        text-align: left;
+    }
+}
+
+/* ------------------------------------------------------------------------------------------*/
+
+
+
+
 .header-logo img {
     height: 35px;
     width: 35px;
@@ -278,7 +340,7 @@ h1 {
 .hire_me {
     background-image: url('../../includes/images/hire_me_industrial_3.jpg');
     background-size: cover;
-    overflow-x: hidden;
+/*    overflow-x: hidden;*/
     background-attachment: scroll;
     background-repeat: no-repeat;
     background-position: bottom center;
@@ -968,6 +1030,9 @@ a.button:hover {
 }
 
 @media (max-width: 786px) {
+    .projects {
+        margin-top: 4em;
+    }
     .navbar-default .navbar-brand img.small {
         top: 2px;
         width: 45px;
@@ -1106,6 +1171,10 @@ a.button:hover {
         padding-top: 20px;
         margin-bottom: 10px;
         margin-left: 80px;
+        margin-top: 60px;
+    }
+    .section.bigbox .projects{
+        margin-top: 5em;
     }
     .section.bigbox h5{
         margin-top: .25em;
@@ -1133,6 +1202,15 @@ a.button:hover {
     }
     .down {
         margin-left: 43%;
+    }
+    #projects_nav {
+        float: right;
+        clear: both;
+        margin-left: 400px;
+        line-height: 60%;
+        color: #ff8700;
+        display: inline;
+        padding-bottom: 0;
     }
 }
 @media (max-width: 720px) {
@@ -1422,12 +1500,6 @@ a.button:hover {
     }
     .section.footer  {
         margin-bottom: 5px;
-    }
-    #waitlist h2 {
-        font-size: 25px;
-    }
-    #waitlist row {
-        font-size: 25px;
     }
     #about .grey-section {
         padding-top: 15px;

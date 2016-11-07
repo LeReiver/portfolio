@@ -18,9 +18,11 @@
     <?php require_once ('includes/head_files.php') ?>
 </head>
 <body data-spy="scroll" data-target="#navbar">
+<section id="websites"></section>
 <?php require('navigation.php'); ?>
-    <div id="about_2" class="section bigbox" style="padding-top: 6em; margin-left: -3em;">
-        <div class="container">
+<?php require('project_navigation.php'); ?>
+    <div id="about_2" class="section bigbox projects" style="padding-top: 9em; margin-left: -3em;">
+        <div class="container projects">
             <div class="row section-header">
                 <div class="col-md-12">
                     <h1 style="font-size: 2.2em; color: #ff8700; font-stretch: extra-expanded; font-weight: 200; text-align:start;  margin-bottom: -1em; margin-left: 2.2em">Websites</h1><h1></h1>
@@ -116,6 +118,7 @@
                                 <tr>
                                     <td><h4><a href="/../web/sushi_animate/" target="_blank"><button id="_button" >To Website</button></a></h4></td>
                                 </tr>
+                                <section id="webapps">&nbsp; </section>
                             </table>
                         </div>
                     </div>
@@ -185,12 +188,27 @@
                                     <td><h4><a href="/../php/proteins/" target="_blank"><button id="_button" >To Web App</button></a></h4></td>
                                 </tr>
                             </table>
+                            <section id="android">&nbsp;</section>
                         </div>
                     </div>
                     <div class="row section-header">
                         <div class="col-md-12">
                             <h1 style="font-size: 2.2em; color: #ff8700; font-stretch: extra-expanded; font-weight: 200; text-align:start;  margin-bottom: -5em; margin-left: -.4em">Android Apps</h1>
                         </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div>
+                            <div class="project-icon"><a href="includes/images/drums_phone_tablet2.png" id="drums"
+                                                         data-lightbox="vector" data-title="Drums"><img src="includes/img/drums.png" alt="Drums" title="Click To View"></a>
+                            </div>
+                        </div>
+                        <h5 class="orange-underline">Drums</h5>
+                        <p id="skills">This is an Android App I built. It is a rudimentary drum machine with language support for Italian and Japanese.</p>
+                        <table class="button_table">
+                            <tr>
+                                <td><h4><a href="https://play.google.com/store/apps/details?id=app.lereiver.mike.drums" target="_blank"><button id="_button" >To App</button></a></h4></td>
+                            </tr>
+                        </table>
                     </div>
                     <div class="row" style="margin-bottom: 4em;">
                         <div class="col-md-6">
@@ -200,7 +218,7 @@
                                 </div>
                             </div>
                             <h5 class="orange-underline">Pig Latin Name Converter</h5>
-                            <p id="skills">This is the first Android App I built. It will convert a persons name into Pig Latin using sting manipulations.</p>
+                            <p id="skills">This is the first Android App I built. It will convert a persons name into Pig Latin using string manipulations.</p>
                             <table class="button_table">
                                 <tr>
                                     <td><h4><a  target=""><button id="_button" >To App</button></a></h4></td>
@@ -208,20 +226,7 @@
                             </table>
                         </div>
 
-                        <div class="col-md-6">
-                            <div>
-                                <div class="project-icon"><a href="includes/images/drums_phone_tablet2.png" id="drums"
-                                                             data-lightbox="vector" data-title="Drums"><img src="includes/img/drums.png" alt="Drums" title="Click To View"></a>
-                                </div>
-                            </div>
-                            <h5 class="orange-underline">Drums</h5>
-                            <p id="skills">This is an Android App I built. It is a rudimentary drum machine with language support for Italian and Japanese.</p>
-                            <table class="button_table">
-                                <tr>
-                                    <td><h4><a target=""><button id="_button" >To App</button></a></h4></td>
-                                </tr>
-                            </table>
-                        </div>
+
                     </div>
                     <div class="row" style="margin-bottom: 4em;">
                         <div class="col-md-6">
@@ -234,7 +239,7 @@
                             <p id="skills">This an Android App. Same as Drums, but designed with using Fragments.</p>
                             <table class="button_table">
                                 <tr>
-                                    <td><h4><a  target=""><button id="_button" >To App</button></a></h4></td>
+                                    <!-- <td><h4><a  target=""><button id="_button" >To App</button></a></h4></td> -->
                                 </tr>
                             </table>
                         </div>
@@ -249,7 +254,7 @@
                             <p id="skills">This is an Android App that was a class assignment. The app connects with a secure database and outputs a data table.</p>
                             <table class="button_table">
                                 <tr>
-                                    <td><h4><a target=""><button id="_button" >To App</button></a></h4></td>
+                                    <!-- <td><h4><a target=""><button id="_button" >To App</button></a></h4></td> -->
                                 </tr>
                             </table>
                         </div>
@@ -268,5 +273,22 @@
     </div>
 
 <?php require ('footer.php'); ?>
+
+<script>
+    $(function() {
+        $('a[href*="#"]:not([href="#"])').click(function() {
+            if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+                var target = $(this.hash);
+                target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+                if (target.length) {
+                    $('html, body').animate({
+                        scrollTop: target.offset().top
+                    }, 1000);
+                    return false;
+                }
+            }
+        });
+    });
+</script>
 </body>
 </html>
