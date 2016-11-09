@@ -28,6 +28,7 @@
                     <h1 style="font-size: 2.2em; color: #ff8700; font-stretch: extra-expanded; font-weight: 200; text-align:start;  margin-bottom: -1em; margin-left: 2.2em">Websites</h1><h1></h1>
                 </div>
             </div>
+            <!--Websites-->
             <div id="about" class="section focus project-icon">
                 <div class="container">
                     <div class="row" style="margin-bottom: 2em;">
@@ -124,9 +125,10 @@
                     </div>
                     <div class="row section-header">
                         <div class="col-md-12">
-                            <h1 style="font-size: 2.2em; color: #ff8700; font-stretch: extra-expanded; font-weight: 200; text-align:start;  margin-bottom: -1em; margin-left: -.4em">Web Apps</h1>
+                            <h1  id="project_type" style="font-size: 2.2em; color: #ff8700; font-stretch: extra-expanded; font-weight: 200; text-align:start;  margin: 2em -5em  -1em -.4em;">Web Apps</h1>
                         </div>
                     </div>
+                    <!--Web Apps-->
                     <div class="row" style="margin-bottom: 4em;">
                         <div class="col-md-6">
                             <div>
@@ -191,14 +193,15 @@
                             <section id="android">&nbsp;</section>
                         </div>
                     </div>
+                    <!--Android Projects-->
                     <div class="row section-header">
                         <div class="col-md-12">
-                            <h1 style="font-size: 2.2em; color: #ff8700; font-stretch: extra-expanded; font-weight: 200; text-align:start;  margin-bottom: -5em; margin-left: -.4em">Android Apps</h1>
+                            <h1 id="project_type" style="font-size: 2.2em; color: #ff8700; font-stretch: extra-expanded; font-weight: 200; text-align:start;  margin: 3em -5em  -2em -.4em; ">Android Apps</h1>
                         </div>
                     </div>
                     <div class="col-md-6">
                         <div>
-                            <div class="project-icon"><a href="includes/images/drums_phone_tablet2.png" id="drums"
+                            <div class="project-icon" style="margin-top: -2.25em;"><a href="includes/images/drums_phone_tablet2.png" id="drums"
                                                          data-lightbox="vector" data-title="Drums"><img src="includes/img/drums.png" alt="Drums" title="Click To View"></a>
                             </div>
                         </div>
@@ -213,20 +216,18 @@
                     <div class="row" style="margin-bottom: 4em;">
                         <div class="col-md-6">
                             <div>
-                                <div class="project-icon"><a href="includes/images/pigLatin_phone.png" id="volume_converter"
-                                                             data-lightbox="vector" data-title="Pig Latin Name Converter"><img src="includes/img/pigLatin_phone.png"  style="height: 200px; margin:30px 0 0 -65px;" alt="Pig Latin Name Converter" title="Click To View"></a>
+                                <div class="project-icon"><a href="includes/images/pigLatin_phone.png" id="name_converter"
+                                                             data-lightbox="vector" data-title="Pig Latin Name Converter"><img src="includes/img/pigLatin_phone.png"  style="height: 200px; margin-top: 1.5em;" alt="Pig Latin Name Converter" title="Click To View"></a>
                                 </div>
                             </div>
-                            <h5 class="orange-underline">Pig Latin Name Converter</h5>
+                            <h5 class="orange-underline" style=" margin-top: -1.25em;">Pig Latin Name Converter</h5>
                             <p id="skills">This is the first Android App I built. It will convert a persons name into Pig Latin using string manipulations.</p>
                             <table class="button_table">
                                 <tr>
-                                    <td><h4><a  target=""><button id="_button" >To App</button></a></h4></td>
+                                    <!--<td><h4><a  target=""><button id="_button" >To App</button></a></h4></td>-->
                                 </tr>
                             </table>
                         </div>
-
-
                     </div>
                     <div class="row" style="margin-bottom: 4em;">
                         <div class="col-md-6">
@@ -273,22 +274,6 @@
     </div>
 
 <?php require ('footer.php'); ?>
-
-<script>
-    $(function() {
-        $('a[href*="#"]:not([href="#"])').click(function() {
-            if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
-                var target = $(this.hash);
-                target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
-                if (target.length) {
-                    $('html, body').animate({
-                        scrollTop: target.offset().top
-                    }, 1000);
-                    return false;
-                }
-            }
-        });
-    });
-</script>
+<?php require('includes/smooth_scroll.php');?>
 </body>
 </html>

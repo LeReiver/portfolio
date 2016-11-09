@@ -39,6 +39,9 @@ h1 {
     font-stretch: extra-expanded;
     color: #ff8700;
 }
+li {
+    color: rgb(62, 88, 93);
+}
 .input-box {
     min-height: 46px;
 }
@@ -64,6 +67,7 @@ h1 {
     font-size: 1.5em;
     text-transform: inherit;
     line-height: 40px;
+    color: rgb(62, 88, 93);
 /*    font-family: gentonaextralight, sans-serif;*/
 }
 .jumbotron h5 {
@@ -419,7 +423,7 @@ ul.topnav li.icon {display: none;}
 .section.bigbox h5{
     font-size: 180%;
     font-weight: 200;
-    color: rgb(0, 0, 0);
+    color: rgb(62, 88, 93);
     border-bottom: 2px solid #ff8700;
 }
 .section.bigbox.speech p {
@@ -995,6 +999,10 @@ a.button:hover {
     .section.footer  {
         padding: 3em;
     }
+    .white-section .section-header h2 {
+        font-size: 1.5em;
+        margin-bottom: 20px;
+    }
      .col-md-8.button_table, {
         float: right;
          clear: left;
@@ -1153,6 +1161,9 @@ a.button:hover {
         height: 250px;
         clear: right;
     }
+    h1 #project_type{
+        margin-top: 4em;
+    }
 }
 
 
@@ -1198,7 +1209,7 @@ a.button:hover {
         background-image: url('../images/hero2_2_op.jpg');
     }
     .white-section .section-header h2 {
-        font-size: 4vw;
+        font-size: 5vw;
     }
     .down {
         margin-left: 43%;
@@ -1250,6 +1261,10 @@ a.button:hover {
         margin-top: 0.25em;
         font-size: 4.5vw;
     }
+    .white-section .section-header h2 {
+        font-size: 1.5em;
+        margin-bottom: 20px;
+    }
 }
 
 @media (max-width: 610px) {
@@ -1273,7 +1288,7 @@ a.button:hover {
         margin-bottom: -20px;
     }
     #about p {
-        <!-- margin: 20px -20px; -->
+        margin: 20px -20px;
         font-size: 1.75em;
         font-weight: 100;
         text-align: start;
@@ -1284,7 +1299,7 @@ a.button:hover {
         font-size: 5vw;
     }
     #about_2 p {
-        <!-- margin: 20px -20px 20px 0; -->
+/*       margin: 20px -20px 20px 0; */
         font-size: 1.3em;
         font-weight: 100;
         text-align: start;
@@ -1297,7 +1312,7 @@ a.button:hover {
     }
     .project-icon img {
         height: 80%;
-        <!-- padding-top: 50px; -->
+        padding-top: 50px;
         margin: -.5em 0 -18em 1em;
         }
     #_button {
@@ -1348,6 +1363,10 @@ a.button:hover {
     }
     .down {
         margin-left: 41%;
+    }
+    .white-section .section-header h2 {
+        font-size: 1.5em;
+        margin-bottom: 20px;
     }
 
 }
@@ -1454,11 +1473,16 @@ a.button:hover {
         font-size: 175%;
     }
     .orange-underline {
-        margin-top: 1em;
+        margin: .5em 0;
         padding: 0 8px;
         border-bottom: 2px solid #ff8700;
         font-size: 2vw;
         font-weight: 100;
+    }
+
+    h3.orange-underline  {
+        padding: .5em 0;
+        font-weight: 300;
     }
     #_button {
         color: rgb(62, 88, 93);
@@ -1566,14 +1590,16 @@ a.button:hover {
     .skills-icon {
          height: 105px;
          width: 105px;
-         border-radius: 20%;
-         /*    border: 4px solid rgb(62, 88, 93);*/
          display: inline-block;
          padding-top: 18px;
-         /*    margin-bottom: 10px;*/
+             margin-bottom: -30px;
      }
     .skills-icon img {
         height: 58px;
+    }
+    .white-section .section-header h2 {
+        font-size: 1.5em;
+        margin-bottom: 20px;
     }
     .jumbotron h3 {
         font-size: 25px;

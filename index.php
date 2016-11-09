@@ -73,7 +73,8 @@
                     <div><div class="skills-icon lt_blue-hover-border"><img src="includes/images/imac_code5.png"></div></div>
                     <h3 class="orange-underline">Web</h3>
                     <table id="skills">
-                        <tr><td>HTML5 / CSS3</td></tr>
+                        <tr><td>HTML5 / XHTML</td></tr>
+                        <tr><td>CSS3 / LESS</td></tr>
                         <tr><td>PHP</td></tr>
                         <tr><td>jQuery / JavaScript</td></tr>
                         <tr><td>JSON</td></tr>
@@ -85,8 +86,6 @@
                         <tr><td>Image Optimization</td></tr>
                         <tr><td>Browser Dev Tools</td></tr>
                         <tr><td>Version Control</td></tr>
-                        <tr><td>&nbsp;</td></tr>
-                        <tr><td>&nbsp;</td></tr>
                     </table>
                 </div>
                 <div class="col-md-3 col-sm-6">
@@ -96,6 +95,7 @@
                         <tr><td>ProTools</td></tr>
                         <tr><td>Waves</td></tr>
                         <tr><td>MIDI</td></tr>
+                        <tr><td>Ableton Live</td></tr>
                         <tr><td>Sound Design</td></tr>
                         <tr><td>Analog Recording/ Mixing</td></tr>
                         <tr><td>Digital Recording/ Mixing</td></tr>
@@ -105,8 +105,6 @@
                         <tr><td>Live Sound Reinforcement</td></tr>
                         <tr><td>Outboard Gear</td></tr>
                         <tr><td>Multi-Instrumentalist</td>
-                        <tr><td>&nbsp;</td></tr>
-                        <tr><td>&nbsp;</td></tr>
                     </table>
                 </div>
                 <div class="col-md-3 col-sm-6">
@@ -118,6 +116,7 @@
                         <tr><td>XML</td></tr>
                         <tr><td>Custom Styles & Themes</td></tr>
                         <tr><td>MultiDevice Support</td></tr>
+                        <tr><td>MultiVersion Support</td></tr>
                         <tr><td>Audio Implementation</td></tr>
                         <tr><td>Video Implementation</td></tr>
                         <tr><td>UI Fragments</td></tr>
@@ -125,29 +124,25 @@
                         <tr><td>Saved States</td></tr>
                         <tr><td>GenyMotion</td></tr>
                         <tr><td>Debugging</td></tr>
-                        <tr><td>&nbsp;</td></tr>
-                        <tr><td>&nbsp;</td></tr>
                     </table>
                 </div>
                 <div class="col-md-3 col-sm-6">
                     <div><div class="skills-icon lt_blue-hover-border"><img src="includes/images/database2.png"></div></div>
-                    <h3 class="orange-underline">Database</h3>
+                    <h3 class="orange-underline">Database & IT</h3>
                     <table id="skills">
                         <tr><td>Database Design</td></tr>
-                        <tr><td>Data Normalization</td></tr>
                         <tr><td>ERDs</td></tr>
-                        <tr><td>DFDs</td></tr>
                         <tr><td>SQL</td></tr>
                         <tr><td>MySQL</td></tr>
                         <tr><td>PL/SQL</td></tr>
                         <tr><td>T-SQL</td></tr>
                         <tr><td>Stored Procedures</td></tr>
-                        <tr><td>MS SequelServer</td></tr>
                         <tr><td>Oracle SQLDeveloper</td></tr>
-                        <tr><td>&nbsp;</td></tr>
-                        <tr><td>&nbsp;</td></tr>
-                        <tr><td>&nbsp;</td></tr>
-                        <tr><td>&nbsp;</td></tr>
+                        <tr><td>MS SequelServer</td></tr>
+                        <tr><td>Linux/ UNIX</td></tr>
+                        <tr><td>vim & awk</td></tr>
+                        <tr><td>System Design</td></tr>
+                        <tr><td>DFDs</td></tr>
                     </table>
                 </div>
             </div>
@@ -155,21 +150,6 @@
     </div>
 <?php require('footer.php'); ?>
 <?php require('includes/header_slider.php');?>
-<script>
-$(function() {
-  $('a[href*="#"]:not([href="#"])').click(function() {
-    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
-      var target = $(this.hash);
-      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
-      if (target.length) {
-        $('html, body').animate({
-          scrollTop: target.offset().top
-        }, 1000);
-        return false;
-      }
-    }
-  });
-});
-</script>
+<?php require('includes/smooth_scroll.php');?>
 </body>
 </html>
