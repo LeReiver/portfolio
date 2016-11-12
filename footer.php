@@ -30,7 +30,7 @@
                 </div>
                 <div class="col-lg-3 col-md-6 col-xs-6">
                     <div class="footer-item">
-                        <a href="http://lereiver.com/"><img id="footer-loc" src="includes/img/my_logo2_w.png" alt="Logo image link back to home page"></a>
+                        <a href="http://lereiver.com/port_02"><img id="footer-loc" src="includes/img/my_logo2_w.png" alt="Logo image link back to home page"></a>
                         <div>&copy; 2016</div>
                     </div>
                 </div>

@@ -1,3 +1,4 @@
+
 <?php
 /**
  * Created by PhpStorm.
@@ -21,259 +22,260 @@
 <section id="websites"></section>
 <?php require('navigation.php'); ?>
 <?php require('project_navigation.php'); ?>
-    <div id="about_2" class="section bigbox projects" style="padding-top: 9em; margin-left: -3em;">
-        <div class="container projects">
-            <div class="row section-header">
-                <div class="col-md-12">
-                    <h1 style="font-size: 2.2em; color: #ff8700; font-stretch: extra-expanded; font-weight: 200; text-align:start;  margin-bottom: -1em; margin-left: 2.2em">Websites</h1><h1></h1>
-                </div>
+<div id="about_2" class="section bigbox projects" style="padding-top: 9em; margin-left: -3em;">
+    <div class="container projects">
+        <div class="row section-header">
+            <div class="col-md-12">
+                <h1 style="font-size: 2.2em; color: #ff8700; font-stretch: extra-expanded; font-weight: 200; text-align:start;  margin-bottom: -1em; margin-left: 2.2em">Websites</h1><h1></h1>
             </div>
-            <!--Websites-->
-            <div id="about" class="section focus project-icon">
-                <div class="container">
-                    <div class="row" style="margin-bottom: 2em;">
-                       <div class="col-md-6">
-                           <div>
-                               <div class="project-icon"><a href="includes/images/buddha_bellies_lg.jpg" id="buddha_bellies"
-                                    data-lightbox="vector" data-title="Buddha Bellies Noodle House"><img src="includes/img/buddhabellies_desktop.png" alt="Buddha Bellies Noodle House" title="Click To View"></a>
-                               </div>
-                           </div>
-                           <h5 class="orange-underline">Buddha Bellies Noodle House</h5>
-                           <p id="skills">This is my first website I built. Hand-Rolled HTML5 and CSS3. It is for a faux restaurant.</p>
-                           <table class="button_table">
-                               <tr>
-                                   <td><h4><a href="/../web/buddha_bellies" target="_blank"><button id="_button" >To Website</button></a></h4></td>
-                               </tr>
-                           </table>
-                       </div>
-                       <div class="col-md-6">
-                            <div>
-                                <div class="project-icon"><a href="includes/images/well_fed_lg.jpg" id="well_fed"
-                                    data-lightbox="vector" data-title="Well Fed Adventures"><img src="includes/img/wellfed_desktop.png" alt="Well Fed Adventures" title="Click To View"></a>
-                                </div>
-                            </div>
-                            <h5 class="orange-underline">Well Fed Adventures</h5>
-                            <p id="skills">This is the second website I built. It was created in Dreamweaver. It is a website about a ficticious culinary travel company.</p>
-                           <table class="button_table">
-                               <tr>
-                                   <td><h4><a href="/../web/well_fed" target="_blank"><button id="_button" > To Website</button></a></h4></td>
-                               </tr>
-                           </table>
-                       </div>
-                    </div>
-                    <div class="row" style="margin-bottom: 4em;">
-                        <div class="col-md-6">
-                            <div>
-                                <div class="project-icon"><a href="includes/images/kitchen_commons_lg.jpg" id="kitchen_commons"
-                                   data-lightbox="vector" data-title="Kitchen Commons"><img src="includes/img/kitchen_commons_desktop.png" alt="Kitchen Commons" title="Click To View"></a>
-                                </div>
-                            </div>
-                            <h5 class="orange-underline">Kitchen Commons</h5>
-                            <p id="skills">This is a WordPress web site that was migrated from a Drupal site.I re-designed using custom
-                            styling on a WordPress theme. Kitchen Commons is a local non-profit organization.</p>
-                            <table class="button_table">
-                                <tr>
-                                    <td><h4><a href="https://kitchencommons.net/" target="_blank"><button id="_button" >To Website</button></a></h4></td>
-                                </tr>
-                            </table>
-                        </div>
-                        <div class="col-md-6">
-                            <div>
-                                <div class="project-icon"><a href="includes/images/dual_purpose_lg.jpg" id="dual_purpose"
-                                                             data-lightbox="vector" data-title="Dual Purpose Motorcycles"><img src="includes/img/dual_purpose_desktop.png" alt="Dual Purpose Motorcycles" title="Click To View"></a>
-                                </div>
-                            </div>
-                            <h5 class="orange-underline">Dual Purpose Motorcycles</h5>
-                            <p id="skills">This is my first website I built. Hand-Rolled HTML5 and CSS3. It is for a faux restaurant.</p>
-                            <table class="button_table">
-                                <tr>
-                                    <td><h4><a href="/../web/dual_purpose/" target="_blank"><button id="_button" >To Website</button></a></h4></td>
-                                </tr>
-                            </table>
-                        </div>
-                    </div>
-                    <div class="row" style="margin-bottom: 2em;">
-                        <div class="col-md-6">
-                            <div>
-                                <div class="project-icon"><a href="includes/images/graphics_lg.jpg" id="graphics"
-                                                             data-lightbox="vector" data-title="Graphics for Multimedia"><img src="includes/img/graphics_desktop.png" alt="Graphics for Multimedia" title="Click To View"></a>
-                                </div>
-                            </div>
-                            <h5 class="orange-underline">Graphics for Multimedia</h5>
-                            <p id="skills">This is a tip calculator built in PHP, HTML, CSS.</p>
-                            <table class="button_table">
-                                <tr>
-                                    <td><h4><a href="/../web/graphics/" target="_blank"><button id="_button" >To Website</button></a></h4></td>
-                                </tr>
-                            </table>
-                        </div>
-                        <div class="col-md-6">
-                            <div>
-                                <div class="project-icon"><a href="includes/images/sushi_animate_lg.jpg" id="sushi_animate"
-                                                             data-lightbox="vector" data-title="Animated Sushi"><img src="includes/img/sushi_animate_desktop.png" alt="Animated Sushi" title="Click To View"></a>
-                                </div>
-                            </div>
-                            <h5 class="orange-underline">Animated Sushi</h5>
-                            <p id="skills">This is the second website I built. I t was created in Dreamweaver. It is a website about a ficticious culinary travel company.</p>
-                            <table class="button_table">
-                                <tr>
-                                    <td><h4><a href="/../web/sushi_animate/" target="_blank"><button id="_button" >To Website</button></a></h4></td>
-                                </tr>
-                                <section id="webapps">&nbsp; </section>
-                            </table>
-                        </div>
-                    </div>
-                    <div class="row section-header">
-                        <div class="col-md-12">
-                            <h1  id="project_type" style="font-size: 2.2em; color: #ff8700; font-stretch: extra-expanded; font-weight: 200; text-align:start;  margin: 2em -5em  -1em -.4em;">Web Apps</h1>
-                        </div>
-                    </div>
-                    <!--Web Apps-->
-                    <div class="row" style="margin-bottom: 4em;">
-                        <div class="col-md-6">
-                            <div>
-                                <div class="project-icon"><a href="includes/images/volume_converter_lg.jpg" id="volume_converter"
-                                                             data-lightbox="vector" data-title="Cooking Volume Converter"><img src="includes/img/volume_converter_desktop.png" alt="Cooking Volume Converter" title="Click To View"></a>
-                                </div>
-                            </div>
-                            <h5 class="orange-underline">Cooking Volume Converter</h5>
-                            <p id="skills">This is a WordPress web site that was migrated from a Drupal site.I re-designed using custom
-                                styling on a WordPress theme. Kitchen Commons is a local non-profit organization.</p>
-                            <table class="button_table">
-                                <tr>
-                                    <td><h4><a href="/../php/volume_converter/" target="_blank"><button id="_button" >To Web App</button></a></h4></td>
-                                </tr>
-                            </table>
-                        </div>
-                        <div class="col-md-6">
-                            <div>
-                                <div class="project-icon"><a href="includes/images/tip_calculator_lg.jpg" id="tip_calculator"
-                                                             data-lightbox="vector" data-title="A Tip Calculator"><img src="includes/img/tip_calculator_desktop.png" alt="Tip Calculator" title="Click To View"></a>
-                                </div>
-                            </div>
-                            <h5 class="orange-underline">A Tip Calculator</h5>
-                            <p id="skills">This is a tip calculator built in PHP, HTML, CSS.</p>
-                            <table class="button_table">
-                                <tr>
-                                    <td><h4><a href="/../php/tip_calculator" target="_blank"><button id="_button" >To Web App</button></a></h4></td>
-                                </tr>
-                            </table>
-                        </div>
-                    </div>
-                    <div class="row" style="margin-bottom: 4em;">
-                        <div class="col-md-6">
-                            <div>
-                                <div class="project-icon"><a href="includes/images/cart_lg.jpg" id="shopping_cart"
-                                                             data-lightbox="vector" data-title="Shopping Cart"><img src="includes/img/shopping_cart_desktop.png" alt="Shopping Cart" title="Click To View"></a>
-                                </div>
-                            </div>
-                            <h5 class="orange-underline">Shopping Cart</h5>
-                            <p id="skills">This is a WordPress web site that was migrated from a Drupal site.I re-designed using custom
-                                styling on a WordPress theme. Kitchen Commons is a local non-profit organization.</p>
-                            <table class="button_table">
-                                <tr>
-                                    <td><h4><a href="/../php/cart/" target="_blank"><button id="_button" >To Web App</button></a></h4></td>
-                                </tr>
-                            </table>
-                        </div>
-
-                        <div class="col-md-6">
-                            <div>
-                                <div class="project-icon"><a href="includes/images/proteins_lg.jpg" id="proteins"
-                                                             data-lightbox="vector" data-title="Proteins In Europe"><img src="includes/img/proteins_desktop.png" alt="Proteins In Europe" title="Click To View"></a>
-                                </div>
-                            </div>
-                            <h5 class="orange-underline">Proteins In Europe</h5>
-                            <p id="skills">This is the second website I built. I t was created in Dreamweaver. It is a website about a ficticious culinary travel company.</p>
-                            <table class="button_table">
-                                <tr>
-                                    <td><h4><a href="/../php/proteins/" target="_blank"><button id="_button" >To Web App</button></a></h4></td>
-                                </tr>
-                            </table>
-                            <section id="android">&nbsp;</section>
-                        </div>
-                    </div>
-                    <!--Android Projects-->
-                    <div class="row section-header">
-                        <div class="col-md-12">
-                            <h1 id="project_type" style="font-size: 2.2em; color: #ff8700; font-stretch: extra-expanded; font-weight: 200; text-align:start;  margin: 3em -5em  -2em -.4em; ">Android Apps</h1>
-                        </div>
-                    </div>
+        </div>
+        <!--Websites-->
+        <div id="about" class="section focus project-icon">
+            <div class="container">
+                <div class="row" style="margin-bottom: 2em;">
                     <div class="col-md-6">
                         <div>
-                            <div class="project-icon" style="margin-top: -2.25em;"><a href="includes/images/drums_phone_tablet2.png" id="drums"
-                                                         data-lightbox="vector" data-title="Drums"><img src="includes/img/drums.png" alt="Drums" title="Click To View"></a>
+                            <div class="project-icon"><a href="includes/images/buddha_bellies_lg.jpg" id="buddha_bellies"
+                                                         data-lightbox="vector" data-title="Buddha Bellies Noodle House"><img src="includes/img/buddhabellies_desktop.png" alt="Buddha Bellies Noodle House" title="Click To View"></a>
                             </div>
                         </div>
-                        <h5 class="orange-underline">Drums</h5>
-                        <p id="skills">This is an Android App I built. It is a rudimentary drum machine with language support for Italian and Japanese.</p>
+                        <h5 class="orange-underline">Buddha Bellies Noodle House</h5>
+                        <p id="skills">This is my first website I built. Hand-Rolled HTML5 and CSS3. It is for a faux restaurant.</p>
                         <table class="button_table">
                             <tr>
-                                <td><h4><a href="https://play.google.com/store/apps/details?id=app.lereiver.mike.drums" target="_blank"><button id="_button" >To App</button></a></h4></td>
+                                <td><h4><a href="/../web/buddha_bellies" target="_blank"><button id="_button" >To Website</button></a></h4></td>
                             </tr>
                         </table>
                     </div>
-                    <div class="row" style="margin-bottom: 4em;">
-                        <div class="col-md-6">
-                            <div>
-                                <div class="project-icon"><a href="includes/images/pigLatin_phone.png" id="name_converter"
-                                                             data-lightbox="vector" data-title="Pig Latin Name Converter"><img src="includes/img/pigLatin_phone.png"  style="height: 200px; margin-top: 1.5em;" alt="Pig Latin Name Converter" title="Click To View"></a>
-                                </div>
+                    <div class="col-md-6">
+                        <div>
+                            <div class="project-icon"><a href="includes/images/well_fed_lg.jpg" id="well_fed"
+                                                         data-lightbox="vector" data-title="Well Fed Adventures"><img src="includes/img/wellfed_desktop.png" alt="Well Fed Adventures" title="Click To View"></a>
                             </div>
-                            <h5 class="orange-underline" style=" margin-top: -1.25em;">Pig Latin Name Converter</h5>
-                            <p id="skills">This is the first Android App I built. It will convert a persons name into Pig Latin using string manipulations.</p>
-                            <table class="button_table">
-                                <tr>
-                                    <!--<td><h4><a  target=""><button id="_button" >To App</button></a></h4></td>-->
-                                </tr>
-                            </table>
                         </div>
-                    </div>
-                    <div class="row" style="margin-bottom: 4em;">
-                        <div class="col-md-6">
-                            <div>
-                                <div class="project-icon"><a href="includes/images/drumsFragment_phone_tablet2.png" id="drums_fragment"
-                                                             data-lightbox="vector" data-title="Drums Fragmented"><img src="includes/img/drumsFragment.png" alt="Drums Fragment" title="Click To View"></a>
-                                </div>
-                            </div>
-                            <h5 class="orange-underline">Fragmented Drums</h5>
-                            <p id="skills">This an Android App. Same as Drums, but designed with using Fragments.</p>
-                            <table class="button_table">
-                                <tr>
-                                    <!-- <td><h4><a  target=""><button id="_button" >To App</button></a></h4></td> -->
-                                </tr>
-                            </table>
-                        </div>
-
-                        <div class="col-md-6">
-                            <div>
-                                <div class="project-icon"><a href="includes/images/dataview_phone_tablet.png" id="data_view"
-                                                             data-lightbox="vector" data-title="Data View"><img src="includes/img/dataview.png"  alt="Tip Calculator" title="Click To View"></a>
-                                </div>
-                            </div>
-                            <h5 class="orange-underline">Dataview</h5>
-                            <p id="skills">This is an Android App that was a class assignment. The app connects with a secure database and outputs a data table.</p>
-                            <table class="button_table">
-                                <tr>
-                                    <!-- <td><h4><a target=""><button id="_button" >To App</button></a></h4></td> -->
-                                </tr>
-                            </table>
-                        </div>
-
-                    </div>
-                    <div class="row"></div>
-                    <div class="col-md-12">
-                        <h1>&nbsp;</h1>
-                        <h1>&nbsp;</h1>
+                        <h5 class="orange-underline">Well Fed Adventures</h5>
+                        <p id="skills">This is the second website I built. It was created in Dreamweaver. It is a website about a ficticious culinary travel company.</p>
+                        <table class="button_table">
+                            <tr>
+                                <td><h4><a href="/../web/well_fed" target="_blank"><button id="_button" > To Website</button></a></h4></td>
+                            </tr>
+                        </table>
                     </div>
                 </div>
-                <h1>&nbsp;</h1>
-            </div>
+                <div class="row" style="margin-bottom: 4em;">
+                    <div class="col-md-6">
+                        <div>
+                            <div class="project-icon"><a href="includes/images/kitchen_commons_lg.jpg" id="kitchen_commons"
+                                                         data-lightbox="vector" data-title="Kitchen Commons"><img src="includes/img/kitchen_commons_desktop.png" alt="Kitchen Commons" title="Click To View"></a>
+                            </div>
+                        </div>
+                        <h5 class="orange-underline">Kitchen Commons</h5>
+                        <p id="skills">This is a WordPress web site that was migrated from a Drupal site.I re-designed using custom
+                            styling on a WordPress theme. Kitchen Commons is a local non-profit organization.</p>
+                        <table class="button_table">
+                            <tr>
+                                <td><h4><a href="https://kitchencommons.net/" target="_blank"><button id="_button" >To Website</button></a></h4></td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="col-md-6">
+                        <div>
+                            <div class="project-icon"><a href="includes/images/dual_purpose_lg.jpg" id="dual_purpose"
+                                                         data-lightbox="vector" data-title="Dual Purpose Motorcycles"><img src="includes/img/dual_purpose_desktop.png" alt="Dual Purpose Motorcycles" title="Click To View"></a>
+                            </div>
+                        </div>
+                        <h5 class="orange-underline">Dual Purpose Motorcycles</h5>
+                        <p id="skills">This is my first website I built. Hand-Rolled HTML5 and CSS3. It is for a faux restaurant.</p>
+                        <table class="button_table">
+                            <tr>
+                                <td><h4><a href="/../web/dual_purpose/" target="_blank"><button id="_button" >To Website</button></a></h4></td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+                <div class="row" style="margin-bottom: 2em;">
+                    <div class="col-md-6">
+                        <div>
+                            <div class="project-icon"><a href="includes/images/graphics_lg.jpg" id="graphics"
+                                                         data-lightbox="vector" data-title="Graphics for Multimedia"><img src="includes/img/graphics_desktop.png" alt="Graphics for Multimedia" title="Click To View"></a>
+                            </div>
+                        </div>
+                        <h5 class="orange-underline">Graphics for Multimedia</h5>
+                        <p id="skills">This is a tip calculator built in PHP, HTML, CSS.</p>
+                        <table class="button_table">
+                            <tr>
+                                <td><h4><a href="/../web/graphics/" target="_blank"><button id="_button" >To Website</button></a></h4></td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="col-md-6">
+                        <div>
+                            <div class="project-icon"><a href="includes/images/sushi_animate_lg.jpg" id="sushi_animate"
+                                                         data-lightbox="vector" data-title="Animated Sushi"><img src="includes/img/sushi_animate_desktop.png" alt="Animated Sushi" title="Click To View"></a>
+                            </div>
+                        </div>
+                        <h5 class="orange-underline">Animated Sushi</h5>
+                        <p id="skills">This is the second website I built. I t was created in Dreamweaver. It is a website about a ficticious culinary travel company.</p>
+                        <table class="button_table">
+                            <tr>
+                                <td><h4><a href="/../web/sushi_animate/" target="_blank"><button id="_button" >To Website</button></a></h4></td>
+                            </tr>
+                            <section id="webapps">&nbsp; </section>
+                        </table>
+                    </div>
+                </div>
+                <div class="row section-header">
+                    <div class="col-md-12">
+                        <h1  id="project_type" style="font-size: 2.2em; color: #ff8700; font-stretch: extra-expanded; font-weight: 200; text-align:start;  margin: 2em -5em  -1em -.4em;">Web Apps</h1>
+                    </div>
+                </div>
+                <!--Web Apps-->
+                <div class="row" style="margin-bottom: 4em;">
+                    <div class="col-md-6">
+                        <div>
+                            <div class="project-icon"><a href="includes/images/volume_converter_lg.jpg" id="volume_converter"
+                                                         data-lightbox="vector" data-title="Cooking Volume Converter"><img src="includes/img/volume_converter_desktop.png" alt="Cooking Volume Converter" title="Click To View"></a>
+                            </div>
+                        </div>
+                        <h5 class="orange-underline">Cooking Volume Converter</h5>
+                        <p id="skills">This is a WordPress web site that was migrated from a Drupal site.I re-designed using custom
+                            styling on a WordPress theme. Kitchen Commons is a local non-profit organization.</p>
+                        <table class="button_table">
+                            <tr>
+                                <td><h4><a href="/../php/volume_converter/" target="_blank"><button id="_button" >To Web App</button></a></h4></td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="col-md-6">
+                        <div>
+                            <div class="project-icon"><a href="includes/images/tip_calculator_lg.jpg" id="tip_calculator"
+                                                         data-lightbox="vector" data-title="A Tip Calculator"><img src="includes/img/tip_calculator_desktop.png" alt="Tip Calculator" title="Click To View"></a>
+                            </div>
+                        </div>
+                        <h5 class="orange-underline">A Tip Calculator</h5>
+                        <p id="skills">This is a tip calculator built in PHP, HTML, CSS.</p>
+                        <table class="button_table">
+                            <tr>
+                                <td><h4><a href="/../php/tip_calculator" target="_blank"><button id="_button" >To Web App</button></a></h4></td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+                <div class="row" style="margin-bottom: 4em;">
+                    <div class="col-md-6">
+                        <div>
+                            <div class="project-icon"><a href="includes/images/cart_lg.jpg" id="shopping_cart"
+                                                         data-lightbox="vector" data-title="Shopping Cart"><img src="includes/img/shopping_cart_desktop.png" alt="Shopping Cart" title="Click To View"></a>
+                            </div>
+                        </div>
+                        <h5 class="orange-underline">Shopping Cart</h5>
+                        <p id="skills">This is a WordPress web site that was migrated from a Drupal site.I re-designed using custom
+                            styling on a WordPress theme. Kitchen Commons is a local non-profit organization.</p>
+                        <table class="button_table">
+                            <tr>
+                                <td><h4><a href="/../php/cart/" target="_blank"><button id="_button" >To Web App</button></a></h4></td>
+                            </tr>
+                        </table>
+                    </div>
 
+                    <div class="col-md-6">
+                        <div>
+                            <div class="project-icon"><a href="includes/images/proteins_lg.jpg" id="proteins"
+                                                         data-lightbox="vector" data-title="Proteins In Europe"><img src="includes/img/proteins_desktop.png" alt="Proteins In Europe" title="Click To View"></a>
+                            </div>
+                        </div>
+                        <h5 class="orange-underline">Proteins In Europe</h5>
+                        <p id="skills">This is the second website I built. I t was created in Dreamweaver. It is a website about a ficticious culinary travel company.</p>
+                        <table class="button_table">
+                            <tr>
+                                <td><h4><a href="/../php/proteins/" target="_blank"><button id="_button" >To Web App</button></a></h4></td>
+                            </tr>
+                        </table>
+                        <section id="android">&nbsp;</section>
+                    </div>
+                </div>
+                <!--Android Projects-->
+                <div class="row section-header">
+                    <div class="col-md-12">
+                        <h1 id="project_type" style="font-size: 2.2em; color: #ff8700; font-stretch: extra-expanded; font-weight: 200; text-align:start;  margin: 3em -5em  -2em -.4em; ">Android Apps</h1>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div>
+                        <div class="project-icon"><a href="includes/images/drums_phone_tablet2.png" id="drums"
+                                                                                  data-lightbox="vector" data-title="Drums"><img src="includes/img/drums.png" alt="Drums" title="Click To View"></a>
+                        </div>
+                    </div>
+                    <h5 class="orange-underline">Drums</h5>
+                    <p id="skills">This is an Android App I built. It is a rudimentary drum machine with language support for Italian and Japanese.</p>
+                    <table class="button_table">
+                        <tr>
+                            <td><h4><a href="https://play.google.com/store/apps/details?id=app.lereiver.mike.drums" target="_blank"><button id="_button" >To App</button></a></h4></td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="row" style="margin-bottom: 4em;">
+                    <div class="col-md-6">
+                        <div>
+                            <div class="project-icon"><a href="includes/images/pigLatin_phone.png" id="name_converter"
+                                                         data-lightbox="vector" data-title="Pig Latin Name Converter"><img src="includes/img/pigLatin_phone.png" alt="Pig Latin Name Converter" title="Click To View"></a>
+                            </div>
+                        </div>
+                        <h5 class="orange-underline" >Pig Latin Name Converter</h5>
+                        <p id="skills">This is the first Android App I built. It will convert a persons name into Pig Latin using string manipulations.</p>
+                        <table class="button_table">
+                            <tr>
+                                <!--<td><h4><a  target=""><button id="_button" >To App</button></a></h4></td>-->
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+                <div class="row" style="margin-bottom: 4em;">
+                    <div class="col-md-6">
+                        <div>
+                            <div class="project-icon"><a href="includes/images/drumsFragment_phone_tablet2.png" id="drums_fragment"
+                                                         data-lightbox="vector" data-title="Drums Fragmented"><img src="includes/img/drumsFragment.png" alt="Drums Fragment" title="Click To View"></a>
+                            </div>
+                        </div>
+                        <h5 class="orange-underline">Fragmented Drums</h5>
+                        <p id="skills">This an Android App. Same as Drums, but designed with using Fragments.</p>
+                        <table class="button_table">
+                            <tr>
+                                <!-- <td><h4><a  target=""><button id="_button" >To App</button></a></h4></td> -->
+                            </tr>
+                        </table>
+                    </div>
+
+                    <div class="col-md-6">
+                        <div>
+                            <div class="project-icon"><a href="includes/images/dataview_phone_tablet.png" id="data_view"
+                                                         data-lightbox="vector" data-title="Data View"><img src="includes/img/dataview.png"  alt="Tip Calculator" title="Click To View"></a>
+                            </div>
+                        </div>
+                        <h5 class="orange-underline">Dataview</h5>
+                        <p id="skills">This is an Android App that was a class assignment. The app connects with a secure database and outputs a data table.</p>
+                        <table class="button_table">
+                            <tr>
+                                <!-- <td><h4><a target=""><button id="_button" >To App</button></a></h4></td> -->
+                            </tr>
+                        </table>
+                    </div>
+
+                </div>
+                <div class="row"></div>
+                <div class="col-md-12">
+                    <h1>&nbsp;</h1>
+                    <h1>&nbsp;</h1>
+                </div>
+            </div>
+            <h1>&nbsp;</h1>
         </div>
+
     </div>
+</div>
 
 <?php require ('footer.php'); ?>
 <?php require('includes/smooth_scroll.php');?>
 </body>
 </html>
+
