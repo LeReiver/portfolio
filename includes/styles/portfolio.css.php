@@ -15,7 +15,6 @@ body {
     background-position: top center;
     background-attachment: fixed;
     font-family: gentonalight, sans-serif;
-    margin-right: -15px;
     position: relative;
     background-size: cover;
     background-color: rgb(62, 88, 93);
@@ -40,7 +39,7 @@ h1 {
     color: #ff8700;
 }
 li {
-    color: rgb(62, 88, 93);
+    color: rgb(25, 46, 51);
 }
 .input-box {
     min-height: 46px;
@@ -67,7 +66,7 @@ li {
     font-size: 1.5em;
     text-transform: inherit;
     line-height: 40px;
-    color: rgb(62, 88, 93);
+    color: rgb(25, 46, 51);
 /*    font-family: gentonaextralight, sans-serif;*/
 }
 .jumbotron h5 {
@@ -110,7 +109,7 @@ li {
 #skills  {
     text-align: left;
     font-size: 90%;
-    font-weight: 200;
+    font-weight: 300;
 }
 .skills-icon {
     height: 105px;
@@ -189,6 +188,9 @@ li {
      background-color: rgba(19, 32, 58, 0.75); /*rgb(27, 94, 126);*/
      color: rgba(238, 238, 238, 0);
  }
+.navbar {
+    width: 80%;
+}
 .navbar-default {
     background-color: rgba(103, 221, 10, 0.69);
     box-shadow:0 5px 11px rgba(50,50,50,0.08);
@@ -248,17 +250,13 @@ li {
 .navbar-default .navbar-brand img.small {
     display: none;
 }
-.navbar-brand {
-    padding: 0;
-}
-
 .nav_name {
     margin-top: -.01em;
-    color: rgb(62, 88, 93);
-    margin-left: -1.5em;
+    color: rgb(25, 46, 51);
+    margin-left: 0;
     font-size: 1.5em;
     font-family: gentonalight, sans-serif;
-    font-weight: 200;
+    font-weight: 300;
 }
 .nav_list li {
     color: #ff8700;
@@ -277,6 +275,7 @@ li {
 #projects_nav {
     float: right;
     display: inline;
+    padding-right: 2em;
 }
 
 ul.topnav {
@@ -338,7 +337,9 @@ ul.topnav li.icon {display: none;}
     width: 35px;
     position: fixed;
     top: 1em;
-    right: 2em;
+    right: 3em;
+    margin-right: 3em;
+    padding-right: 0;
     float: right;
 }
 .hire_me {
@@ -390,7 +391,7 @@ ul.topnav li.icon {display: none;}
     font-size: 2.2em;
     color: #ff8700;
     font-stretch: extra-expanded;
-    font-weight: 100;
+    font-weight: 200;
     text-align:center;
 }
 .section-hero {
@@ -422,8 +423,8 @@ ul.topnav li.icon {display: none;}
 }
 .section.bigbox h5{
     font-size: 180%;
-    font-weight: 200;
-    color: rgb(62, 88, 93);
+    font-weight: 300;
+    color: rgb(25, 46, 51);
     border-bottom: 2px solid #ff8700;
 }
 .section.bigbox.speech p {
@@ -437,7 +438,7 @@ ul.topnav li.icon {display: none;}
 .section.bigbox p {
     margin-top: 45px;
     font-family: gentonalight, sans-serif;
-    color: rgb(62, 88, 93);
+    color: rgb(25, 46, 51);
 }
 .section.bigbox .btn-primary {
     background-color: #e96656;
@@ -483,9 +484,6 @@ ul.topnav li.icon {display: none;}
 .section.footer .footer-item {
     margin-bottom: 20px;
 }
-.section.sensor .project-icon {
-    border-color: #ff8700;
-}
 .social-icons {
     margin-top: 8px;
 }
@@ -526,7 +524,7 @@ ul.topnav li.icon {display: none;}
 #about p {
     margin: 20px 50px;
     font-size: 1.75vw;
-    font-weight: 100;
+    font-weight: 200;
     line-height: 110%;
 }
 
@@ -541,12 +539,15 @@ ul.topnav li.icon {display: none;}
 #about_me p {
     margin: 20px 30px;
     font-size: 1.75em;
-    font-weight: 100;
+    font-weight: 200;
 }
 #about_2 p {
     font-size: 1.5em;
-    font-weight: 100;
+    font-weight: 200;
     margin: 20px 40px 20px 0;
+}
+p #about_2 .bio  {
+    margin: 20px -40px 20px -40px;
 }
 img.fullwidth {
     width: 100%;
@@ -584,7 +585,7 @@ a.button:hover {
     background-image: none;
 }
 .navbar-default {
-    width: 105vw;
+    width: 100vw;
 }
 
 #announcement {
@@ -624,7 +625,7 @@ a.button:hover {
     height: 100%;
 }
 #_button {
-    color: rgb(62, 88, 93);
+    color: rgb(25, 46, 51);
     background: transparent;
     border: thin #ff8700 solid;
     -webkit-border-radius: 3px;
@@ -639,7 +640,7 @@ a.button:hover {
     font-weight: 200;
 }
 #_button_contact {
-    color: rgb(62, 88, 93);
+    color: rgb(25, 46, 51);
     background: transparent;
     border: thin #ff8700 solid;
     -webkit-border-radius: 3px;
@@ -653,7 +654,7 @@ a.button:hover {
     font-weight: 200;
 }
 #_button_nav {
-    color: rgb(62, 88, 93);
+    color: rgb(25, 46, 51);
     background: transparent;
     border: thin #ff8700 solid;
     -webkit-border-radius: 3px;
@@ -877,6 +878,9 @@ a.button:hover {
     .navbar-default .navbar-nav>li>a {
         padding-right: 5em;
     }
+    #projects_nav {
+        padding: 0 0 1em 3em;
+    }
     #_button {
         margin: 0 0 0 8em;
     }
@@ -908,7 +912,12 @@ a.button:hover {
          font-weight: 300;
          padding-right: 7em;
          margin-right: -1.2em;
+        padding-top:15px;
      }
+    .navbar-default .project_nav {
+        margin-top: 10px;
+        margin-left: 150px;
+    }
     #about p {
         margin: 20px -20px;
         padding: 0 0;
@@ -925,7 +934,7 @@ a.button:hover {
         margin: 20px 40px;
         padding: 0 0 0 1em;
         font-size: 1.25em;
-        font-weight: 200;
+        font-weight: 300;
     }
     #about_2 p {
         font-size: 1.5em;
@@ -1021,6 +1030,7 @@ a.button:hover {
     .down {
         margin-left: 44%;
     }
+
 }
 
 @media (max-width: 845px) {
@@ -1029,8 +1039,9 @@ a.button:hover {
         font-size: 1.2em;
         font-family: gentonalight, sans-serif;
         font-weight: 300;
-        padding-right: 3em;
+        padding-right: 4em;
         margin-right: 3em;
+        padding-top: 15px;
     }
     .white-section .section-header h2 {
         font-size: 4.5vw;
@@ -1038,9 +1049,6 @@ a.button:hover {
 }
 
 @media (max-width: 786px) {
-    .projects {
-        margin-top: 4em;
-    }
     .navbar-default .navbar-brand img.small {
         top: 2px;
         width: 45px;
@@ -1164,6 +1172,14 @@ a.button:hover {
     h1 #project_type{
         margin-top: 4em;
     }
+    #projects_nav {
+        padding: 2em 0 1em 3em;
+        margin-top: 5em;
+    }
+    .navbar-default .project_nav {
+        margin-top: 10px;
+        margin-left: 150px;
+    }
 }
 
 
@@ -1215,15 +1231,22 @@ a.button:hover {
         margin-left: 43%;
     }
     #projects_nav {
-        float: right;
-        clear: both;
-        margin-left: 400px;
+        float: left;
+/*        clear: both;*/
         line-height: 60%;
         color: #ff8700;
         display: inline;
         padding-bottom: 0;
+        padding-left: 50px;
     }
-}
+    .navbar-default .project_nav {
+        margin-top: -60px;
+    }
+    .navbar-default .navbar-nav>li>a {
+        line-height: 15%;
+    }
+
+    }
 @media (max-width: 720px) {
     #_button a {
         font-size: 30%;
@@ -1240,7 +1263,6 @@ a.button:hover {
         font-weight: 100;
     }
     #_button {
-        color: rgb(62, 88, 93);
         font-size: 80%;
         margin: 0 0 0 10em;
         font-weight: 200;
@@ -1265,7 +1287,9 @@ a.button:hover {
         font-size: 1.5em;
         margin-bottom: 20px;
     }
-}
+    .projects {
+        margin-top: 5em;
+    }
 
 @media (max-width: 610px) {
     #about h1 {
@@ -1274,6 +1298,9 @@ a.button:hover {
     }
     .white-section .section-header h2 {
         font-size: 5.5vw;
+    }
+    .navbar-default .project_nav {
+        margin-left: 100px;
     }
 }
 
@@ -1316,7 +1343,6 @@ a.button:hover {
         margin: -.5em 0 -18em 1em;
         }
     #_button {
-        color: rgb(62, 88, 93);
         font-size: 80%;
         margin: 0 3em 0 0;
         font-weight: 200;
@@ -1376,6 +1402,10 @@ a.button:hover {
         font-size: 1.5em;
         font-weight: 200;
     }
+    .navbar-default .project_nav {
+        margin-left: 80px;
+        line-height: 60%;
+    }
 }
 @media (max-width: 440px) {
     h1 {
@@ -1421,11 +1451,6 @@ a.button:hover {
         font-size: 1.75em;
         font-weight: 200;
     }
-    #about_2 p {
-         margin: 30px -20px;
-         font-size: 1.75em;
-         font-weight: 100;
-     }
     #about form {
         margin: 20px -60px;
         font-size: 1.2em;
@@ -1445,7 +1470,7 @@ a.button:hover {
         font-size: 1.5em;
         margin-top: 5px;
         margin-left: 0;
-        padding-right: 1em;
+        padding-right: 2.2em;
     }
     #about_2.about {
          margin-top: 5em;
@@ -1469,7 +1494,7 @@ a.button:hover {
     }
     .section.bigbox h5{
         margin-top: 1.25em;
-        padding: 0 .5em;
+        padding: 0 1.5em;
         font-size: 175%;
     }
     .orange-underline {
@@ -1485,7 +1510,6 @@ a.button:hover {
         font-weight: 300;
     }
     #_button {
-        color: rgb(62, 88, 93);
         font-size: 80%;
         font-weight: 200;
         margin: 0 3em 0 0;
@@ -1592,7 +1616,7 @@ a.button:hover {
          width: 105px;
          display: inline-block;
          padding-top: 18px;
-             margin-bottom: -30px;
+        margin-bottom: -30px;
      }
     .skills-icon img {
         height: 58px;
@@ -1615,7 +1639,8 @@ a.button:hover {
         padding-left: .5em;
     }
     .col-md-6 {
-        margin: 0 1em 0 -1.5em;
+        margin: 0 1em 0 -4.5em;
+        padding: 0 2em;
     }
     p.nav_name {
         font-size: 130%;
@@ -1628,7 +1653,7 @@ a.button:hover {
     }
 }
 
-@media (max-width: 300px) {
+@media (max-width: 340px) {
     #about h1 {
         font-size: 5vw;
     }
@@ -1637,6 +1662,35 @@ a.button:hover {
     }
     .down {
         margin-left: 35%;
+    }
+    #about_2 p {
+        font-size: 1.5em;
+        margin: 5px 0 0 0;
+        padding-right: 5em;
+    }
+    .section.bigbox {
+        max-width: 310px;
+    }
+    .section.bigbox h5{
+        margin: 1.25em 5em 0 -1em;
+        padding: 0 1.5em .25em .5em;
+        font-size: 150%;
+    }
+    .project-icon img {
+        height: 70%;
+        margin-bottom: 1em;
+        margin-left: -8.5em;
+    }
+    .orange-underline {
+        margin: .5em 3.5em 0 0;
+        padding: 0 2em;
+        border-bottom: 2px solid #ff8700;
+        font-size: 2vw;
+        font-weight: 100;
+        width: 300px;
+    }
+    .container.projects h1 {
+        margin-left: 0;
     }
 }
 @media (max-width: 290px) {
@@ -1649,5 +1703,11 @@ a.button:hover {
     .down {
         margin-left: 32%;
     }
-
+    #about_2 p {
+        font-size: 1.5em;
+        margin: 5px 2em 0 0;
+        padding-right: 5em;
+    }
 }
+
+

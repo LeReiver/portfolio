@@ -22,11 +22,11 @@
 <section id="websites"></section>
 <?php require('navigation.php'); ?>
 <?php require('project_navigation.php'); ?>
-<div id="about_2" class="section bigbox projects" style="padding-top: 9em; margin-left: -3em;">
-    <div class="container projects">
+<div id="about_2" class="section bigbox ">
+    <div class="container projects"  style="padding-top: 11em;">
         <div class="row section-header">
             <div class="col-md-12">
-                <h1 style="font-size: 2.2em; color: #ff8700; font-stretch: extra-expanded; font-weight: 200; text-align:start;  margin-bottom: -1em; margin-left: 2.2em">Websites</h1><h1></h1>
+                <h1 style="font-size: 2.2em; color: #ff8700; font-stretch: extra-expanded; font-weight: 200; text-align:start;  margin-bottom: -1em;">Websites</h1>
             </div>
         </div>
         <!--Websites-->
@@ -115,7 +115,7 @@
                             </div>
                         </div>
                         <h5 class="orange-underline">Animated Sushi</h5>
-                        <p id="skills">This is the second website I built. I t was created in Dreamweaver. It is a website about a ficticious culinary travel company.</p>
+                        <p id="skills">This is the second website I built. I t was created in Dreamweaver. It is a website about a fictitious culinary travel company.</p>
                         <table class="button_table">
                             <tr>
                                 <td><h4><a href="/../web/sushi_animate/" target="_blank"><button id="_button" >To Website</button></a></h4></td>
@@ -124,11 +124,12 @@
                         </table>
                     </div>
                 </div>
-                <div class="row section-header">
-                    <div class="col-md-12">
-                        <h1  id="project_type" style="font-size: 2.2em; color: #ff8700; font-stretch: extra-expanded; font-weight: 200; text-align:start;  margin: 2em -5em  -1em -.4em;">Web Apps</h1>
+                <div class="row section-header container">
+                    <div class="col-md-12 projects">
+                        <h1 style="font-size: 2.2em; color: #ff8700; font-stretch: extra-expanded; font-weight: 200; text-align:start;  margin-top: 0; margin-bottom: -1.5em; margin-left: -2em;">Web Apps</h1>
                     </div>
                 </div>
+
                 <!--Web Apps-->
                 <div class="row" style="margin-bottom: 4em;">
                     <div class="col-md-6">
@@ -197,7 +198,7 @@
                 <!--Android Projects-->
                 <div class="row section-header">
                     <div class="col-md-12">
-                        <h1 id="project_type" style="font-size: 2.2em; color: #ff8700; font-stretch: extra-expanded; font-weight: 200; text-align:start;  margin: 3em -5em  -2em -.4em; ">Android Apps</h1>
+                        <h1 style="font-size: 2.2em; color: #ff8700; font-stretch: extra-expanded; font-weight: 200; text-align:start;  margin-top: 2em; margin-bottom: -2em; margin-left: -2em;">Android Apps</h1>
                     </div>
                 </div>
                 <div class="col-md-6">
