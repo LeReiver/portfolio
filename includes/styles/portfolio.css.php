@@ -483,6 +483,7 @@ ul.topnav li.icon {display: none;}
 
 .section.footer .footer-item {
     margin-bottom: 20px;
+    margin-top: 20px;
 }
 .social-icons {
     margin-top: 8px;
@@ -544,10 +545,13 @@ ul.topnav li.icon {display: none;}
 #about_2 p {
     font-size: 1.5em;
     font-weight: 200;
-    margin: 20px 40px 20px 0;
+    margin: 20px 20px 20px 0;
 }
-p #about_2 .bio  {
-    margin: 20px -40px 20px -40px;
+#about_bio  p{
+    font-size: 1.5em;
+    margin: 20px 40px 20px 0;
+    padding-right: 0;
+    text-align: justify;
 }
 img.fullwidth {
     width: 100%;
@@ -1055,7 +1059,7 @@ a.button:hover {
     }
 }
 
-@media (max-width: 786px) {
+@media (max-width: 780px) {
     .navbar-default .navbar-brand img.small {
         top: 2px;
         width: 45px;
@@ -1111,6 +1115,12 @@ a.button:hover {
         font-size: 1.5em;
         font-weight: 100;
         text-align: start;
+    }
+    #about_bio  p{
+        font-size: 1.5em;
+        margin: 20px 20px 20px 0;
+        padding-right: 0;
+        text-align: justify;
     }
     #about h1 {
         margin-top: 0.25em;
@@ -1200,6 +1210,12 @@ a.button:hover {
     }
     #about p {
         margin: 20px 0 0 20px;
+    }
+    #about_bio  p{
+        font-size: 1.5em;
+        margin: 20px 40px 20px 0;
+        padding-right: 0;
+        text-align: justify;
     }
     section.project-icon {
         height: 350px;
@@ -1525,6 +1541,12 @@ a.button:hover {
          margin-top: 5em;
         font-size: 1.5em;
      }
+    #about_bio  p{
+        font-size: 1.5em;
+        margin: 20px -20px 20px 0;
+        padding-right: 0;
+        text-align: start;
+    }
     #about h1 {
         text-align: start;
 /*        font-size: 1.93em;*/
@@ -1708,17 +1730,21 @@ a.button:hover {
     #about_2 p {
         margin: 0 1em;
     }
+    #about_bio  p{
+        font-size: 1.5em;
+        margin: 20px -10px 20px 0;
+        padding-right: 0;
+    }
     .project-icon img {
         padding-top: 20px;
         /*        margin: -.5em 0 -5em 1em;*/
     }
 }
 
-@media (max-width: 340px) {
+@media (max-width: 350px) {
     #about h1 {
         font-size: 5vw;
     }
-
     .header-logo img {
         margin-right:-1em;
     }
@@ -1730,15 +1756,21 @@ a.button:hover {
     }
     #about_2 p {
         font-size: 1.5em;
-        margin: 5px 0 0 0;
+        margin: 5px 4em 0 0;
         padding-right: 0;
     }
-    .section.bigbox {
-        max-width: 310px;
+    #about_bio  p{
+        font-size: 1.25em;
+        margin: 5px -3em 0 0;
+        padding-right: 0;
+        text-align: start;
+    }
+    .container {
+        margin-right: 2em;
     }
     .section.bigbox h5{
-        margin: 1.25em 5em 0 -1em;
-        padding: 0 1.5em .25em .5em;
+        margin: 1.25em 2em 0 -1em;
+        padding: 0 2.5em .25em .5em;
         font-size: 150%;
     }
     .project-icon img {
@@ -1747,8 +1779,9 @@ a.button:hover {
         margin-left: -8.5em;
     }
     .orange-underline {
-        margin: .5em 0 0 0;
+        margin: .5em 4.5em 0 1em;
         padding: 0 2em;
+        width: 310px;
     }
     .container.projects h1 {
         margin-left: 0;
@@ -1766,7 +1799,7 @@ a.button:hover {
     }
     #about_2 p {
         font-size: 1.5em;
-        margin: 5px 0 0 0;
+        margin: 5px 4em 0 0;
         padding-right: 0;
     }
     .header-logo img {

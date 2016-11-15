@@ -18,14 +18,14 @@
 </head>
 <body data-spy="scroll" data-target="#navbar">
 <?php require('navigation.php'); ?>
-    <div id="about_2" class="section bigbox" style="padding-top: 6em;">
+    <div id="about_bio" class="section bigbox" style="padding-top: 6em;">
         <div class="container">
             <div class="row section-header">
                 <div class="col-md-12">
                     <div class="col-md-7">
                         <h1 style="font-size: 1.85em; color: #ff8700; font-stretch: extra-expanded; font-weight: 200; text-align:start;  margin-bottom:1em; margin-left: -40px;">About</h1>
     
-                        <p id="about_2" class="bio" style="margin-left:-40px">Providing quality that continually exceeds client expectations.<br><br>I am a multimedia developer
+                        <p id="about_bio" class="bio" style="margin-left:-40px">Providing quality that continually exceeds client expectations.<br><br>I am a multimedia developer
                             living in Portland Oregon. I have been creating digital media for over 15 years. With a background in music performance,
                             audio production, and video production, I am currently studying web development and design as well as programming and IT at Portland
                             Community College. My experience as well as my studies has gained me a wealth of knowledge that I inherently apply

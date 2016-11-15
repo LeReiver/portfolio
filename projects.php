@@ -19,18 +19,18 @@
     <?php require_once ('includes/head_files.php') ?>
 </head>
 <body data-spy="scroll" data-target="#navbar">
-<section id="websites"></section>
 <?php require('navigation.php'); ?>
 <?php require('project_navigation.php'); ?>
-<div id="about_2" class="section bigbox ">
-    <div class="container projects"  style="padding-top: 11em;">
+<div id="about_2" class="section bigbox">
+    <section id="websites"></section>
+    <div class="container projects" style="padding-top: 11em;">
         <div class="row section-header">
             <div class="col-md-12">
                 <h1 style="font-size: 2.2em; color: #ff8700; font-stretch: extra-expanded; font-weight: 200; text-align:start; ">Websites</h1>
             </div>
         </div>
         <!--Websites-->
-        <div id="about" class="section focus project-icon">
+        <div id="about" class="project-icon">
             <div class="container">
                 <div class="row" style="margin-bottom: 2em;">
                     <div class="col-md-6">

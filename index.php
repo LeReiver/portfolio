@@ -71,7 +71,7 @@
             <div id =class="row">
                 <div class="col-md-3 col-sm-6">
                     <div><div class="skills-icon lt_blue-hover-border"><img src="includes/images/imac_code5.png"></div></div>
-                    <h3 class="orange-underline">Web</h3>
+                    <h3 class="orange-underline" style="padding-bottom:.5em;margin:.25em 0;">Web</h3>
                     <table id="skills">
                         <tr><td>HTML5 / XHTML</td></tr>
                         <tr><td>CSS3 / LESS</td></tr>
@@ -90,7 +90,7 @@
                 </div>
                 <div class="col-md-3 col-sm-6">
                     <div><div class="skills-icon lt_blue-hover-border"><img src="includes/images/audio4.png"></div></div>
-                    <h3 class="orange-underline">Audio</h3>
+                    <h3 class="orange-underline" style="padding-bottom:.5em;margin:.25em 0;">Audio</h3>
                     <table id="skills">
                         <tr><td>ProTools</td></tr>
                         <tr><td>Waves</td></tr>
@@ -109,7 +109,7 @@
                 </div>
                 <div class="col-md-3 col-sm-6">
                     <div><div class="skills-icon lt_blue-hover-border"><img src="includes/images/android.png"></div></div>
-                    <h3 class="orange-underline">Android </h3>
+                    <h3 class="orange-underline" style="padding-bottom:.5em;margin:.25em 0;">Android </h3>
                     <table id="skills">
                         <tr><td>Android Studio</td></tr>
                         <tr><td>Java</td></tr>
@@ -128,7 +128,7 @@
                 </div>
                 <div class="col-md-3 col-sm-6">
                     <div><div class="skills-icon lt_blue-hover-border"><img src="includes/images/database2.png"></div></div>
-                    <h3 class="orange-underline">Database & IT</h3>
+                    <h3 class="orange-underline" style="padding-bottom:.5em;margin:.25em 0;">Database & IT</h3>
                     <table id="skills">
                         <tr><td>Database Design</td></tr>
                         <tr><td>ERDs</td></tr>
