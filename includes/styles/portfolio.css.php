@@ -351,7 +351,7 @@ ul.topnav li.icon {display: none;}
     background-position: bottom center;
 }
 .my_work {
-    background-image: url('');
+    background-image: url();
     background-size: cover;
     background-color: rgba(0, 0, 0, 0.69);
     overflow-x: hidden;
@@ -730,6 +730,10 @@ a.button:hover {
     color: #bbcccc;
 }
 
+.container.projects h1 {
+    margin-bottom: -.5em;
+}
+
 .align_left {
     float: left;
     clear: both;
@@ -1030,6 +1034,9 @@ a.button:hover {
     .down {
         margin-left: 44%;
     }
+    .container.projects h1 {
+        margin-bottom: 1em;
+    }
 
 }
 
@@ -1180,6 +1187,9 @@ a.button:hover {
         margin-top: 10px;
         margin-left: 150px;
     }
+    .container.projects h1 {
+        margin-bottom: -.75em;
+    }
 }
 
 
@@ -1326,8 +1336,8 @@ a.button:hover {
         font-size: 5vw;
     }
     #about_2 p {
-/*       margin: 20px -20px 20px 0; */
-        font-size: 1.3em;
+       margin: 20px -10px 20px 0;
+        font-size: 1.5em;
         font-weight: 100;
         text-align: start;
     }
@@ -1335,12 +1345,13 @@ a.button:hover {
         margin: 0 -2em 0 1em;
     }
     .section.bigbox h5{
-        margin-top: -1.5em;
+        margin .25em 4em 0 1em;
+        padding-right: 1em;
     }
     .project-icon img {
-        height: 80%;
-        padding-top: 50px;
-        margin: -.5em 0 -18em 1em;
+        height: 100%;
+        padding-top: 20px;
+/*        margin: -.5em 0 -5em 1em;*/
         }
     #_button {
         font-size: 80%;
@@ -1376,6 +1387,12 @@ a.button:hover {
     .down {
         margin-left: 42%;
     }
+    .container.projects h1 {
+        margin-bottom: -4.5em;
+    }
+    .orange-underline {
+             margin: .5em 0;
+         }
 }
 @media (max-width: 540px) {
     #about h1 {
@@ -1394,6 +1411,13 @@ a.button:hover {
         font-size: 1.5em;
         margin-bottom: 20px;
     }
+    .container.projects h1 {
+        margin-bottom: -3em;
+    }
+    .orange-underline {
+        margin: .5em 1.25em;
+    }
+
 
 }
 @media (max-width: 480px) {
@@ -1406,6 +1430,25 @@ a.button:hover {
         margin-left: 80px;
         line-height: 60%;
     }
+    .container.projects h1 {
+        margin-bottom: -4.5em;
+    }
+    .orange-underline {
+        margin: .5em 1.75em;
+    }
+    .section.bigbox h5{
+        margin .25em 5em 0 1em;
+    }
+    #about_2 p {
+        margin: 0 1em;
+    }
+}
+    .project-icon img {
+        height: 95%;
+        padding-top: 20px;
+        /*        margin: -.5em 0 -5em 1em;*/
+    }
+
 }
 @media (max-width: 440px) {
     h1 {
@@ -1470,7 +1513,13 @@ a.button:hover {
         font-size: 1.5em;
         margin-top: 5px;
         margin-left: 0;
-        padding-right: 2.2em;
+/*        padding-right: 2.2em;*/
+    }
+    p #about_2 .bio  {
+        font-size: 1.5em;
+        margin-top: 5px;
+        margin-right: -4em;
+        padding-right:0;
     }
     #about_2.about {
          margin-top: 5em;
@@ -1499,7 +1548,7 @@ a.button:hover {
     }
     .orange-underline {
         margin: .5em 0;
-        padding: 0 8px;
+        padding: 0 2em;
         border-bottom: 2px solid #ff8700;
         font-size: 2vw;
         font-weight: 100;
@@ -1581,7 +1630,6 @@ a.button:hover {
     }
     .header-logo img {
         top: 1.125em;
-        right: 1em;
         margin: 0 0 0 .25em;
         width: 32px;
         height: 32px;
@@ -1651,11 +1699,28 @@ a.button:hover {
     .down {
         margin-left: 38%;
     }
+    .orange-underline {
+        margin: .5em 1.75em;
+    }
+    .section.bigbox h5{
+        margin .25em 5em 0 1em;
+    }
+    #about_2 p {
+        margin: 0 1em;
+    }
+    .project-icon img {
+        padding-top: 20px;
+        /*        margin: -.5em 0 -5em 1em;*/
+    }
 }
 
 @media (max-width: 340px) {
     #about h1 {
         font-size: 5vw;
+    }
+
+    .header-logo img {
+        margin-right:-1em;
     }
     p.nav_name {
         font-size: 120%;
@@ -1666,7 +1731,7 @@ a.button:hover {
     #about_2 p {
         font-size: 1.5em;
         margin: 5px 0 0 0;
-        padding-right: 5em;
+        padding-right: 0;
     }
     .section.bigbox {
         max-width: 310px;
@@ -1682,18 +1747,14 @@ a.button:hover {
         margin-left: -8.5em;
     }
     .orange-underline {
-        margin: .5em 3.5em 0 0;
+        margin: .5em 0 0 0;
         padding: 0 2em;
-        border-bottom: 2px solid #ff8700;
-        font-size: 2vw;
-        font-weight: 100;
-        width: 300px;
     }
     .container.projects h1 {
         margin-left: 0;
     }
 }
-@media (max-width: 290px) {
+@media (max-width: 300px) {
     #about h1 {
         font-size: 5vw;
     }
@@ -1705,8 +1766,11 @@ a.button:hover {
     }
     #about_2 p {
         font-size: 1.5em;
-        margin: 5px 2em 0 0;
-        padding-right: 5em;
+        margin: 5px 0 0 0;
+        padding-right: 0;
+    }
+    .header-logo img {
+        margin-right:-1em;
     }
 }
 

@@ -26,7 +26,7 @@
     <div class="container projects"  style="padding-top: 11em;">
         <div class="row section-header">
             <div class="col-md-12">
-                <h1 style="font-size: 2.2em; color: #ff8700; font-stretch: extra-expanded; font-weight: 200; text-align:start;  margin-bottom: -1em;">Websites</h1>
+                <h1 style="font-size: 2.2em; color: #ff8700; font-stretch: extra-expanded; font-weight: 200; text-align:start; ">Websites</h1>
             </div>
         </div>
         <!--Websites-->
@@ -198,7 +198,7 @@
                 <!--Android Projects-->
                 <div class="row section-header">
                     <div class="col-md-12">
-                        <h1 style="font-size: 2.2em; color: #ff8700; font-stretch: extra-expanded; font-weight: 200; text-align:start;  margin-top: 2em; margin-bottom: -2em; margin-left: -2em;">Android Apps</h1>
+                        <h1 style="font-size: 2.2em; color: #ff8700; font-stretch: extra-expanded; font-weight: 200; text-align:start;  margin-top: 2em; margin-bottom: -2.5em; margin-left: -2em;">Android Apps</h1>
                     </div>
                 </div>
                 <div class="col-md-6">
