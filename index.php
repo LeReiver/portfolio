@@ -89,24 +89,26 @@
                     </table>
                 </div>
                 <div class="col-md-3 col-sm-6">
-                    <div><div class="skills-icon lt_blue-hover-border"><img src="includes/images/audio4.png"></div></div>
-                    <h3 class="orange-underline" style="padding-bottom:.5em;margin:.25em 0;">Audio</h3>
+                    <div><div class="skills-icon lt_blue-hover-border"><img src="includes/images/database2.png"></div></div>
+                    <h3 class="orange-underline" style="padding-bottom:.5em;margin:.25em 0;">Database & IT</h3>
                     <table id="skills">
-                        <tr><td>ProTools</td></tr>
-                        <tr><td>Waves</td></tr>
-                        <tr><td>MIDI</td></tr>
-                        <tr><td>Sound Design</td></tr>
-                        <tr><td>Analog Recording/ Mixing</td></tr>
-                        <tr><td>Digital Recording/ Mixing</td></tr>
-                        <tr><td>Digital Editing</td></tr>
-                        <tr><td>Sync To Picture</td></tr>
-                        <tr><td>Microphone Placement</td></tr>
-                        <tr><td>Live Sound Reinforcement</td></tr>
-                        <tr><td>Outboard Gear</td></tr>
-                        <tr><td>Multi-Instrumentalist</td>
-                        <tr><td>&nbsp;</td></tr>
+                        <tr><td>Database Design</td></tr>
+                        <tr><td>ERDs</td></tr>
+                        <tr><td>SQL</td></tr>
+                        <tr><td>MySQL</td></tr>
+                        <tr><td>PL/SQL</td></tr>
+                        <tr><td>T-SQL</td></tr>
+                        <tr><td>Stored Procedures</td></tr>
+                        <tr><td>Oracle SQLDeveloper</td></tr>
+                        <tr><td>MS SequelServer</td></tr>
+                        <tr><td>Linux/ UNIX</td></tr>
+                        <tr><td>vim & awk</td></tr>
+                        <tr><td>System Design</td></tr>
+                        <tr><td>DFDs</td></tr>
                     </table>
                 </div>
+
+
                 <div class="col-md-3 col-sm-6">
                     <div><div class="skills-icon lt_blue-hover-border"><img src="includes/images/android.png"></div></div>
                     <h3 class="orange-underline" style="padding-bottom:.5em;margin:.25em 0;">Android </h3>
@@ -127,22 +129,22 @@
                     </table>
                 </div>
                 <div class="col-md-3 col-sm-6">
-                    <div><div class="skills-icon lt_blue-hover-border"><img src="includes/images/database2.png"></div></div>
-                    <h3 class="orange-underline" style="padding-bottom:.5em;margin:.25em 0;">Database & IT</h3>
+                    <div><div class="skills-icon lt_blue-hover-border"><img src="includes/images/audio4.png"></div></div>
+                    <h3 class="orange-underline" style="padding-bottom:.5em;margin:.25em 0;">Audio</h3>
                     <table id="skills">
-                        <tr><td>Database Design</td></tr>
-                        <tr><td>ERDs</td></tr>
-                        <tr><td>SQL</td></tr>
-                        <tr><td>MySQL</td></tr>
-                        <tr><td>PL/SQL</td></tr>
-                        <tr><td>T-SQL</td></tr>
-                        <tr><td>Stored Procedures</td></tr>
-                        <tr><td>Oracle SQLDeveloper</td></tr>
-                        <tr><td>MS SequelServer</td></tr>
-                        <tr><td>Linux/ UNIX</td></tr>
-                        <tr><td>vim & awk</td></tr>
-                        <tr><td>System Design</td></tr>
-                        <tr><td>DFDs</td></tr>
+                        <tr><td>ProTools</td></tr>
+                        <tr><td>Waves</td></tr>
+                        <tr><td>MIDI</td></tr>
+                        <tr><td>Sound Design</td></tr>
+                        <tr><td>Analog Recording/ Mixing</td></tr>
+                        <tr><td>Digital Recording/ Mixing</td></tr>
+                        <tr><td>Digital Editing</td></tr>
+                        <tr><td>Sync To Picture</td></tr>
+                        <tr><td>Microphone Placement</td></tr>
+                        <tr><td>Live Sound Reinforcement</td></tr>
+                        <tr><td>Outboard Gear</td></tr>
+                        <tr><td>Multi-Instrumentalist</td>
+                        <tr><td>&nbsp;</td></tr>
                     </table>
                 </div>
             </div>

@@ -40,7 +40,7 @@
                             </div>
                         </div>
                         <h5 class="orange-underline">Buddha Bellies Noodle House</h5>
-                        <p id="skills">This is my first website I built. Hand-Rolled HTML5 and CSS3. It is for a faux restaurant.</p>
+                        <p id="skills">This is the first website that I built back in 2013. It is hand rolled HTML5 and CSS3. This website is for a faux restaurant.</p>
                         <table class="button_table">
                             <tr>
                                 <td><h4><a href="/../web/buddha_bellies" target="_blank"><button id="_button" >To Website</button></a></h4></td>
@@ -54,7 +54,7 @@
                             </div>
                         </div>
                         <h5 class="orange-underline">Well Fed Adventures</h5>
-                        <p id="skills">This is the second website I built. It was created in Dreamweaver. It is a website about a ficticious culinary travel company.</p>
+                        <p id="skills">This is a website I built using Dreamweaver. It is a website about a fictitious culinary travel company.</p>
                         <table class="button_table">
                             <tr>
                                 <td><h4><a href="/../web/well_fed" target="_blank"><button id="_button" > To Website</button></a></h4></td>
@@ -70,8 +70,10 @@
                             </div>
                         </div>
                         <h5 class="orange-underline">Kitchen Commons</h5>
-                        <p id="skills">This is a WordPress web site that was migrated from a Drupal site.I re-designed using custom
-                            styling on a WordPress theme. Kitchen Commons is a local non-profit organization.</p>
+                        <p id="skills">Kitchen Commons is a non-profit located in Portland, OR. As a web development intern,
+                            I assisted in the migration of the old Drupal site to a WordPress site. I re-designed the new site
+                            using custom styling on their chosen WordPress theme, implemented changes that enhanced usability,
+                            overall design, and SEO as well as installed and managed plugins and widgets. </p>
                         <table class="button_table">
                             <tr>
                                 <td><h4><a href="https://kitchencommons.net/" target="_blank"><button id="_button" >To Website</button></a></h4></td>
@@ -85,7 +87,8 @@
                             </div>
                         </div>
                         <h5 class="orange-underline">Dual Purpose Motorcycles</h5>
-                        <p id="skills">This is my first website I built. Hand-Rolled HTML5 and CSS3. It is for a faux restaurant.</p>
+                        <p id="skills">I built this website using AJAX and jQuery to load the new page content.
+                            It is a simple informative website introducing and comparing dual-purpose motorcycles.</p>
                         <table class="button_table">
                             <tr>
                                 <td><h4><a href="/../web/dual_purpose/" target="_blank"><button id="_button" >To Website</button></a></h4></td>
@@ -101,7 +104,7 @@
                             </div>
                         </div>
                         <h5 class="orange-underline">Graphics for Multimedia</h5>
-                        <p id="skills">This is a tip calculator built in PHP, HTML, CSS.</p>
+                        <p id="skills">I made this website for to showcase my Adobe Photoshop projects I created in a <em>Graphics for Multimedia</em> course.</p>
                         <table class="button_table">
                             <tr>
                                 <td><h4><a href="/../web/graphics/" target="_blank"><button id="_button" >To Website</button></a></h4></td>
@@ -115,7 +118,8 @@
                             </div>
                         </div>
                         <h5 class="orange-underline">Animated Sushi</h5>
-                        <p id="skills">This is the second website I built. I t was created in Dreamweaver. It is a website about a fictitious culinary travel company.</p>
+                        <p id="skills">I made this animated web page as a sample interface homepage for an web site about sushi.
+                            The animations were created in Adobe Animate.</p>
                         <table class="button_table">
                             <tr>
                                 <td><h4><a href="/../web/sushi_animate/" target="_blank"><button id="_button" >To Website</button></a></h4></td>
@@ -139,8 +143,8 @@
                             </div>
                         </div>
                         <h5 class="orange-underline">Cooking Volume Converter</h5>
-                        <p id="skills">This is a WordPress web site that was migrated from a Drupal site.I re-designed using custom
-                            styling on a WordPress theme. Kitchen Commons is a local non-profit organization.</p>
+                        <p id="skills">
+                        <p>This is a cooking volume converter built using PHP, JQuery, AJAX, HTML5 and CSS3. </p>
                         <table class="button_table">
                             <tr>
                                 <td><h4><a href="/../php/volume_converter/" target="_blank"><button id="_button" >To Web App</button></a></h4></td>
@@ -170,8 +174,8 @@
                             </div>
                         </div>
                         <h5 class="orange-underline">Shopping Cart</h5>
-                        <p id="skills">This is a WordPress web site that was migrated from a Drupal site.I re-designed using custom
-                            styling on a WordPress theme. Kitchen Commons is a local non-profit organization.</p>
+                        <p id="skills">This is an online record store check out page.
+                            It was a class project to learn how to style pages with PHP, HTML, and CSS3.</p>
                         <table class="button_table">
                             <tr>
                                 <td><h4><a href="/../php/cart/" target="_blank"><button id="_button" >To Web App</button></a></h4></td>
@@ -186,7 +190,9 @@
                             </div>
                         </div>
                         <h5 class="orange-underline">Proteins In Europe</h5>
-                        <p id="skills">This is the second website I built. I t was created in Dreamweaver. It is a website about a ficticious culinary travel company.</p>
+                        <p id="skills">This program outputs a comparison of protein consumption
+                            for the nine food groups of three random European countries.
+                            It was built in PHP using a randomizer to reload new data.</p>
                         <table class="button_table">
                             <tr>
                                 <td><h4><a href="/../php/proteins/" target="_blank"><button id="_button" >To Web App</button></a></h4></td>

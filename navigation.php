@@ -16,7 +16,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand brand-full" href="http://lereiver.com/port_02/">
+                <a class="navbar-brand brand-full" href="http://lereiver.com">
                     <p class="nav_name">Michael Le-Reiver</p>
                 </a>
             </div>
@@ -29,7 +29,7 @@
             </div>
             <div class="header-logo">
 
-                <a href="http://lereiver.com/port_02/"><img id="header-logo" src="includes/img/my_logo2_blk.png" alt="Logo image link back to home page"></a>
+                <a href="http://lereiver.com/"><img id="header-logo" src="includes/img/my_logo2_blk.png" alt="Logo image link back to home page"></a>
             </div>
         </div>
     </nav>
