@@ -10,8 +10,8 @@
         <div class="container project_nav">
 
                 <ul class="nav navbar-nav navbar-right projects" style="font-weight: 300; font-size: 100%; margin-top:60px; text-align: start;">
-                    <li class="current"><a href="#websites">WEBSITES</a></li>
-                    <li class="current"><a href="#webapps">WEB APPS</a></li>
+                    <li class="current"><a href="#websites">WEB</a></li>
+<!--                    <li class="current"><a href="#webapps">WEB APPS</a></li>-->
                     <li class="current"><a href="#android">ANDROID APPS</a></li>
                 </ul>
             </div>

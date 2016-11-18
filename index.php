@@ -101,8 +101,8 @@
                         <tr><td>Stored Procedures</td></tr>
                         <tr><td>Oracle SQLDeveloper</td></tr>
                         <tr><td>MS SequelServer</td></tr>
-                        <tr><td>Linux/ UNIX</td></tr>
-                        <tr><td>vim & awk</td></tr>
+                        <tr><td>Linux Command Line</td></tr>
+                        <tr><td>vim &amp; awk</td></tr>
                         <tr><td>System Design</td></tr>
                         <tr><td>DFDs</td></tr>
                     </table>

@@ -426,6 +426,7 @@ ul.topnav li.icon {display: none;}
     font-weight: 300;
     color: rgb(25, 46, 51);
     border-bottom: 2px solid #ff8700;
+    margin-left: -18px;
 }
 .section.bigbox.speech p {
     padding: 1em 4em;
@@ -1665,7 +1666,7 @@ a.button:hover {
     .section.footer #footer-loc {
         height: 30px;
     }
-    .section.footer #footer-email { 
+    .section.footer #footer-email {
         height: 30px;
     }
     .section.footer #footer-linkedIn {
@@ -1781,7 +1782,7 @@ a.button:hover {
     .orange-underline {
         margin: .5em 4.5em 0 1em;
         padding: 0 2em;
-        width: 310px;
+        <!-- width: 310px; -->
     }
     .container.projects h1 {
         margin-left: 0;
@@ -1806,5 +1807,8 @@ a.button:hover {
         margin-right:-1em;
     }
 }
-
-
+@media (max-width: 267px) {
+    h3.orange-underline {
+        margin-left: -4em;
+    }
+}

@@ -26,12 +26,44 @@
     <div class="container projects" style="padding-top: 11em;">
         <div class="row section-header">
             <div class="col-md-12">
-                <h1 style="font-size: 2.2em; color: #ff8700; font-stretch: extra-expanded; font-weight: 200; text-align:start; ">Websites</h1>
+                <h1 style="font-size: 2.2em; color: #ff8700; font-stretch: extra-expanded; font-weight: 200; text-align:start; ">Web</h1>
             </div>
         </div>
         <!--Websites-->
         <div id="about" class="project-icon">
             <div class="container">
+                <div class="row" style="margin-bottom: 2em;">
+                    <div class="col-md-6">
+                        <div>
+                            <div class="project-icon"><a href="includes/images/burrito_lg.jpg" id="burrito masala"
+                                                         data-lightbox="vector" data-title="Burrito Masala"><img src="includes/img/burrito_desktop.png" alt="Burrito Masala" title="Click To View"></a>
+                            </div>
+                        </div>
+                        <h5 class="orange-underline">Burrito Masala</h5>
+                        <p id="skills">This is a mobile first website about a fictitious fusion food cart in downtown Portland. This was a class project for a UX/UI for Web Design course.
+                            It is built using a responsive CSS grid and LESS.</p>
+                        <table class="button_table">
+                            <tr>
+                                <td><h4><a href="/../web/burrito_masala" target="_blank"><button id="_button" >To Website</button></a></h4></td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="col-md-6">
+                        <div>
+                            <div class="project-icon"><a href="includes/images/ccs_lg.jpg" id="well_fed"
+                                                         data-lightbox="vector" data-title="CCS"><img src="includes/img/ccs_desktop.png" alt="CCS" title="Click To View"></a>
+                            </div>
+                        </div>
+                        <h5 class="orange-underline">CCS</h5>
+                        <p id="skills">This is a web application I am building for a consulting firm. It is built with PHP and communicates with a database. It takes user input and uploads to a database,
+                            then generates reports off of SQL queries.</p>
+                        <table class="button_table">
+                            <tr>
+                                <td><h4><a href="/../php/ccs" target="_blank"><button id="_button" > To Website</button></a></h4></td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
                 <div class="row" style="margin-bottom: 2em;">
                     <div class="col-md-6">
                         <div>
@@ -124,15 +156,15 @@
                             <tr>
                                 <td><h4><a href="/../web/sushi_animate/" target="_blank"><button id="_button" >To Website</button></a></h4></td>
                             </tr>
-                            <section id="webapps">&nbsp; </section>
+<!--                            <section id="webapps">&nbsp; </section>-->
                         </table>
                     </div>
                 </div>
-                <div class="row section-header container">
-                    <div class="col-md-12 projects">
-                        <h1 style="font-size: 2.2em; color: #ff8700; font-stretch: extra-expanded; font-weight: 200; text-align:start;  margin-top: 0; margin-bottom: -1.5em; margin-left: -2em;">Web Apps</h1>
-                    </div>
-                </div>
+<!--                <div class="row section-header container">-->
+<!--                    <div class="col-md-12 projects">-->
+<!--                        <h1 style="font-size: 2.2em; color: #ff8700; font-stretch: extra-expanded; font-weight: 200; text-align:start;  margin-top: 0; margin-bottom: -1.5em; margin-left: -2em;">Web Apps</h1>-->
+<!--                    </div>-->
+<!--                </div>-->
 
                 <!--Web Apps-->
                 <div class="row" style="margin-bottom: 4em;">
