@@ -395,7 +395,7 @@ ul.topnav li.icon {display: none;}
     text-align:center;
 }
 .section-hero {
-    background-image: url('../../includes/images/hero2__4_op.jpg');
+    background-image: url('../../includes/images/hero2__4_op2.jpg');
     margin: 1em 0;
     padding: 0;
     height: 100%;

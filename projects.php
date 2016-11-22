@@ -40,7 +40,7 @@
                             </div>
                         </div>
                         <h5 class="orange-underline">Burrito Masala</h5>
-                        <p id="skills">This is a mobile first website about a fictitious fusion food cart in downtown Portland. This was a class project for a UX/UI for Web Design course.
+                        <p id="skills">This is a mobile first website about a fictitious fusion food cart in downtown Portland. This was a class project for a <em>UX/UI for Web Design</em> course.
                             It is built using a responsive CSS grid and LESS.</p>
                         <table class="button_table">
                             <tr>
@@ -55,11 +55,12 @@
                             </div>
                         </div>
                         <h5 class="orange-underline">CCS</h5>
-                        <p id="skills">This is a web application I am building for a consulting firm. It is built with PHP and communicates with a database. It takes user input and uploads to a database,
+                        <p id="skills">This is a private and secure web application I am building for a consulting firm. It is built with PHP and communicates with a database.
+                            It requires user account creation and takes user input and uploads to a database,
                             then generates reports off of SQL queries.</p>
                         <table class="button_table">
                             <tr>
-                                <td><h4><a href="/../php/ccs" target="_blank"><button id="_button" > To Website</button></a></h4></td>
+<!--                                <td><h4><a href="/../php/ccs" target="_blank"><button id="_button" > To Website</button></a></h4></td>-->
                             </tr>
                         </table>
                     </div>
@@ -72,7 +73,7 @@
                             </div>
                         </div>
                         <h5 class="orange-underline">Buddha Bellies Noodle House</h5>
-                        <p id="skills">This is the first website that I built back in 2013. It is hand rolled HTML5 and CSS3. This website is for a faux restaurant.</p>
+                        <p id="skills">This is the first website that I built back in 2013. It is hand rolled HTML5 and CSS3. This website is for a fictitious restaurant.</p>
                         <table class="button_table">
                             <tr>
                                 <td><h4><a href="/../web/buddha_bellies" target="_blank"><button id="_button" >To Website</button></a></h4></td>

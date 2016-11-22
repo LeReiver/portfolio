@@ -24,12 +24,13 @@
                 <div class="col-md-12">
                     <div class="col-md-7">
                         <h1 style="font-size: 1.85em; color: #ff8700; font-stretch: extra-expanded; font-weight: 200; text-align:start;  margin-bottom:1em; margin-left: -40px;">About</h1>
-    
-                        <p id="about_bio" class="bio" style="margin-left:-40px">Providing quality that continually exceeds client expectations.<br><br>I am a multimedia developer
+
+                        <p id="about_bio" class="bio" style="margin-left:-40px">I am a web and multimedia developer
                             living in Portland Oregon. I have been creating digital media for over 15 years. With a background in music performance,
-                            audio production, and video production, I am currently studying web development and design as well as programming and IT at Portland
-                            Community College. My experience as well as my studies has gained me a wealth of knowledge that I inherently apply
-                            as I improve and perfect my multitude of skills in digital and creative media.
+                            audio production, and video production, I am currently enrolled in the Web Development and Design as well as the CIS
+                            (Computer Information Systems) program at Portland Community College. My experience as well as my studies has gained
+                            me a wealth of knowledge that I inherently apply as I continually improve and perfect my multitude of skills in digital
+                            and creative media.
                         </p>
                     </div>
                     <div class="col-md-5" style="margin-left: -40px">
