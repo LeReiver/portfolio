@@ -1040,7 +1040,7 @@ a.button:hover {
         margin-left: 44%;
     }
     .container.projects h1 {
-        margin-bottom: 1em;
+/*        margin-bottom: 1em;*/
     }
 
 }

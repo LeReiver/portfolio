@@ -116,7 +116,7 @@
                         <tr><td>Android Studio</td></tr>
                         <tr><td>Java</td></tr>
                         <tr><td>XML</td></tr>
-                        <tr><td>Custom Styles & Themes</td></tr>
+                        <tr><td>Custom Styles &amp; Themes</td></tr>
                         <tr><td>MultiDevice Support</td></tr>
                         <tr><td>MultiVersion Support</td></tr>
                         <tr><td>Audio Implementation</td></tr>
