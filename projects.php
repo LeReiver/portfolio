@@ -35,34 +35,35 @@
                 <div class="row" style="margin-bottom: 2em;">
                     <div class="col-md-6">
                         <div>
-                            <div class="project-icon"><a href="includes/images/burrito_lg.jpg" id="burrito_masala"
-                                                         data-lightbox="vector" data-title="Burrito Masala"><img src="includes/img/burrito_desktop.png" alt="Burrito Masala" title="Click To View"></a>
+                            <div class="project-icon"><a href="includes/images/guano_lg.jpg" id="guano"
+                                                         data-lightbox="vector" data-title="Burrito Masala"><img src="includes/img/guano_desktop_phone.png" alt="Guano" title="Click To View"></a>
                             </div>
                         </div>
-                        <h5 class="orange-underline">Burrito Masala</h5>
-                        <p id="skills">This is a mobile first website about a fictitious fusion food cart in downtown Portland. This was a class project for a <em>UX/UI for Web Design</em> course.
-                            It is built with PHP using a responsive CSS grid and LESS.</p>
+                        <h5 class="orange-underline">Guano</h5>
+                        <p id="skills">This is a mobile first website about a metal band. It is built with PHP and JS using a responsive CSS grid and LESS.
+                            The challenge with this project dealt with incorporating an audio controller plugin and modifying it to my needs.</p>
                         <table class="button_table">
                             <tr>
-                                <td><h4><a href="/../web/burrito_masala" target="_blank"><button id="_button">To Website</button></a></h4></td>
+                                <td><h4><a href="/../web/guano" target="_blank"><button id="_button">To Website</button></a></h4></td>
                             </tr>
                         </table>
                     </div>
-                    <div class="col-md-6">
-                        <div>
-                            <div class="project-icon"><a href="includes/images/dual_purpose_lg.jpg" id="dual_purpose"
-                                                         data-lightbox="vector" data-title="Dual Purpose Motorcycles"><img src="includes/img/dual_purpose_desktop.png" alt="Dual Purpose Motorcycles" title="Click To View"></a>
+                    <div class="row" style="margin-bottom: 2em;">
+                        <div class="col-md-6">
+                            <div>
+                                <div class="project-icon"><a href="includes/images/burrito_lg.jpg" id="burrito_masala"
+                                                             data-lightbox="vector" data-title="Burrito Masala"><img src="includes/img/burrito_desktop_iphone.png" alt="Burrito Masala" title="Click To View"></a>
+                                </div>
                             </div>
+                            <h5 class="orange-underline">Burrito Masala</h5>
+                            <p id="skills">This is a mobile first website about a fictitious fusion food cart in downtown Portland. This was a class project for a <em>UX/UI for Web Design</em> course.
+                                It is built with PHP using a responsive CSS grid and LESS.</p>
+                            <table class="button_table">
+                                <tr>
+                                    <td><h4><a href="/../web/burrito_masala" target="_blank"><button id="_button">To Website</button></a></h4></td>
+                                </tr>
+                            </table>
                         </div>
-                        <h5 class="orange-underline">Dual Purpose Motorcycles</h5>
-                        <p id="skills">I built this website using AJAX and jQuery to load the new page content.
-                            It is a simple informative website introducing and comparing dual-purpose motorcycles.</p>
-                        <table class="button_table">
-                            <tr>
-                                <td><h4><a href="/../web/dual_purpose/" target="_blank"><button id="_button" >To Website</button></a></h4></td>
-                            </tr>
-                        </table>
-                    </div>
                 </div>
                 <div class="row" style="margin-bottom: 2em;">
                     <div class="col-md-6">
@@ -135,6 +136,22 @@
                 <div class="row" style="margin-bottom: 2em;">
                     <div class="col-md-6">
                         <div>
+                            <div class="project-icon"><a href="includes/images/dual_purpose_lg.jpg" id="dual_purpose"
+                                                         data-lightbox="vector" data-title="Dual Purpose Motorcycles"><img src="includes/img/dual_purpose_desktop.png" alt="Dual Purpose Motorcycles" title="Click To View"></a>
+                            </div>
+                        </div>
+                        <h5 class="orange-underline">Dual Purpose Motorcycles</h5>
+                        <p id="skills">I built this website using AJAX and jQuery to load the new page content.
+                            It is a simple informative website introducing and comparing dual-purpose motorcycles.</p>
+                        <table class="button_table">
+                            <tr>
+                                <td><h4><a href="/../web/dual_purpose/" target="_blank"><button id="_button" >To Website</button></a></h4></td>
+                            </tr>
+                        </table>
+                    </div>
+                    <!--Web Apps-->
+                    <div class="col-md-6">
+                        <div>
                             <div class="project-icon"><a href="includes/images/ccs_lg.jpg" id="ccs"
                                                          data-lightbox="vector" data-title="CCS"><img src="includes/img/ccs_desktop.png" alt="CCS" title="Click To View"></a>
                             </div>
@@ -145,7 +162,25 @@
                             then generates reports off of SQL queries.</p>
                         <table class="button_table">
                             <tr>
-                                <!--                                <td><h4><a href="/../php/ccs" target="_blank"><button id="_button" > To Website</button></a></h4></td>-->
+                                <!-- <td><h4><a href="/../php/ccs" target="_blank"><button id="_button" > To Website</button></a></h4></td>-->
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+
+
+                <div class="row" style="margin-bottom: 4em;">
+                    <div class="col-md-6">
+                        <div>
+                            <div class="project-icon"><a href="includes/images/tip_calculator_lg.jpg" id="tip_calculator"
+                                                         data-lightbox="vector" data-title="A Tip Calculator"><img src="includes/img/tip_calculator_desktop.png" alt="Tip Calculator" title="Click To View"></a>
+                            </div>
+                        </div>
+                        <h5 class="orange-underline">A Tip Calculator</h5>
+                        <p id="skills">This is a tip calculator built in PHP, HTML, CSS.</p>
+                        <table class="button_table">
+                            <tr>
+                                <td><h4><a href="/../php/tip_calculator" target="_blank"><button id="_button" >To Web App</button></a></h4></td>
                             </tr>
                         </table>
                     </div>
@@ -170,40 +205,23 @@
 <!--                        <h1 style="font-size: 2.2em; color: #ff8700; font-stretch: extra-expanded; font-weight: 200; text-align:start;  margin-top: 0; margin-bottom: -1.5em; margin-left: -2em;">Web Apps</h1>-->
 <!--                    </div>-->
 <!--                </div>-->
-
-                <!--Web Apps-->
-                <div class="row" style="margin-bottom: 4em;">
-                    <div class="col-md-6">
-                        <div>
-                            <div class="project-icon"><a href="includes/images/tip_calculator_lg.jpg" id="tip_calculator"
-                                                         data-lightbox="vector" data-title="A Tip Calculator"><img src="includes/img/tip_calculator_desktop.png" alt="Tip Calculator" title="Click To View"></a>
-                            </div>
-                        </div>
-                        <h5 class="orange-underline">A Tip Calculator</h5>
-                        <p id="skills">This is a tip calculator built in PHP, HTML, CSS.</p>
-                        <table class="button_table">
-                            <tr>
-                                <td><h4><a href="/../php/tip_calculator" target="_blank"><button id="_button" >To Web App</button></a></h4></td>
-                            </tr>
-                        </table>
-                    </div>
-                    <div class="col-md-6">
-                        <div>
-                            <div class="project-icon"><a href="includes/images/cart_lg.jpg" id="shopping_cart"
-                                                         data-lightbox="vector" data-title="Shopping Cart"><img src="includes/img/shopping_cart_desktop.png" alt="Shopping Cart" title="Click To View"></a>
-                            </div>
-                        </div>
-                        <h5 class="orange-underline">Shopping Cart</h5>
-                        <p id="skills">This is an online record store check out page.
-                            It was a class project to learn how to style pages with PHP, HTML, and CSS3.</p>
-                        <table class="button_table">
-                            <tr>
-                                <td><h4><a href="/../php/cart/" target="_blank"><button id="_button" >To Web App</button></a></h4></td>
-                            </tr>
-                        </table>
-                    </div>
-                </div>
+<!---->
 <!--                <div class="row" style="margin-bottom: 4em;">-->
+<!--                    <div class="col-md-6">-->
+<!--                        <div>-->
+<!--                            <div class="project-icon"><a href="includes/images/cart_lg.jpg" id="shopping_cart"-->
+<!--                                                         data-lightbox="vector" data-title="Shopping Cart"><img src="includes/img/shopping_cart_desktop.png" alt="Shopping Cart" title="Click To View"></a>-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                        <h5 class="orange-underline">Shopping Cart</h5>-->
+<!--                        <p id="skills">This is an online record store check out page.-->
+<!--                            It was a class project to learn how to style pages with PHP, HTML, and CSS3.</p>-->
+<!--                        <table class="button_table">-->
+<!--                            <tr>-->
+<!--                                <td><h4><a href="/../php/cart/" target="_blank"><button id="_button" >To Web App</button></a></h4></td>-->
+<!--                            </tr>-->
+<!--                        </table>-->
+<!--                    </div>-->
 <!--                    <div class="col-md-6">-->
 <!--                        <div>-->
 <!--                            <div class="project-icon"><a href="includes/images/proteins_lg.jpg" id="proteins"-->
@@ -219,7 +237,7 @@
 <!--                                <td><h4><a href="/../php/proteins/" target="_blank"><button id="_button" >To Web App</button></a></h4></td>-->
 <!--                            </tr>-->
 <!--                        </table>-->
-                        <section id="android">&nbsp;</section>
+<!--                        <section id="android">&nbsp;</section>-->
 <!--                    </div>-->
 <!--                </div>-->
                 <!--Android Projects-->
