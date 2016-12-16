@@ -25,9 +25,7 @@
   else  {
       // Email response not success
       ?>
-
       print "<meta http-equiv='refresh' content='0;URL=../error.php'>";
-
       <?php
   }
 ?>

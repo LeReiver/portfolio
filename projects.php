@@ -12,8 +12,7 @@
 <html lang="en">
 <head>
     <title>Le-Reiver | Projects</title>
-    <meta name="description" content="I am a Web Developer living in Portland Oregon. I love to create web sites, web applications, databases,
-        and other web based digital media specializing in PHP, MySQL, HTML5 and CSS3. Hire Me.">
+    <meta name="description" content=" Hire Me. I am a web and multimedia developer living in Portland Oregon. I have been creating digital media for over 15 years. With a background in music performance, audio production, and video production, I am currently enrolled in the Web Development and Design as well as the CIS (Computer Information Systems) program at Portland Community College. My experience as well as my studies has gained me a wealth of knowledge that I inherently apply as I continually improve and perfect my multitude of skills in digital and creative media.">
     <meta name="keyword" content="web developer, web designer,Portland, Portland Oregon, web sites, web applications, databases,
         digital media, PHP, MySQL, HTML5, CSS3, SEO, database design, database programming, Le-Reiver, le-reiver, Michael Le-Reiver, Michael Reiver, Reiver,">
     <?php require_once ('includes/head_files.php') ?>
@@ -36,15 +35,15 @@
                     <div class="col-md-6">
                         <div>
                             <div class="project-icon"><a href="includes/images/guano_lg.jpg" id="guano"
-                                                         data-lightbox="vector" data-title="Burrito Masala"><img src="includes/img/guano_desktop_phone.png" alt="Guano" title="Click To View"></a>
+                                                         data-lightbox="vector" data-title="Guano"><img src="includes/img/guano_desktop_phone.png" alt="Guano" title="Click To View"></a>
                             </div>
                         </div>
                         <h5 class="orange-underline">Guano</h5>
-                        <p id="skills">This is a mobile first website about a metal band. It is built with PHP and JS using a responsive CSS grid and LESS.
+                        <p id="skills">This is a mobile first website for a metal band out of Tempe, AZ. It is built with PHP and JS using a responsive CSS grid and LESS.
                             The challenge with this project dealt with incorporating an audio controller plugin and modifying it to my needs.</p>
                         <table class="button_table">
                             <tr>
-                                <td><h4><a href="/../web/guano" target="_blank"><button id="_button">To Website</button></a></h4></td>
+                                <td><h4><a href="/../web/guano/" target="_blank"><button id="_button">To Website</button></a></h4></td>
                             </tr>
                         </table>
                     </div>
@@ -56,11 +55,11 @@
                                 </div>
                             </div>
                             <h5 class="orange-underline">Burrito Masala</h5>
-                            <p id="skills">This is a mobile first website about a fictitious fusion food cart in downtown Portland. This was a class project for a <em>UX/UI for Web Design</em> course.
+                            <p id="skills">This is a mobile first website about a fictitious fusion food cart in downtown Portland.
                                 It is built with PHP using a responsive CSS grid and LESS.</p>
                             <table class="button_table">
                                 <tr>
-                                    <td><h4><a href="/../web/burrito_masala" target="_blank"><button id="_button">To Website</button></a></h4></td>
+                                    <td><h4><a href="/../web/burrito_masala/" target="_blank"><button id="_button">To Website</button></a></h4></td>
                                 </tr>
                             </table>
                         </div>
@@ -76,7 +75,7 @@
                         <p id="skills">This is the first website that I built back in 2013. It is hand rolled HTML5 and CSS3. This website is for a fictitious restaurant.</p>
                         <table class="button_table">
                             <tr>
-                                <td><h4><a href="/../web/buddha_bellies" target="_blank"><button id="_button" >To Website</button></a></h4></td>
+                                <td><h4><a href="/../web/buddha_bellies/" target="_blank"><button id="_button" >To Website</button></a></h4></td>
                             </tr>
                         </table>
                     </div>
@@ -237,10 +236,10 @@
 <!--                                <td><h4><a href="/../php/proteins/" target="_blank"><button id="_button" >To Web App</button></a></h4></td>-->
 <!--                            </tr>-->
 <!--                        </table>-->
-<!--                        <section id="android">&nbsp;</section>-->
 <!--                    </div>-->
 <!--                </div>-->
                 <!--Android Projects-->
+                <section id="android">&nbsp;</section><!-- for nav id -->
                 <div class="row section-header">
                     <div class="col-md-12">
                         <h1 style="font-size: 2.2em; color: #ff8700; font-stretch: extra-expanded; font-weight: 200; text-align:start;  margin-top: 2em; margin-bottom: -2.5em; margin-left: -2em;">Android Apps</h1>
@@ -306,7 +305,6 @@
                             </tr>
                         </table>
                     </div>
-
                 </div>
                 <div class="row"></div>
                 <div class="col-md-12">
@@ -315,6 +313,7 @@
                 </div>
             </div>
             <h1>&nbsp;</h1>
+         </div>
         </div>
 
     </div>

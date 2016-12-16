@@ -29,7 +29,7 @@
             </div>
             <div class="header-logo">
 
-                <a href="http://lereiver.com/"><img id="header-logo" src="includes/img/my_logo2_blk.png" alt="Logo image link back to home page"></a>
+                <a href="http://lereiver.com/"><img id="header-logo" src="includes/img/my_logo2_w.png" alt="Logo image link back to home page"></a>
             </div>
         </div>
     </nav>

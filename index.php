@@ -10,8 +10,7 @@
 <html lang="en">
 <head>
     <title>Michael Le-Reiver</title>
-    <meta name="description" content="I am a Web Developer living in Portland Oregon. I love creating web sites, web applications, databases,
-        and other web based digital media specializing in PHP, MySQL, HTML5 and CSS3. Hire Me.">
+    <meta name="description" content="Hire Me. I am a web and multimedia developer living in Portland Oregon. I have been creating digital media for over 15 years. With a background in music performance, audio production, and video production, I am currently enrolled in the Web Development and Design as well as the CIS program at Portland Community College. My experience as well as my studies has gained me a wealth of knowledge that I inherently apply as I continually improve and perfect my multitude of skills in digital and creative media.">
     <meta name="keyword" content="web developer, web designer,Portland, Portland Oregon, web sites, web applications, databases,
         digital media, PHP, MySQL, HTML5, CSS3, SEO, database design, database programming, Le-Reiver, le-reiver, Michael Le-Reiver, Michael Reiver, Reiver">
     <?php require_once ('includes/head_files.php') ?>

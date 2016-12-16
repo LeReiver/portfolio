@@ -252,7 +252,6 @@ li {
 }
 .nav_name {
     margin-top: -.01em;
-    color: rgb(25, 46, 51);
     margin-left: 0;
     font-size: 1.5em;
     font-family: gentonalight, sans-serif;
@@ -419,12 +418,12 @@ ul.topnav li.icon {display: none;}
 }
 .section.bigbox {
     padding: 0;
-    background-color: #eee;
+    background-color: #144A6C;
 }
 .section.bigbox h5{
     font-size: 180%;
     font-weight: 300;
-    color: rgb(25, 46, 51);
+    color: #fff;
     border-bottom: 2px solid #ff8700;
     margin-left: -18px;
 }
@@ -454,8 +453,9 @@ ul.topnav li.icon {display: none;}
 .section.footer {
     margin-bottom: -20px;
     padding-bottom: -10px;
-    background-image: url('../images/footer.png');
+/*    background-image: url('../images/footer.png');*/
     background-size: cover;
+    background-color: #000;
     background-repeat: repeat;
     background-position: bottom left;
     background-attachment: scroll;
@@ -547,12 +547,14 @@ ul.topnav li.icon {display: none;}
     font-size: 1.5em;
     font-weight: 200;
     margin: 20px 20px 20px 0;
+    color: #fff;
 }
 #about_bio  p{
     font-size: 1.5em;
     margin: 20px 40px 20px 0;
     padding-right: 0;
     text-align: justify;
+    color: #fff;
 }
 img.fullwidth {
     width: 100%;
@@ -630,7 +632,7 @@ a.button:hover {
     height: 100%;
 }
 #_button {
-    color: rgb(25, 46, 51);
+    color: #fff;
     background: transparent;
     border: thin #ff8700 solid;
     -webkit-border-radius: 3px;
@@ -645,7 +647,7 @@ a.button:hover {
     font-weight: 200;
 }
 #_button_contact {
-    color: rgb(25, 46, 51);
+    color: #fff;
     background: transparent;
     border: thin #ff8700 solid;
     -webkit-border-radius: 3px;
@@ -1134,7 +1136,6 @@ a.button:hover {
         font-size: 24px;
     }
     #_button {
-        color: rgb(62, 88, 93);
         font-size: 70%;
         margin: 0 0 0 13em;
         font-weight: 200;
@@ -1273,7 +1274,7 @@ a.button:hover {
         line-height: 15%;
     }
 
-    }
+}
 @media (max-width: 720px) {
     #_button a {
         font-size: 30%;
@@ -1729,7 +1730,7 @@ a.button:hover {
         margin .25em 5em 0 1em;
     }
     #about_2 p {
-        margin: 0 1em;
+        margin: 0 4em 0 5%;
     }
     #about_bio  p{
         font-size: 1.5em;
@@ -1757,7 +1758,7 @@ a.button:hover {
     }
     #about_2 p {
         font-size: 1.5em;
-        margin: 5px 4em 0 0;
+        margin: 5px 5em 0 5%;
         padding-right: 0;
     }
     #about_bio  p{
@@ -1770,7 +1771,7 @@ a.button:hover {
         margin-right: 2em;
     }
     .section.bigbox h5{
-        margin: 1.25em 2em 0 -1em;
+        margin: 1.25em 4em 0 1em;
         padding: 0 2.5em .25em .5em;
         font-size: 150%;
     }
@@ -1780,31 +1781,46 @@ a.button:hover {
         margin-left: -8.5em;
     }
     .orange-underline {
-        margin: .5em 4.5em 0 1em;
+        margin: .5em 4em 0 1em;
         padding: 0 2em;
         <!-- width: 310px; -->
     }
     .container.projects h1 {
         margin-left: 0;
     }
+    .navbar-default .navbar-nav>li>a {
+        font-size: 110%;
+        padding-right: 1em;
+    }
+    .header-logo img {
+        margin-right:-2em;
+        width: 30px;
+        height: 30px;
+    }
 }
 @media (max-width: 300px) {
+    body {
+        min-width: 300px;
+    }
     #about h1 {
         font-size: 5vw;
     }
     p.nav_name {
-        font-size: 90%;
+        font-size: 115%;
+        margin-left: -1.5em;
     }
     .down {
         margin-left: 32%;
     }
     #about_2 p {
         font-size: 1.5em;
-        margin: 5px 4em 0 0;
+        margin: 5px 5em 0 5%;
         padding-right: 0;
     }
     .header-logo img {
-        margin-right:-1em;
+        margin-right:-2em;
+        width: 30px;
+        height: 30px;
     }
 }
 @media (max-width: 267px) {

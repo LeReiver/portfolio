@@ -27,15 +27,12 @@
 
                         <p id="about_bio" class="bio" style="margin-left:-40px">I am a web and multimedia developer
                             living in Portland Oregon. I have been creating digital media for over 15 years. With a background in music performance,
-                            audio production, and video production, I am currently enrolled in the Web Development and Design as well as the CIS
-                            (Computer Information Systems) program at Portland Community College. My experience as well as my studies has gained
-                            me a wealth of knowledge that I inherently apply as I continually improve and perfect my multitude of skills in digital
-                            and creative media.
+                            audio production, and video production, I am currently enrolled in the Web Development and Design as well as the CIS program at Portland Community College. My experience as well as my studies has gained me a wealth of knowledge that I inherently apply as I continually improve and perfect my multitude of skills in digital and creative media.
                         </p>
                     </div>
                     <div class="col-md-5" style="margin-left: -40px">
                         <h1 style="font-size: 1.85em; color: #ff8700; font-stretch: extra-expanded; font-weight: 200; text-align:start; margin-bottom: 1em;">Contact</h1>
-    
+
                         <form id="contact" name="contact" method="post" action="includes/contact_process.php">
                             <div class="row_contact">
                                 <input type="text" name="name" placeholder="Your Name" class="form-control input-box" required>
@@ -45,7 +42,7 @@
                             </div>
                             <div class="row_contact">
                                 <textarea title="questions" name="questions" cols="19" rows="3" id="questions"
-                                          placeholder="Questions?  Comments?  Say hello." class="form-control input-box" ></textarea>
+                                          placeholder="Need a website? Have Questions?" class="form-control input-box" ></textarea>
                             </div>
                             <div style=" font-size: 60%; margin-top: -20px;" class="button_table_submit" ><h2>
                                     <button id="_button_contact" type="submit">SUBMIT</button></a></h2></div>
