@@ -337,7 +337,7 @@ ul.topnav li.icon {display: none;}
     position: fixed;
     top: 1em;
     right: 3em;
-    margin-right: 3em;
+    margin-right: 0.5em;
     padding-right: 0;
     float: right;
 }
@@ -553,7 +553,7 @@ ul.topnav li.icon {display: none;}
     font-size: 1.5em;
     margin: 20px 40px 20px 0;
     padding-right: 0;
-    text-align: justify;
+    text-align: start;
     color: #fff;
 }
 img.fullwidth {
@@ -785,6 +785,10 @@ a.button:hover {
     margin-left: 46%;
 }
 
+.active.selected {
+    color: #ff8700;
+}
+
 /* ------------------------------  media queries ----------------------------------------*/
 @media (min-width: 1200px) {
     body {
@@ -805,7 +809,7 @@ a.button:hover {
         height: 250px;
     }
     .logo-icon img {
-        margin: 2em 3em 2em 1em;
+        margin: 3em 3em 2em 1em;
         width: 250px;
         height: 250px;
     }
@@ -887,7 +891,7 @@ a.button:hover {
         float: right;
     }
     .navbar-default .navbar-nav>li>a {
-        padding-right: 5em;
+        padding-right: 4em;
     }
     #projects_nav {
         padding: 0 0 1em 3em;
@@ -922,7 +926,7 @@ a.button:hover {
          font-family: gentonalight, sans-serif;
          font-weight: 300;
          padding-right: 7em;
-         margin-right: -1.2em;
+         margin-right: -2.2em;
         padding-top:15px;
      }
     .navbar-default .project_nav {
@@ -1054,12 +1058,16 @@ a.button:hover {
         font-family: gentonalight, sans-serif;
         font-weight: 300;
         padding-right: 4em;
-        margin-right: 3em;
+        margin-right: 1em;
         padding-top: 15px;
     }
     .white-section .section-header h2 {
         font-size: 4.5vw;
     }
+    .header-logo img {
+             margin-right: -10px;
+         }
+
 }
 
 @media (max-width: 780px) {
@@ -1123,7 +1131,7 @@ a.button:hover {
         font-size: 1.5em;
         margin: 20px 20px 20px 0;
         padding-right: 0;
-        text-align: justify;
+        text-align: start;
     }
     #about h1 {
         margin-top: 0.25em;
@@ -1217,7 +1225,6 @@ a.button:hover {
         font-size: 1.5em;
         margin: 20px 40px 20px 0;
         padding-right: 0;
-        text-align: justify;
     }
     section.project-icon {
         height: 350px;
@@ -1273,6 +1280,10 @@ a.button:hover {
     .navbar-default .navbar-nav>li>a {
         line-height: 15%;
     }
+    .header-logo img {
+        margin-right: 1em;
+    }
+
 
 }
 @media (max-width: 720px) {
@@ -1319,7 +1330,8 @@ a.button:hover {
         margin-top: 5em;
     }
 
-@media (max-width: 610px) {
+
+    @media (max-width: 610px) {
     #about h1 {
         margin-top: 0.25em;
         font-size: 5vw;

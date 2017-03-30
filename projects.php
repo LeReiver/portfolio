@@ -39,31 +39,31 @@
                             </div>
                         </div>
                         <h5 class="orange-underline">Guano</h5>
-                        <p id="skills">This is a mobile first website for a metal band out of Tempe, AZ. It is built with PHP and JS using a responsive CSS grid and LESS.
-                            The challenge with this project dealt with incorporating an audio controller plugin and modifying it to my needs.</p>
+                        <p id="skills">A mobile-first website, built with PHP and JavaScript with responsive CSS grid and LESS. I Incorporated a modifiable Audio Controller Plugin as an audio player.</p>
                         <table class="button_table">
                             <tr>
                                 <td><h4><a href="/../web/guano/" target="_blank"><button id="_button">To Website</button></a></h4></td>
                             </tr>
                         </table>
                     </div>
-                    <div class="row" style="margin-bottom: 2em;">
-                        <div class="col-md-6">
-                            <div>
-                                <div class="project-icon"><a href="includes/images/burrito_lg.jpg" id="burrito_masala"
-                                                             data-lightbox="vector" data-title="Burrito Masala"><img src="includes/img/burrito_desktop_iphone.png" alt="Burrito Masala" title="Click To View"></a>
-                                </div>
+                    <div class="col-md-6">
+                        <div>
+                            <div class="project-icon"><a href="includes/images/burrito_lg.jpg" id="burrito_masala"
+                                                         data-lightbox="vector" data-title="Burrito Masala"><img src="includes/img/burrito_desktop_iphone.png" alt="Burrito Masala" title="Click To View"></a>
                             </div>
-                            <h5 class="orange-underline">Burrito Masala</h5>
-                            <p id="skills">This is a mobile first website about a fictitious fusion food cart in downtown Portland.
-                                It is built with PHP using a responsive CSS grid and LESS.</p>
-                            <table class="button_table">
-                                <tr>
-                                    <td><h4><a href="/../web/burrito_masala/" target="_blank"><button id="_button">To Website</button></a></h4></td>
-                                </tr>
-                            </table>
                         </div>
+                    </div>
+                    <div class="col-md-6">
+                        <h5 class="orange-underline">Burrito Masala</h5>
+                        <p id="skills">This fictitious food cart mobile-first website was built with PHP, utilizing responsive CSS and LESS.</p>
+                        <table class="button_table">
+                            <tr>
+                                <td><h4><a href="/../web/burrito_masala/" target="_blank"><button id="_button">To Website</button></a></h4></td>
+                            </tr>
+                        </table>
+                    </div>
                 </div>
+
                 <div class="row" style="margin-bottom: 2em;">
                     <div class="col-md-6">
                         <div>
@@ -72,7 +72,7 @@
                             </div>
                         </div>
                         <h5 class="orange-underline">Buddha Bellies Noodle House</h5>
-                        <p id="skills">This is the first website that I built back in 2013. It is hand rolled HTML5 and CSS3. This website is for a fictitious restaurant.</p>
+                        <p id="skills">A fictitious restaurant website built with hand rolled HTML5 and CSS3.</p>
                         <table class="button_table">
                             <tr>
                                 <td><h4><a href="/../web/buddha_bellies/" target="_blank"><button id="_button" >To Website</button></a></h4></td>
@@ -86,7 +86,7 @@
                             </div>
                         </div>
                         <h5 class="orange-underline">Well Fed Adventures</h5>
-                        <p id="skills">This is a website I built using Dreamweaver. It is a website about a fictitious culinary travel company.</p>
+                        <p id="skills">A Dreamweaver website built for a fictitious culinary travel company.</p>
                         <table class="button_table">
                             <tr>
                                 <td><h4><a href="/../web/well_fed" target="_blank"><button id="_button" > To Website</button></a></h4></td>
@@ -94,6 +94,7 @@
                         </table>
                     </div>
                 </div>
+
                 <div class="row" style="margin-bottom: 4em;">
                     <div class="col-md-6">
                         <div>
@@ -102,10 +103,8 @@
                             </div>
                         </div>
                         <h5 class="orange-underline">Kitchen Commons</h5>
-                        <p id="skills">Kitchen Commons is a non-profit located in Portland, OR. As a web development intern,
-                            I assisted in the migration of the old Drupal site to a WordPress site. I re-designed the new site
-                            using custom styling on their chosen WordPress theme, implemented changes that enhanced usability,
-                            overall design, and SEO as well as installed and managed plugins and widgets. </p>
+                        <p id="skills">As a web development intern for non-profit organization Kitchen Common, migrated old Drupal site to new WordPress site.
+                            Redesigned new site with custom styling, implementing changes that enhanced usability, managed plugins and widgets and applied SEO tags  </p>
                         <table class="button_table">
                             <tr>
                                 <td><h4><a href="https://kitchencommons.net/" target="_blank"><button id="_button" >To Website</button></a></h4></td>
@@ -122,7 +121,7 @@
                             </div>
                         </div>
                         <h5 class="orange-underline">Graphics for Multimedia</h5>
-                        <p id="skills">I made this website for to showcase my Adobe Photoshop projects I created in a <em>Graphics for Multimedia</em> course.</p>
+                        <p id="skills">This website was developed to showcase my Adobe Photoshop for multimedia capabilities.</p>
                         <table class="button_table">
                             <tr>
                                 <td><h4><a href="/../web/graphics/" target="_blank"><button id="_button" >To Website</button></a></h4></td>
@@ -140,8 +139,7 @@
                             </div>
                         </div>
                         <h5 class="orange-underline">Dual Purpose Motorcycles</h5>
-                        <p id="skills">I built this website using AJAX and jQuery to load the new page content.
-                            It is a simple informative website introducing and comparing dual-purpose motorcycles.</p>
+                        <p id="skills">A simple, informative website built using AJAX and jQuery.</p>
                         <table class="button_table">
                             <tr>
                                 <td><h4><a href="/../web/dual_purpose/" target="_blank"><button id="_button" >To Website</button></a></h4></td>
@@ -156,9 +154,8 @@
                             </div>
                         </div>
                         <h5 class="orange-underline">CCS</h5>
-                        <p id="skills">This is a private and secure web application I am building for a consulting firm. It is built with PHP and communicates with a database.
-                            It requires user account creation and takes user input and uploads to a database,
-                            then generates reports off of SQL queries.</p>
+                        <p id="skills">A private and secure web application for a confidential consulting firm. Database connected web application built on PHP,
+                            requiring user account creation and access, user input and uploads to internal database with report generation capabilities.</p>
                         <table class="button_table">
                             <tr>
                                 <!-- <td><h4><a href="/../php/ccs" target="_blank"><button id="_button" > To Website</button></a></h4></td>-->
@@ -176,7 +173,7 @@
                             </div>
                         </div>
                         <h5 class="orange-underline">A Tip Calculator</h5>
-                        <p id="skills">This is a tip calculator built in PHP, HTML, CSS.</p>
+                        <p id="skills">Built with PHP, HTML5 and CSS3.</p>
                         <table class="button_table">
                             <tr>
                                 <td><h4><a href="/../php/tip_calculator" target="_blank"><button id="_button" >To Web App</button></a></h4></td>
@@ -191,7 +188,7 @@
                         </div>
                         <h5 class="orange-underline">Cooking Volume Converter</h5>
                         <p id="skills">
-                        <p>This is a cooking volume converter built using PHP, JQuery, AJAX, HTML5 and CSS3. </p>
+                        <p>Built using PHP, JQuery, AJAX, HTML5 and CSS3.</p>
                         <table class="button_table">
                             <tr>
                                 <td><h4><a href="/../php/volume_converter/" target="_blank"><button id="_button" >To Web App</button></a></h4></td>
@@ -252,7 +249,7 @@
                         </div>
                     </div>
                     <h5 class="orange-underline">Drums</h5>
-                    <p id="skills">This is an Android App I built. It is a rudimentary drum machine with language support for Italian and Japanese.</p>
+                    <p id="skills">A rudimentary drum machine with language support for Italian and Japanese.</p>
                     <table class="button_table">
                         <tr>
                             <td><h4><a href="https://play.google.com/store/apps/details?id=app.lereiver.mike.drums" target="_blank"><button id="_button" >To App</button></a></h4></td>
@@ -267,7 +264,7 @@
                             </div>
                         </div>
                         <h5 class="orange-underline" >Pig Latin Name Converter</h5>
-                        <p id="skills">This is the first Android App I built. It will convert a persons name into Pig Latin using string manipulations.</p>
+                        <p id="skills"> Using string manipulations, this Android app converts names into Pig Latin.</p>
                         <table class="button_table">
                             <tr>
                                 <!--<td><h4><a  target=""><button id="_button" >To App</button></a></h4></td>-->
@@ -298,7 +295,7 @@
                             </div>
                         </div>
                         <h5 class="orange-underline">Dataview</h5>
-                        <p id="skills">This is an Android App that was a class assignment. The app connects with a secure database and outputs a data table.</p>
+                        <p id="skills"> This app was built to showcase the ability to connect to secure database and output data tables.</p>
                         <table class="button_table">
                             <tr>
                                 <!-- <td><h4><a target=""><button id="_button" >To App</button></a></h4></td> -->
@@ -318,7 +315,6 @@
 
     </div>
 </div>
-
 <?php require ('footer.php'); ?>
 <?php require('includes/smooth_scroll.php');?>
 </body>

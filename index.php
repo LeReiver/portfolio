@@ -44,6 +44,7 @@
                                 <h1>&nbsp;</h1>
                                 <h1>&nbsp;</h1>
                                 <h1>&nbsp;</h1>
+                                <h1>&nbsp;</h1>
                             </div>
                         </div>
                     </div>
@@ -52,15 +53,15 @@
                         <div>
                             <p id="about_2" class="about phone" >My name is Michael Le-Reiver. I live in downtown Portland Oregon. I love creating web sites, web applications, and Android Apps. I also love to produce audio, video, and other digital media.
                                 Please take a look to see what I have been up to. Thank you for stopping by!</p>
-                            <div class="down"><a href="#down">
-                                    <img src="includes/images/chevron_double_down.png" alt="Down" title="Down"></a><br>
-                            </div>
+<!--                            <div class="down"><a href="#down">-->
+<!--                                    <img src="includes/images/chevron_double_down.png" alt="Down" title="Down"></a><br>-->
+<!--                            </div>-->
                         </div>
                     </div>
             </div>
         </div>
     </div>
-    <div class="jumbotron section  white-section" style="margin: -1.5em 0 0 0; padding-top: 4em;" id="down">
+    <div class="jumbotron section  white-section" style="margin: -1.5em 0 0 0; padding-top: 4em;" id="my_skills">
         <div class="container">
             <div class="row section-header">
                 <div class="col-md-12">
@@ -153,4 +154,5 @@
 <?php require('includes/header_slider.php');?>
 <?php require('includes/smooth_scroll.php');?>
 </body>
+
 </html>
