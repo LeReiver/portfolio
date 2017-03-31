@@ -444,7 +444,7 @@ ul.topnav li.icon {display: none;}
 .section.bigbox h3 {
     font-family: gentonalight, sans-serif;
     color: #333;
-    margin-top:20px;
+    margin-top:150px;
 }
 .section.bigbox.speech p {
     padding: 1em 4em;
@@ -563,7 +563,7 @@ ul.topnav li.icon {display: none;}
     font-weight: 200;
 }
 #about_2 p {
-    font-size: 1.75em;
+    font-size: 20px;
     font-weight: 200;
     margin: 20px 0 0 80px;
     color: #333;
@@ -580,7 +580,7 @@ ul.topnav li.icon {display: none;}
     margin: 20px 40px 20px 0;
     padding-right: 0;
     text-align: start;
-    color: #777;
+    color: #333;
 }
 img.fullwidth {
     width: 100%;
@@ -668,23 +668,23 @@ a.button:hover {
     text-align: center;
     font-size: 120%;
     width: 7.5em;
-    height: 2em;
+    height: 1.8em;
     margin: 0 0 0 15em;
     font-weight: 200;
     transition: 0.8s;
 }
 #_button_contact {
-    color: #fff;
+    color: #ff8700;
     background: transparent;
-    border: thin #ff8700 solid;
+    border: thin #333 solid;
     -webkit-border-radius: 3px;
     -moz-border-radius: 3px;
     border-radius: 3px;
     cursor: pointer;
     text-align: center;
     font-size: 60%;
-    width: 6em;
-    height: 1.5em;
+    width: 7.5em;
+    height: 2.2em;
     font-weight: 200;
     transition: 0.8s;
 }
@@ -723,9 +723,9 @@ a.button:hover {
     transition: 0.8s;
 }
 #_button_contact:hover {
-    background-color: rgb(255, 255, 255);
-    color: #ff8700;
-    border: thin rgb(62, 88, 93) solid;
+    background-color: rgba(196, 185, 193, 0.2);
+    color: #000;
+    border: thin #ff8700 solid;
     transition: 0.8s;
 }
 .button_table td {
@@ -821,121 +821,108 @@ a.button:hover {
 }
 
 /* ------------------------------  media queries ----------------------------------------*/
-@media (min-width: 1200px) {
-    body {
-        background-size: cover;
-    }
-    #about h1 {
-          font-size: 3vw;
-      }
-    .navbar {
-        margin-top 1em;
-    }
-    .section.bigbox h4 {
-        margin: 20px 0 0 30px;
-    }
 
-}
+
+/*@media (max-width: 1200px) {*/
+/*    .logo img {*/
+/*        width: 250px;*/
+/*        height: 250px;*/
+/*    }*/
+/*    .logo-icon img {*/
+/*        margin: 3em 3em 2em 1em;*/
+/*        width: 250px;*/
+/*        height: 250px;*/
+/*    }*/
+/*    .logo-icon {*/
+/*        height: 250px;*/
+/*        width:250px;*/
+/*        padding-top: 60px;*/
+/*        margin-bottom: 1px;*/
+/*    }*/
+/*    #about p {*/
+/*        font-size: 1.75em;*/
+/*        font-weight: 100;*/
+/*    }*/
+/*    #about h1 {*/
+/*        font-size: 3vw;*/
+/*    }*/
+/*    #about_2 p {*/
+/*        font-size: 1.5em;*/
+/*        font-weight: 100;*/
+/*        margin: 20px 20px 20px 0;*/
+/*    }*/
+/**/
+/*    #about_me  p {*/
+/*        margin-right: 800px;*/
+/*        padding-right: 3em;*/
+/*        font-size: 1.75em;*/
+/*        font-weight: 300;*/
+/*    }*/
+/*    #_button {*/
+/*        margin: 0 0 0 8em;*/
+/*    }*/
+/*    #_button a {*/
+/*        font-size: 40%;*/
+/*        width: 4em;*/
+/*        height: 1.5em;*/
+/*        margin: 0 2em;*/
+/*        font-weight: 200;*/
+/*    }*/
+/*    #_button_nav  {*/
+/*        font-size: 80%;*/
+/*        width: 6em;*/
+/*        height: 2em;*/
+/*        margin: 0 1em;*/
+/*        font-weight: 200;*/
+/*    }*/
+/**/
+/*    .button_table  {*/
+/*        margin-left: 6em;*/
+/*    }*/
+/*    .button_table td {*/
+/*        font-weight: 200;*/
+/*        font-size: 40%;*/
+/*    }*/
+/*    .project-icon img {*/
+/*        height: 75%;*/
+/*    }*/
+/*    .navbar-default .navbar-nav>li>a {*/
+/*        padding-right: 3em;*/
+/*    }*/
+/*    .row {*/
+/*          margin: -2em 1.75em;*/
+/*          padding: .5em 0;*/
+/*      }*/
+/*    .row_contact {*/
+/*        margin: .5em -.75em;*/
+/*        padding: .5em 1em;*/
+/*    }*/
+/*}*/
+
+/*@media (max-width: 1200px) {*/
+/*    .navbar-default .navbar-brand img.full {*/
+/*        display: none;*/
+/*    }*/
+/*    .navbar-default .navbar-brand img.small {*/
+/*        display: inline;*/
+/*        position: relative;*/
+/*        top: 6px;*/
+/*        width: 60px;*/
+/*        float: right;*/
+/*    }*/
+/*    .navbar-default .navbar-nav>li>a {*/
+/*        padding-right: 4em;*/
+/*    }*/
+/*    #projects_nav {*/
+/*        padding: 0 0 1em 3em;*/
+/*    }*/
+/*    #_button {*/
+/*        margin: 0 0 0 8em;*/
+/*    }*/
+/*}*/
+
 
 @media (max-width: 1200px) {
-    .logo img {
-        width: 250px;
-        height: 250px;
-    }
-    .logo-icon img {
-        margin: 3em 3em 2em 1em;
-        width: 250px;
-        height: 250px;
-    }
-    .logo-icon {
-        height: 250px;
-        width:250px;
-        padding-top: 60px;
-        margin-bottom: 1px;
-    }
-    #about p {
-        font-size: 1.75em;
-        font-weight: 100;
-    }
-    #about h1 {
-        font-size: 3vw;
-    }
-    #about_2 p {
-        font-size: 1.5em;
-        font-weight: 100;
-        margin: 20px 20px 20px 0;
-    }
-
-    #about_me  p {
-        margin-right: 800px;
-        padding-right: 3em;
-        font-size: 1.75em;
-        font-weight: 300;
-    }
-    #_button {
-        margin: 0 0 0 8em;
-    }
-    #_button a {
-        font-size: 40%;
-        width: 4em;
-        height: 1.5em;
-        margin: 0 2em;
-        font-weight: 200;
-    }
-    #_button_nav  {
-        font-size: 80%;
-        width: 6em;
-        height: 2em;
-        margin: 0 1em;
-        font-weight: 200;
-    }
-
-    .button_table  {
-        margin-left: 6em;
-    }
-    .button_table td {
-        font-weight: 200;
-        font-size: 40%;
-    }
-    .project-icon img {
-        height: 75%;
-    }
-    .navbar-default .navbar-nav>li>a {
-        padding-right: 3em;
-    }
-    .row {
-          margin: -2em 1.75em;
-          padding: .5em 0;
-      }
-    .row_contact {
-        margin: .5em -.75em;
-        padding: .5em 1em;
-    }
-}
-
-@media (max-width: 1024px) {
-    .navbar-default .navbar-brand img.full {
-        display: none;
-    }
-    .navbar-default .navbar-brand img.small {
-        display: inline;
-        position: relative;
-        top: 6px;
-        width: 60px;
-        float: right;
-    }
-    .navbar-default .navbar-nav>li>a {
-        padding-right: 4em;
-    }
-    #projects_nav {
-        padding: 0 0 1em 3em;
-    }
-    #_button {
-        margin: 0 0 0 8em;
-    }
-}
-
-@media (max-width: 991px) {
     .logo img {
         width: 250px;
         height: 250px;
@@ -944,12 +931,12 @@ a.button:hover {
         padding-right: 0;
     }
     .logo-icon img {
-        width: 200px;
-        height: 200px;
+/*        width: 200px;*/
+        height: 400px;
         margin-left: 230px;
     }
     .logo-icon {
-        height: 200px;
+        height: 400px;
         width:200px;
         padding-top: 0;
         margin-bottom: 1px;
@@ -987,13 +974,13 @@ a.button:hover {
     }
     #about_2 p {
         font-size: 1.5em;
-        margin: 20px 20px 20px 0;
+        margin: 20px 0 20px 50px;
         padding-right: 1em;
      }
     #_button  {
         font-size: 70%;
         font-weight: 200;
-        margin 0 0 0 0;
+        margin: 0 0 0 0;
     }
     #_button_nav  {
         font-size: 40%;
@@ -1020,7 +1007,7 @@ a.button:hover {
         font-weight: 100;
     }
     .button_table  {
-        margin-left: -2em;
+        margin: -20px 0 0 180px;
     }
     .button_table  a {
         font-size: 1.5em;
@@ -1028,11 +1015,11 @@ a.button:hover {
 /*        padding-left: 5em;*/
     }
     .section.footer  {
-        margin-bottom: 0px;
+        margin-bottom: 0;
     }
     .project-icon img {
-        height: 65%;
-        margin-left: -2em;
+        height: 125%;
+        margin: -20px 0 40px -80px;
     }
     .project-icon {
         height: 350px;
@@ -1048,9 +1035,12 @@ a.button:hover {
         margin-top: -1.75em;
     }
     .section.bigbox h4 {
-        margin: 20px 0 0 -20px;
+        margin: 20px 0 0 -35px;
         font-size: 100%;
     }
+    .section.bigbox h3 {
+         margin-top: 20px;
+     }
     .section.project.img {
         text-align: center;
         margin: 5em 3em 1em -2em;
@@ -1065,7 +1055,7 @@ a.button:hover {
         font-size: 1.5em;
         margin-bottom: 20px;
     }
-     .col-md-8.button_table, {
+     .col-md-8.button_table {
         float: right;
          clear: left;
     }
@@ -1089,303 +1079,10 @@ a.button:hover {
 
 }
 
-@media (max-width: 845px) {
-    .navbar-default .navbar-nav>li>a {
-        color: #000;
-        font-size: 1.2em;
-        font-family: gentonalight, sans-serif;
-        font-weight: 300;
-        padding-right: 4em;
-        margin-right: 1em;
-        padding-top: 15px;
-    }
-    .white-section .section-header h2 {
-        font-size: 4.5vw;
-    }
-    .header-logo img {
-             margin-right: -10px;
-         }
-
-}
-
-@media (max-width: 780px) {
-    .navbar-default .navbar-brand img.small {
-        top: 2px;
-        width: 45px;
-    }
-    .section-header {
-        padding-bottom: 25px;
-    }
-    .section-header h2 {
-        padding-top: .25em;
-        padding-bottom: 10px;
-        font-family: gentonalight, sans-serif;
-    }
-    #network-text p {
-        font-size: 11px;
-    }
-    #network-text h2 {
-        font-size: 16px;
-    }
-    .logo img {
-        width: 250px;
-        height: 250px;
-        float: left;
-        clear: both;
-        padding-right: 0;
-    }
-    .logo-icon img {
-        width: 200px;
-        height: 200px;
-        margin-left: 230px;
-    }
-    .logo-icon {
-        height: 200px;
-        width:200px;
-        padding-top: 0;
-        margin-bottom: 1px;
-    }
-    .project-icon {
-        height: 350px;
-        display: inline-block;
-        padding-top: 50px;
-        margin: -.5em 0 -4em 1em;
-    }
-    #about p {
-        margin: 20px -20px;
-        padding: 0 0;
-        font-size: 1.75em;
-        font-weight: 200;
-        text-align: start;
-    }
-    #about_2 p {
-        margin: 20px 20px 20px 0;
-        padding: 0 0;
-        font-size: 1.5em;
-        font-weight: 100;
-        text-align: start;
-    }
-    #about_bio  p{
-        font-size: 1.5em;
-        margin: 20px 20px 20px 0;
-        padding-right: 0;
-        text-align: start;
-    }
-    #about h1 {
-        margin-top: 0.25em;
-        font-size: 3vw;
-    }
-    #network-text p {
-        font-size: 16px;
-    }
-    #network-text h2 {
-        font-size: 24px;
-    }
-    #_button {
-        font-size: 70%;
-        margin: 0 0 0 13em;
-        font-weight: 200;
-    }
-    #_button a {
-        font-size: 40%;
-        width: 4em;
-        height: 1.5em;
-        margin: 0;
-        font-weight: 200;
-    }
-    #_button_nav a {
-        font-size: 50%;
-        width: 4em;
-        height: 1.5em;
-        margin: 0 1em;
-        font-weight: 100;
-    }
-    #_button_nav  {
-        font-size: 50%;
-        width: 6em;
-        height: 2em;
-        margin: 0 1em;
-        font-weight: 100;
-    }
-    .button_table td {
-        font-weight: 200;
-        font-size: 80%;
-    }
-    .button_table  {
-        margin-left: -2em;
-    }
-    .button_table  a {
-        font-size: 1.5em;
-        margin-left: -4em;
-/*        padding-left: 5em;*/
-    }
-    .section.footer  {
-        margin-bottom: 0;
-    }
-    .project-icon img {
-        height: 65%;
-        margin-left: -2.2em;
-    }
-    .project.img {
-        text-align: center;
-        margin: 3em 5em 3em -2em;
-        padding: 1em;
-        width: 250px;
-        height: 250px;
-        clear: right;
-    }
-    h1 #project_type{
-        margin-top: 4em;
-    }
-    #projects_nav {
-        padding: 2em 0 1em 3em;
-        margin-top: 5em;
-    }
-    .navbar-default .project_nav {
-        margin-top: 10px;
-        margin-left: 150px;
-    }
-    .container.projects h1 {
-        margin-bottom: -.75em;
-    }
-}
-
-
-@media (max-width: 767px) {
-    #about h1 {
-        margin-top: 0.25em;
-        font-size: 4vw;
-    }
-    #about p {
-        margin: 20px 0 0 20px;
-    }
-    #about_bio  p{
-        font-size: 1.5em;
-        margin: 20px 40px 20px 0;
-        padding-right: 0;
-    }
-    section.project-icon {
-        height: 350px;
-        width:350px;
-        display: inline-block;
-        padding-top: 20px;
-        margin-bottom: 10px;
-        margin-left: 80px;
-        margin-top: 60px;
-    }
-    .section.bigbox .projects{
-        margin-top: 5em;
-    }
-    .section.bigbox h5{
-        margin-top: .25em;
-    }
-    .nav_name {
-        margin-left: -.5em;
-    }
-    p#about_2.about.phone {
-        font-size: 12%;
-    }
-    .project-icon img {
-        height: 100%;
-    }
-    .project-icon {
-        height: 350px;
-        display: inline-block;
-        padding-top: 50px;
-        margin: 0;
-    }
-    .section-hero {
-        background-image: url('../images/hero2_2_op.jpg');
-    }
-    .white-section .section-header h2 {
-        font-size: 5vw;
-    }
-    .down {
-        margin-left: 43%;
-    }
-    #projects_nav {
-        float: left;
-/*        clear: both;*/
-        line-height: 60%;
-        color: #ff8700;
-        display: inline;
-        padding-bottom: 0;
-        padding-left: 50px;
-    }
-    .navbar-default .project_nav {
-        margin-top: -60px;
-    }
-    .navbar-default .navbar-nav>li>a {
-        line-height: 15%;
-    }
-    .header-logo img {
-        margin-right: 1em;
-    }
-
-
-}
-@media (max-width: 720px) {
-    #_button a {
-        font-size: 30%;
-        width: 2em;
-        height: 1.5em;
-        margin: 0;
-        font-weight: 100;
-    }
-    #_button_nav  {
-        font-size: 40%;
-        width: 6em;
-        height: 2em;
-        margin: 0 1em;
-        font-weight: 100;
-    }
-    #_button {
-        font-size: 80%;
-        margin: 0 0 0 10em;
-        font-weight: 200;
-    }
-    .button_table td {
-        font-weight: 200;
-        font-size: 60px;
-    }
-    .button_table  {
-        margin-left: -2em;
-    }
-    .button_table  a {
-        font-size: 1.5em;
-        margin-left: -4em;
-/*        padding-left: 5em;*/
-    }
-    #about h1 {
-        margin-top: 0.25em;
-        font-size: 4.5vw;
-    }
-    .white-section .section-header h2 {
-        font-size: 1.5em;
-        margin-bottom: 20px;
-    }
-    .projects {
-        margin-top: 5em;
-    }
-
-
-    @media (max-width: 610px) {
-    #about h1 {
-        margin-top: 0.25em;
-        font-size: 5vw;
-    }
-    .white-section .section-header h2 {
-        font-size: 5.5vw;
-    }
-    .navbar-default .project_nav {
-        margin-left: 100px;
-    }
-}
-
-@media (max-width: 590px) {
-     h1 {
+@media (max-width: 990px) {
+    h1 {
         font-size: 20%;
-     }
+    }
     .logo img {
         width: 150px;
         height: 150px;
@@ -1404,7 +1101,7 @@ a.button:hover {
         font-size: 5vw;
     }
     #about_2 p {
-       margin: 20px -10px 20px 0;
+        margin: 20px -10px 20px 0;
         font-size: 1.5em;
         font-weight: 100;
         text-align: start;
@@ -1413,14 +1110,17 @@ a.button:hover {
         margin: 0 -2em 0 1em;
     }
     .section.bigbox h5{
-        margin .25em 4em 0 1em;
+        margin: .25em 4em 0 1em;
         padding-right: 1em;
     }
+    .section.bigbox h3 {
+        margin-top: 220px;
+    }
     .project-icon img {
-        height: 100%;
+        height: 150%;
         padding-top: 20px;
-/*        margin: -.5em 0 -5em 1em;*/
-        }
+        /*        margin: -.5em 0 -5em 1em;*/
+    }
     #_button {
         font-size: 80%;
         margin: 0 3em 0 0;
@@ -1449,7 +1149,7 @@ a.button:hover {
     }
     .button_table  a {
         font-size: 1.5em;
-/*        margin-left: -4em;*/
+        /*        margin-left: -4em;*/
         padding-left: 8em;
     }
     .down {
@@ -1459,35 +1159,450 @@ a.button:hover {
         margin-bottom: -4.5em;
     }
     .orange-underline {
-             margin: .5em 0;
-         }
+        margin: .5em 0;
+    }
+    .product_desc {
+        margin-top: 150px;
+    }
 }
-@media (max-width: 540px) {
-    #about h1 {
-        font-size: 5vw;
-    }
-    .down {
-        margin-left: 42%;
-    }
-    .col-md-6 {
-/*        margin: 0 -1em 0 2em;*/
-    }
-    .down {
-        margin-left: 41%;
-    }
-    .white-section .section-header h2 {
-        font-size: 1.5em;
-        margin-bottom: 20px;
-    }
-    .container.projects h1 {
-        margin-bottom: -3em;
-    }
-    .orange-underline {
-        margin: .5em 1.25em;
-    }
 
 
-}
+/*@media (max-width: 845px) {*/
+/*    .navbar-default .navbar-nav>li>a {*/
+/*        color: #000;*/
+/*        font-size: 1.2em;*/
+/*        font-family: gentonalight, sans-serif;*/
+/*        font-weight: 300;*/
+/*        padding-right: 4em;*/
+/*        margin-right: 1em;*/
+/*        padding-top: 15px;*/
+/*    }*/
+/*    .white-section .section-header h2 {*/
+/*        font-size: 4.5vw;*/
+/*    }*/
+/*    .header-logo img {*/
+/*             margin-right: -10px;*/
+/*         }*/
+/**/
+/*}*/
+/**/
+/*@media (max-width: 780px) {*/
+/*    .navbar-default .navbar-brand img.small {*/
+/*        top: 2px;*/
+/*        width: 45px;*/
+/*    }*/
+/*    .section-header {*/
+/*        padding-bottom: 25px;*/
+/*    }*/
+/*    .section-header h2 {*/
+/*        padding-top: .25em;*/
+/*        padding-bottom: 10px;*/
+/*        font-family: gentonalight, sans-serif;*/
+/*    }*/
+/*    #network-text p {*/
+/*        font-size: 11px;*/
+/*    }*/
+/*    #network-text h2 {*/
+/*        font-size: 16px;*/
+/*    }*/
+/*    .logo img {*/
+/*        width: 250px;*/
+/*        height: 250px;*/
+/*        float: left;*/
+/*        clear: both;*/
+/*        padding-right: 0;*/
+/*    }*/
+/*    .logo-icon img {*/
+/*        width: 200px;*/
+/*        height: 200px;*/
+/*        margin-left: 230px;*/
+/*    }*/
+/*    .logo-icon {*/
+/*        height: 200px;*/
+/*        width:200px;*/
+/*        padding-top: 0;*/
+/*        margin-bottom: 1px;*/
+/*    }*/
+/*    .project-icon {*/
+/*        height: 350px;*/
+/*        display: inline-block;*/
+/*        padding-top: 50px;*/
+/*        margin: -.5em 0 -4em 1em;*/
+/*    }*/
+/*    #about p {*/
+/*        margin: 20px -20px;*/
+/*        padding: 0 0;*/
+/*        font-size: 1.75em;*/
+/*        font-weight: 200;*/
+/*        text-align: start;*/
+/*    }*/
+/*    #about_2 p {*/
+/*        margin: 20px 20px 20px 0;*/
+/*        padding: 0 0;*/
+/*        font-size: 1.5em;*/
+/*        font-weight: 100;*/
+/*        text-align: start;*/
+/*    }*/
+/*    #about_bio  p{*/
+/*        font-size: 1.5em;*/
+/*        margin: 20px 20px 20px 0;*/
+/*        padding-right: 0;*/
+/*        text-align: start;*/
+/*    }*/
+/*    #about h1 {*/
+/*        margin-top: 0.25em;*/
+/*        font-size: 3vw;*/
+/*    }*/
+/*    #network-text p {*/
+/*        font-size: 16px;*/
+/*    }*/
+/*    #network-text h2 {*/
+/*        font-size: 24px;*/
+/*    }*/
+/*    #_button {*/
+/*        font-size: 70%;*/
+/*        margin: 0 0 0 13em;*/
+/*        font-weight: 200;*/
+/*    }*/
+/*    #_button a {*/
+/*        font-size: 40%;*/
+/*        width: 4em;*/
+/*        height: 1.5em;*/
+/*        margin: 0;*/
+/*        font-weight: 200;*/
+/*    }*/
+/*    #_button_nav a {*/
+/*        font-size: 50%;*/
+/*        width: 4em;*/
+/*        height: 1.5em;*/
+/*        margin: 0 1em;*/
+/*        font-weight: 100;*/
+/*    }*/
+/*    #_button_nav  {*/
+/*        font-size: 50%;*/
+/*        width: 6em;*/
+/*        height: 2em;*/
+/*        margin: 0 1em;*/
+/*        font-weight: 100;*/
+/*    }*/
+/*    .button_table td {*/
+/*        font-weight: 200;*/
+/*        font-size: 80%;*/
+/*    }*/
+/*    .button_table  {*/
+/*        margin-left: -2em;*/
+/*    }*/
+/*    .button_table  a {*/
+/*        font-size: 1.5em;*/
+/*        margin-left: -4em;*/
+/*/*        padding-left: 5em;*/*/
+/*    }*/
+/*    .section.footer  {*/
+/*        margin-bottom: 0;*/
+/*    }*/
+/*    .project-icon img {*/
+/*        height: 65%;*/
+/*        margin-left: -2.2em;*/
+/*    }*/
+/*    .project.img {*/
+/*        text-align: center;*/
+/*        margin: 3em 5em 3em -2em;*/
+/*        padding: 1em;*/
+/*        width: 250px;*/
+/*        height: 250px;*/
+/*        clear: right;*/
+/*    }*/
+/*    h1 #project_type{*/
+/*        margin-top: 4em;*/
+/*    }*/
+/*    #projects_nav {*/
+/*        padding: 2em 0 1em 3em;*/
+/*        margin-top: 5em;*/
+/*    }*/
+/*    .navbar-default .project_nav {*/
+/*        margin-top: 10px;*/
+/*        margin-left: 150px;*/
+/*    }*/
+/*    .container.projects h1 {*/
+/*        margin-bottom: -.75em;*/
+/*    }*/
+/*}*/
+/**/
+
+/*@media (max-width: 768px) {*/
+/*    #about h1 {*/
+/*        margin-top: 0.25em;*/
+/*        font-size: 4vw;*/
+/*    }*/
+/*    #about p {*/
+/*        margin: 20px 0 0 20px;*/
+/*    }*/
+/*    #about_bio  p{*/
+/*        font-size: 1.5em;*/
+/*        margin: 20px 40px 20px 0;*/
+/*        padding-right: 0;*/
+/*    }*/
+/*    section.project-icon {*/
+/*        height: 350px;*/
+/*        width:350px;*/
+/*        display: inline-block;*/
+/*/*        padding-top: 20px;*/*/
+/*        margin-bottom: 10px;*/
+/*        margin-left: 80px;*/
+/*        margin-top: 60px;*/
+/*    }*/
+/*    .section.bigbox .projects{*/
+/*        margin-top: 5em;*/
+/*    }*/
+/*    .section.bigbox h5{*/
+/*        margin-top: .25em;*/
+/*    }*/
+/*    .nav_name {*/
+/*        margin-left: -.5em;*/
+/*    }*/
+/*    p#about_2.about.phone {*/
+/*        font-size: 12%;*/
+/*    }*/
+/*    .project-icon img {*/
+/*        height: 100%;*/
+/*    }*/
+/*    .project-icon {*/
+/*        height: 350px;*/
+/*        display: inline-block;*/
+/*/*        padding-top: 50px;*/*/
+/*        margin: 0;*/
+/*    }*/
+/*    .section-hero {*/
+/*        background-image: url('../images/hero2_2_op.jpg');*/
+/*    }*/
+/*    .white-section .section-header h2 {*/
+/*        font-size: 5vw;*/
+/*    }*/
+/*    .down {*/
+/*        margin-left: 43%;*/
+/*    }*/
+/*    #projects_nav {*/
+/*        float: left;*/
+/*/*        clear: both;*/*/
+/*        line-height: 60%;*/
+/*        color: #ff8700;*/
+/*        display: inline;*/
+/*        padding-bottom: 0;*/
+/*        padding-left: 50px;*/
+/*    }*/
+/*    .navbar-default .project_nav {*/
+/*        margin-top: -60px;*/
+/*    }*/
+/*    .navbar-default .navbar-nav>li>a {*/
+/*        line-height: 15%;*/
+/*    }*/
+/*    .header-logo img {*/
+/*        margin-right: 1em;*/
+/*    }*/
+/**/
+/**/
+/*}*/
+/**/
+/**/
+/*@media (max-width: 1000px) {*/
+/*    .section.bigbox #project_desc h3 {*/
+/*        margin-top: 250px;*/
+/*    }*/
+/*}*/
+/*    #_button a {*/
+/*        font-size: 30%;*/
+/*        width: 2em;*/
+/*        height: 1.5em;*/
+/*        margin: 0;*/
+/*        font-weight: 100;*/
+/*    }*/
+/**/
+/*    #_button_nav {*/
+/*        font-size: 40%;*/
+/*        width: 6em;*/
+/*        height: 2em;*/
+/*        margin: 0 1em;*/
+/*        font-weight: 100;*/
+/*    }*/
+/**/
+/*    #_button {*/
+/*        font-size: 80%;*/
+/*        margin: 0 0 0 10em;*/
+/*        font-weight: 200;*/
+/*    }*/
+/**/
+/*    .button_table td {*/
+/*        font-weight: 200;*/
+/*        font-size: 60px;*/
+/*    }*/
+/**/
+/*    .button_table {*/
+/*        margin-left: -2em;*/
+/*    }*/
+/**/
+/*    .button_table a {*/
+/*        font-size: 1.5em;*/
+/*        margin-left: -4em;*/
+/*        /*        padding-left: 5em;*/*/
+/*    }*/
+/**/
+/*    #about h1 {*/
+/*        margin-top: 0.25em;*/
+/*        font-size: 4.5vw;*/
+/*    }*/
+/**/
+/*    .white-section .section-header h2 {*/
+/*        font-size: 1.5em;*/
+/*        margin-bottom: 20px;*/
+/*    }*/
+/**/
+/*    .projects {*/
+/*        margin-top: 5em;*/
+/*    }*/
+/**/
+/*    .project-icon img {*/
+/*        height: 100%;*/
+/*        margin: -20px 0 40px -100px;*/
+/*    }*/
+/**/
+/*    #about_2 p {*/
+/*        font-size: 1.5em;*/
+/*        margin: 120px 0 20px 250px;*/
+/*        padding-right: 1em;*/
+/*    }*/
+/*    #project_desc {*/
+/*        margin-top: 150px;*/
+/*    }*/
+/*}*/
+/**/
+/**/
+/*@media (max-width: 610px) {*/
+/*    #about h1 {*/
+/*        margin-top: 0.25em;*/
+/*        font-size: 5vw;*/
+/*    }*/
+/*    .white-section .section-header h2 {*/
+/*        font-size: 5.5vw;*/
+/*    }*/
+/*    .navbar-default .project_nav {*/
+/*        margin-left: 100px;*/
+/*    }*/
+/*}*/
+/**/
+/*@media (max-width: 990px) {*/
+/*     h1 {*/
+/*        font-size: 20%;*/
+/*     }*/
+/*    .logo img {*/
+/*        width: 150px;*/
+/*        height: 150px;*/
+/*        margin-left: 60px;*/
+/*        margin-bottom: -20px;*/
+/*    }*/
+/*    #about p {*/
+/*        margin: 20px -20px;*/
+/*        font-size: 1.75em;*/
+/*        font-weight: 100;*/
+/*        text-align: start;*/
+/*    }*/
+/*    #about h1 {*/
+/*        margin-top: 0.25em;*/
+/*        font-weight: 100;*/
+/*        font-size: 5vw;*/
+/*    }*/
+/*    #about_2 p {*/
+/*       margin: 20px -10px 20px 0;*/
+/*        font-size: 2.5em;*/
+/*        font-weight: 100;*/
+/*        text-align: start;*/
+/*    }*/
+/*    .col-md-6 {*/
+/*        margin: 0 -2em 0 1em;*/
+/*    }*/
+/*    .section.bigbox h5{*/
+/*        margin: .25em 4em 0 1em;*/
+/*        padding-right: 1em;*/
+/*    }*/
+/*    .section.bigbox h3 {*/
+/*         margin-top: 150px;*/
+/*        font-size: 80%;*/
+/*     }*/
+/*    .project-icon img {*/
+/*/*        height: 180%;*/*/
+/*        padding-top: 20px;*/
+/*/*        margin: -.5em 0 -5em 1em;*/*/
+/*        }*/
+/*    #_button {*/
+/*        font-size: 80%;*/
+/*        margin: 0 3em 0 0;*/
+/*        font-weight: 200;*/
+/*    }*/
+/*    #_button a {*/
+/*        font-size: 30%;*/
+/*        width: 2em;*/
+/*        height: 1.5em;*/
+/*        margin: 0;*/
+/*        font-weight: 100;*/
+/*    }*/
+/*    #_button_nav  {*/
+/*        font-size: 40%;*/
+/*        width: 6em;*/
+/*        height: 2em;*/
+/*        margin: 0 2em 0 0;*/
+/*        font-weight: 100;*/
+/*    }*/
+/*    .button_table td {*/
+/*        font-weight: 200;*/
+/*        font-size: 30%;*/
+/*    }*/
+/*    .button_table  {*/
+/*        margin-left: -2em;*/
+/*    }*/
+/*    .button_table  a {*/
+/*        font-size: 1.5em;*/
+/*/*        margin-left: -4em;*/*/
+/*        padding-left: 8em;*/
+/*    }*/
+/*    .down {*/
+/*        margin-left: 42%;*/
+/*    }*/
+/*    .container.projects h1 {*/
+/*        margin-bottom: -4.5em;*/
+/*    }*/
+/*    .orange-underline {*/
+/*             margin: .5em 0;*/
+/*         }*/
+/*    .product_desc {*/
+/*        margin-top: 150px;*/
+/*    }*/
+/*}*/
+/**/
+/*@media (max-width: 540px) {*/
+/*    #about h1 {*/
+/*        font-size: 5vw;*/
+/*    }*/
+/*    .down {*/
+/*        margin-left: 42%;*/
+/*    }*/
+/*    .col-md-6 {*/
+/*/*        margin: 0 -1em 0 2em;*/*/
+/*    }*/
+/*    .down {*/
+/*        margin-left: 41%;*/
+/*    }*/
+/*    .white-section .section-header h2 {*/
+/*        font-size: 1.5em;*/
+/*        margin-bottom: 20px;*/
+/*    }*/
+/*    .container.projects h1 {*/
+/*        margin-bottom: -3em;*/
+/*    }*/
+/*    .orange-underline {*/
+/*        margin: .5em 1.25em;*/
+/*    }*/
+/**/
+/**/
+/*}*/
 @media (max-width: 480px) {
     .nav_name {
         margin-left: -.8em;
@@ -1505,12 +1620,14 @@ a.button:hover {
         margin: .5em 1.75em;
     }
     .section.bigbox h5{
-        margin .25em 5em 0 1em;
+        margin: .25em 5em 0 1em;
     }
+    .section.bigbox h3 {
+         margin-left: -1em;
+     }
     #about_2 p {
         margin: 0 1em;
     }
-}
     .project-icon img {
         height: 95%;
         padding-top: 20px;
@@ -1525,7 +1642,7 @@ a.button:hover {
     #network-text p {
         font-size: 8px;
         height: 25%;
-        top: ;
+        top: 0;
         transform: translate(-10%, 0%);
         line-height: 10px;
     }
@@ -1580,7 +1697,7 @@ a.button:hover {
     #about_2 p {
         font-size: 1.5em;
         margin-top: 5px;
-        margin-left: 0;
+/*        margin-left: 0;*/
 /*        padding-right: 2.2em;*/
     }
     p #about_2 .bio  {
@@ -1686,7 +1803,7 @@ a.button:hover {
         max-height: 481px;
     }
     .project-icon img {
-        height: 70%;
+        height: 90%;
         margin-bottom: 1em;
         margin-left: -4em;
     }
@@ -1695,7 +1812,7 @@ a.button:hover {
         width:350px;
         display: inline-block;
         padding-top: 50px;
-        margin: -.5em 0 -8em 1em;
+        margin: -2.5em 0 -5em 0;
     }
     .nav_name {
         margin-left: -.85em;
@@ -1777,10 +1894,13 @@ a.button:hover {
         margin: .5em 1.75em;
     }
     .section.bigbox h5{
-        margin .25em 5em 0 1em;
+        margin: .25em 5em 0 0;
+    }
+    .section.bigbox h3{
+        margin-left: -40px;
     }
     #about_2 p {
-        margin: 0 4em 0 5%;
+        margin-top: 20px;
     }
     #about_bio  p{
         font-size: 1.5em;
@@ -1833,7 +1953,7 @@ a.button:hover {
     .orange-underline {
         margin: .5em 4em 0 1em;
         padding: 0 2em;
-        <!-- width: 310px; -->
+/*        <!-- width: 310px; -->*/
     }
     .container.projects h1 {
         margin-left: 0;
@@ -1877,4 +1997,22 @@ a.button:hover {
     h3.orange-underline {
         margin-left: -4em;
     }
+}
+@media (min-width: 1200px) {
+    body {
+        background-size: cover;
+    }
+    #about h1 {
+        font-size: 3vw;
+    }
+    .navbar {
+        margin-top; 1em;
+    }
+    .section.bigbox h4 {
+        margin: 20px 0 0 30px;
+    }
+    .section.bigbox h3 {
+        margin-top: 20px;
+    }
+
 }

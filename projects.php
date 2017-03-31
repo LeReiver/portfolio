@@ -32,23 +32,25 @@
         <div id="about" class="project-icon">
             <div class="container">
                 <div class="row" style="margin-bottom: 2em;">
-                    <div class="col-md-6">
+                    <div class="col-lg-6 col-xl-12">
                         <div>
                             <div class="project-icon"><a href="includes/images/ccs_lg.jpg" id="ccs"
                                                          data-lightbox="vector" data-title="CCS"><img src="includes/img/ccs_desktop.jpg" alt="CCS" title="Click To View"></a>
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-6">
-                        <h3>Coordinated Consulting Services</h3>
-                        <h4>Web Development <span id="pipe">|</span> Web Design <span id="pipe">|</span>  Web Consulting</h4>
-                        <p id="skills">A private and secure web application for a confidential consulting firm. A database connected web application built with PHP & MySQL,
-                            requiring user account creation and access, user input and uploads to remote database with report generation capabilities.</p>
-                        <table class="button_table">
-                            <tr>
-                                <!-- <td><h4><a href="/../php/ccs" target="_blank"><button id="_button" > To Website</button></a></h4></td>-->
-                            </tr>
-                        </table>
+                    <div class="col-lg-6 col-xl-12">
+                        <div class="project_desc">
+                            <h3 >Coordinated Consulting Services</h3>
+                            <h4>Web Development <span id="pipe">|</span> Web Design <span id="pipe">|</span>  Web Consulting</h4>
+                            <p id="skills">A private and secure web application for a confidential consulting firm. A database connected web application built with PHP & MySQL,
+                                requiring user account creation and access, user input and uploads to remote database with report generation capabilities.</p>
+                            <table class="button_table">
+                                <tr>
+                                     <td><h4><a href="https://plum.hostpond.com/~lereive2/ccs/" target="_blank"><button id="_button" >To Website</button></a></h4></td>
+                                </tr>
+                            </table>
+                        </div>
                     </div>
                 </div>
 
