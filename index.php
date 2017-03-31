@@ -153,6 +153,11 @@
 <?php require('footer.php'); ?>
 <?php require('includes/header_slider.php');?>
 <?php require('includes/smooth_scroll.php');?>
+<script>
+    $(document).ready(function(){
+        $("[href='index.php#my_skills']").addClass("selected");
+    });
+</script>
 </body>
 
 </html>

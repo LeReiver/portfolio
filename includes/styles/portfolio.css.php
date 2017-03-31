@@ -38,6 +38,7 @@ h1 {
     font-stretch: extra-expanded;
     color: #ff8700;
 }
+
 li {
     color: rgb(25, 46, 51);
 }
@@ -87,11 +88,11 @@ li {
     font-family: gentonalight, sans-serif;
 }
 .project-icon {
-    height: 350px;
+/*    height: 350px;*/
     display: inline-block;
-    padding-top: 38px;
-    margin-bottom: -4em;
-    margin-right: 20px;
+/*    padding-top: 38px;*/
+/*    margin-bottom: -4em;*/
+    margin-left: -15px;
 }
 .logo-icon {
     height: 350px;
@@ -101,7 +102,7 @@ li {
     margin-bottom: 1px;
 }
 .project-icon img {
-    height: 80%;
+    height: 450px;
 }
 .logo-icon img {
     margin-top: 1em;
@@ -129,7 +130,7 @@ li {
     margin-top: 0;
     padding-bottom: 8px;
     border-bottom: 2px solid #ff8700;
-    font-size: 150%;
+/*    font-size: 150%;*/
     font-weight: 300;
 }
 .orange-underline table {
@@ -203,19 +204,21 @@ li {
     padding-right: 3em;
     margin-right: 3em;
 }
-.navbar-default .navbar-nav>li>a.current {
-    border-bottom: groove #ff8700 1em;
-    color: #e96656;
-
+.navbar-default .navbar-nav>li>a.selected {
+    color: #ff8700;
 }
-.navbar-default .navbar-nav>.active>a {
-/*    background-color: #eee!important;*/
-    border-bottom: groove #ff8700 1em;
-    color: #e96656;
+.navbar-default .navbar-nav>a {
+    color: #777;
 }
-.navbar-default .nav>li>a:hover, .navbar-default .nav>li>a:focus, .navbar-default .navbar-nav>.active>a:hover {
-    background-color: #eee;
-    color: #e96656;
+/*.navbar-default .navbar-nav>.active>a {*/
+/*     color: #ff8700;*/
+/* }*/
+/*.navbar-default .navbar-nav>.active.selected>a {*/
+/*      color: #ff8700;*/
+/*  }*/
+.navbar-default .nav>li>a:hover, .navbar-default .nav>li>a:focus, .navbar-default .navbar-nav>.selected>a:hover {
+/*    background-color: #eee;*/
+    color: #ff8700;
 }
 .navbar-nav>li>a {
     padding-top: 27px;
@@ -246,6 +249,7 @@ li {
 }
 .navbar-default .navbar-toggle {
     border-color: #ff8700;
+    transition: 0.8s;
 }
 .navbar-default .navbar-brand img.small {
     display: none;
@@ -264,6 +268,7 @@ li {
 .nav_list li:hover {
     color: #ff8700;
     font-size: 120%;
+    transition: 0.8s;
 }
 .nav_brand {
     margin-top: -2em;
@@ -297,7 +302,10 @@ ul.topnav li a {
     font-size: 17px;
 }
 
-ul.topnav li a:hover {background-color: #555;}
+ul.topnav li a:hover {
+    background-color: #555;
+    transition: 0.8s;
+}
 
 ul.topnav li.icon {display: none;}
 
@@ -418,14 +426,25 @@ ul.topnav li.icon {display: none;}
 }
 .section.bigbox {
     padding: 0;
-    background-color: #144A6C;
+    background-color: #fff;
 }
 .section.bigbox h5{
     font-size: 180%;
     font-weight: 300;
-    color: #fff;
+/*    color: #fff;*/
     border-bottom: 2px solid #ff8700;
-    margin-left: -18px;
+/*    margin-top: 30px;*/
+}
+
+.section.bigbox h4 {
+    font-family: gentonalight, sans-serif;
+    color: #777;
+    margin-top: 20px;
+}
+.section.bigbox h3 {
+    font-family: gentonalight, sans-serif;
+    color: #333;
+    margin-top:20px;
 }
 .section.bigbox.speech p {
     padding: 1em 4em;
@@ -544,17 +563,24 @@ ul.topnav li.icon {display: none;}
     font-weight: 200;
 }
 #about_2 p {
-    font-size: 1.5em;
+    font-size: 1.75em;
     font-weight: 200;
-    margin: 20px 20px 20px 0;
-    color: #fff;
+    margin: 20px 0 0 80px;
+    color: #333;
+    line-height: 120%;
+}
+#pipe {
+    color: #333;
+    font-size: 150%;
+    margin-top: 2px;
+    font-weight: 100;
 }
 #about_bio  p{
     font-size: 1.5em;
     margin: 20px 40px 20px 0;
     padding-right: 0;
     text-align: start;
-    color: #fff;
+    color: #777;
 }
 img.fullwidth {
     width: 100%;
@@ -632,9 +658,9 @@ a.button:hover {
     height: 100%;
 }
 #_button {
-    color: #fff;
+    color: #ff8700;
     background: transparent;
-    border: thin #ff8700 solid;
+    border: thin #333 solid;
     -webkit-border-radius: 3px;
     -moz-border-radius: 3px;
     border-radius: 3px;
@@ -645,6 +671,7 @@ a.button:hover {
     height: 2em;
     margin: 0 0 0 15em;
     font-weight: 200;
+    transition: 0.8s;
 }
 #_button_contact {
     color: #fff;
@@ -659,6 +686,7 @@ a.button:hover {
     width: 6em;
     height: 1.5em;
     font-weight: 200;
+    transition: 0.8s;
 }
 #_button_nav {
     color: rgb(25, 46, 51);
@@ -674,28 +702,31 @@ a.button:hover {
     height: 1.5em;
     margin: 0 1em;
     font-weight: 100;
+    transition: 0.8s;
 }
 #_button:hover {
-    background-color: rgb(255, 255, 255);
-    color: #ff8700;
-    border: thin rgb(62, 88, 93) solid;
-
+    background-color: rgba(196, 185, 193, 0.2);
+    color: #000;
+    border: thin #ff8700 solid;
+    transition: 0.8s;
 }
 #_button:active {
     background-color: rgb(255, 255, 255);
     color: #ff8700;
     border: thin rgb(62, 88, 93) solid;
-
+    transition: 0.8s;
 }
 #_button_nav:hover {
     background-color: rgb(255, 255, 255);
     color: #ff8700;
     border: thin rgb(62, 88, 93) solid;
+    transition: 0.8s;
 }
 #_button_contact:hover {
     background-color: rgb(255, 255, 255);
     color: #ff8700;
     border: thin rgb(62, 88, 93) solid;
+    transition: 0.8s;
 }
 .button_table td {
     /*    padding: 2em 1em 2em 1em;
@@ -754,7 +785,7 @@ a.button:hover {
     padding: .5em 1em;
 }
 .row {
-    margin: -2em 1.75em;
+/*    margin: -2em 1.75em;*/
     padding: .5em 0;
 }
 .row_project {
@@ -799,6 +830,9 @@ a.button:hover {
       }
     .navbar {
         margin-top 1em;
+    }
+    .section.bigbox h4 {
+        margin: 20px 0 0 30px;
     }
 
 }
@@ -1012,6 +1046,10 @@ a.button:hover {
     }
     .section.bigbox h5{
         margin-top: -1.75em;
+    }
+    .section.bigbox h4 {
+        margin: 20px 0 0 -20px;
+        font-size: 100%;
     }
     .section.project.img {
         text-align: center;

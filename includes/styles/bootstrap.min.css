@@ -4895,10 +4895,19 @@ select[multiple].input-group-sm > .form-control, select[multiple].input-group-sm
     background-color: transparent
 }
 
-.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover {
-    color: #555;
-    background-color: #e7e7e7
+.navbar-default .navbar-nav > a, .navbar-default .navbar-nav > a:focus, .navbar-default .navbar-nav {
+    color: #777;
+    background-color: transparent
 }
+.navbar-default .navbar-nav > .hover > a, .navbar-default .navbar-nav > .hover > a:focus, .navbar-default .navbar-nav > a:hover {
+    color: #ff8700;
+    background-color: transparent
+}
+.navbar-default .navbar-nav > .hover > .active. > selected > a, .navbar-default .navbar-nav > .hover > .active. > selected > a:focus, .navbar-default .navbar-nav > a:hover > .active > .selected {
+    color: #ff8700;
+    background-color: transparent
+}
+
 
 .navbar-default .navbar-nav > .disabled > a, .navbar-default .navbar-nav > .disabled > a:focus, .navbar-default .navbar-nav > .disabled > a:hover {
     color: #ccc;

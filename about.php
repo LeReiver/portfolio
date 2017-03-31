@@ -67,5 +67,10 @@
         </div>
     </div>
 <?php require('footer.php'); ?>
+<script>
+    $(document).ready(function(){
+        $("[href='about.php']").addClass("selected");
+    });
+</script>
 </body>
 </html>
