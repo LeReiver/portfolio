@@ -66,7 +66,7 @@
                     <div class="col-lg-6 col-xl-12">
                         <div class="project_desc">
                             <h3>Kitchen Commons</h3>
-                                <h4>Web Development <span id="pipe">|</span> Web Design <span id="pipe">|</span>  Web Consulting</h4>
+                                <h4>Web Design <span id="pipe">|</span> Site Migration <span id="pipe">|</span>SEO Augmentation</h4>
                             <p id="skills">As a web development intern for a non-profit organization Kitchen Commons, I assisted in migrating the organization's old Drupal site to a new WordPress site.
                                 I redesigned the new site with custom theme styling implementing changes that enhanced usability, managed plugins and widgets and applied SEO practices.</p>
                             <table class="button_table">
@@ -89,7 +89,7 @@
                     <div class="col-lg-6 col-xl-12">
                         <div class="project_desc">
                             <h3>Guano (Band)</h3>
-                             <h4>Web Development <span id="pipe">|</span> Web Design <span id="pipe">|</span>  Web Consulting</h4>
+                             <h4>Web Development <span id="pipe">|</span> Web Design </h4>
                             <p id="skills">A mobile-first website, built with PHP and jQuery and a responsive CSS grid utilizing LESS. I Incorporated a modifiable Audio Controller Plugin as an audio player.</p>
                             <table class="button_table">
                                 <tr>
@@ -112,7 +112,7 @@
                     <div class="col-lg-6 col-xl-12">
                         <div class="project_desc">
                             <h3>Burrito Masala</h3>
-                            <h4>Web Development <span id="pipe">|</span> Web Design <span id="pipe">|</span>  Web Consulting</h4>
+                            <h4>Web Development <span id="pipe">|</span> Web Design </h4>
                             <p id="skills">This fictitious food cart mobile-first website was built with PHP, utilizing responsive CSS and LESS.</p>
                             <table class="button_table">
                                 <tr>
@@ -134,7 +134,7 @@
                     <div class="col-lg-6 col-xl-12">
                         <div class="project_desc">
                             <h3>Buddha Bellies Noodle House</h3>
-                            <h4>Web Development <span id="pipe">|</span> Web Design <span id="pipe">|</span>  Web Consulting</h4>
+                            <h4>Web Development <span id="pipe">|</span> Web Design </h4>
                             <p id="skills">A fictitious restaurant website built with hand rolled HTML5 and CSS3.</p>
                             <table class="button_table">
                                 <tr>
@@ -156,7 +156,7 @@
                     <div class="col-lg-6 col-xl-12">
                         <div class="project_desc">
                             <h3>Well Fed Adventures</h3>
-                            <h4>Web Development <span id="pipe">|</span> Web Design <span id="pipe">|</span>  Web Consulting</h4>
+                            <h4>Web Development <span id="pipe">|</span> Web Design </h4>
                             <p id="skills">A Dreamweaver website built for a fictitious culinary travel company.</p>
                             <table class="button_table">
                                 <tr>
@@ -178,7 +178,7 @@
                     <div class="col-lg-6 col-xl-12">
                         <div class="project_desc">
                             <h3>Dual Purpose Motorcycles</h3>
-                            <h4>Web Development <span id="pipe">|</span> Web Design <span id="pipe">|</span>  Web Consulting</h4>
+                            <h4>Web Development <span id="pipe">|</span> Web Design</h4>
                             <p id="skills">A simple, informative website built using AJAX and jQuery.</p>
                             <table class="button_table">
                                 <tr>
@@ -200,7 +200,7 @@
                     <div class="col-lg-6 col-xl-12">
                         <div class="project_desc">
                             <h3>Graphics for Multimedia</h3>
-                            <h4>Web Development <span id="pipe">|</span> Web Design <span id="pipe">|</span>  Web Consulting</h4>
+                            <h4>Web Development <span id="pipe">|</span> Web Design</h4>
                             <p id="skills">This website was developed to showcase my Adobe Photoshop for multimedia capabilities.</p>
                             <table class="button_table">
                                 <tr>
@@ -222,7 +222,7 @@
                     <div class="col-lg-6 col-xl-12">
                         <div class="project_desc">
                             <h3>A Tip Calculator</h3>
-                            <h4>Web Development <span id="pipe">|</span> Web Design <span id="pipe">|</span>  Web Consulting</h4>
+                            <h4>Web Development <span id="pipe">|</span> Web Design </h4>
                             <p id="skills">Built with PHP, HTML5 and CSS3.</p>
                             <table class="button_table">
                                 <tr>
@@ -244,7 +244,7 @@
                         <div class="col-lg-6 col-xl-12">
                             <div class="project_desc">
                         <h3>Cooking Volume Converter</h3>
-                                <h4>Web Development <span id="pipe">|</span> Web Design <span id="pipe">|</span>  Web Consulting</h4>
+                                <h4>Web Development <span id="pipe">|</span> Web Design </h4>
                         <p id="skills">
                         <p>Built using PHP, jQuery, AJAX, HTML5 and CSS3.</p>
                         <table class="button_table">
@@ -267,7 +267,7 @@
                     <div class="col-lg-6 col-xl-12">
                         <div class="project_desc">
                         <h3>Drums</h3>
-                        <h4>Web Development <span id="pipe">|</span> Web Design <span id="pipe">|</span>  Web Consulting</h4>
+                        <h4>Android App Development <span id="pipe">|</span> App Design </h4>
                         <p id="skills">A rudimentary drum machine with language support for Italian and Japanese.</p>
                         <table class="button_table">
                             <tr>
@@ -289,7 +289,7 @@
                     <div class="col-lg-6 col-xl-12">
                         <div class="project_desc">
                             <h3>Pig Latin Name Converter</h3>
-                            <h4>Web Development <span id="pipe">|</span> Web Design <span id="pipe">|</span>  Web Consulting</h4>
+                            <h4>Android App Development <span id="pipe">|</span> App Design </h4>
                             <p id="skills"> Using string manipulations, this Android app converts names into Pig Latin.</p>
                             <table class="button_table">
                                 <tr>
@@ -311,7 +311,7 @@
                     <div class="col-lg-6 col-xl-12">
                         <div class="project_desc">
                             <h3>Fragmented Drums</h3>
-                            <h4>Web Development <span id="pipe">|</span> Web Design <span id="pipe">|</span>  Web Consulting</h4>
+                            <h4>Android App Development <span id="pipe">|</span> App Design </h4>
                             <p id="skills">This an Android App. Same as Drums, but designed with using Fragments.</p>
                             <table class="button_table">
                                 <tr>
@@ -333,7 +333,7 @@
                     <div class="col-lg-6 col-xl-12">
                         <div class="project_desc">
                             <h3>Dataview</h3>
-                            <h4>Web Development <span id="pipe">|</span> Web Design <span id="pipe">|</span>  Web Consulting</h4>
+                            <h4>Android App Development <span id="pipe">|</span> App Design </h4>
                             <p id="skills"> This app was built to showcase the ability to connect to secure database and output data tables.</p>
                             <table class="button_table">
                                 <tr>

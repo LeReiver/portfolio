@@ -394,8 +394,8 @@ ul.topnav li.icon {display: none;}
     font-family: gentonalight, sans-serif;
 }
 #about.w3-content h1{
-    margin; 0 0 0 3em;
-    font-size: 2.2em;
+    margin: 0 0 0 3em;
+    font-size: 2em;
     color: #ff8700;
     font-stretch: extra-expanded;
     font-weight: 200;
@@ -1098,7 +1098,7 @@ a.button:hover {
     #about h1 {
         margin-top: 0.25em;
         font-weight: 100;
-        font-size: 5vw;
+        font-size: 3vw;
     }
     #about_2 p {
         margin: 20px -10px 20px 0;
@@ -1199,6 +1199,9 @@ a.button:hover {
         padding-top: .25em;
         padding-bottom: 10px;
         font-family: gentonalight, sans-serif;
+    }
+    .section-hero {
+        background-image: url('../images/hero2_2_op.jpg');
     }
     #network-text p {
         font-size: 11px;
@@ -1347,7 +1350,7 @@ a.button:hover {
 /*        height: 350px;*/
 /*        width:350px;*/
 /*        display: inline-block;*/
-/*/*        padding-top: 20px;*/*/
+/*/*        padding-top: 20px;*/
 /*        margin-bottom: 10px;*/
 /*        margin-left: 80px;*/
 /*        margin-top: 60px;*/
@@ -1370,7 +1373,7 @@ a.button:hover {
 /*    .project-icon {*/
 /*        height: 350px;*/
 /*        display: inline-block;*/
-/*/*        padding-top: 50px;*/*/
+/*/*        padding-top: 50px;*/
 /*        margin: 0;*/
 /*    }*/
 /*    .section-hero {*/
@@ -1384,7 +1387,7 @@ a.button:hover {
 /*    }*/
 /*    #projects_nav {*/
 /*        float: left;*/
-/*/*        clear: both;*/*/
+/*        clear: both;*/
 /*        line-height: 60%;*/
 /*        color: #ff8700;*/
 /*        display: inline;*/
@@ -1444,7 +1447,7 @@ a.button:hover {
 /*    .button_table a {*/
 /*        font-size: 1.5em;*/
 /*        margin-left: -4em;*/
-/*        /*        padding-left: 5em;*/*/
+        /*        padding-left: 5em;*/
 /*    }*/
 /**/
 /*    #about h1 {*/
@@ -1494,7 +1497,7 @@ a.button:hover {
 
 @media (max-width: 590px) {
      h1 {
-        font-size: 20%;
+        font-size: 80%;
      }
     .logo img {
         width: 150px;
@@ -1515,7 +1518,7 @@ a.button:hover {
     }
     #about_2 p {
        margin: 20px -10px 20px 0;
-        font-size: 2.5em;
+        font-size: 1.5em;
         font-weight: 100;
         text-align: start;
     }
@@ -1527,17 +1530,17 @@ a.button:hover {
         padding-right: 1em;
     }
     .section.bigbox h3 {
-         margin-top: 150px;
-        font-size: 80%;
+         margin-top: 50px;
+        font-size: 180%;
      }
     .project-icon img {
-        height: 70%;
+        height: 95%;
         padding-top: 20px;
-/*        margin: -.5em 0 -5em 1em;*/
+        margin: -.5em 0 -5em -100px;
         }
     #_button {
-        font-size: 80%;
-        margin: 0 3em 0 0;
+        font-size: 220%;
+        margin: 0 0 0 40px;
         font-weight: 200;
     }
     #_button a {
@@ -1646,9 +1649,6 @@ a.button:hover {
     h1 {
         font-size: 2em;
     }
-    .section.bigbox h4 {
-        margin-left: -60px;
-    }
     #network-text p {
         font-size: 8px;
         height: 25%;
@@ -1751,7 +1751,7 @@ a.button:hover {
         margin-left: -60px;
     }
     .section.bigbox h3 {
-        margin-top: 30px;
+        margin-top: 50px;
     }
     .orange-underline {
         margin: .5em 0;

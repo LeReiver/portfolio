@@ -29,8 +29,8 @@
       <file leaf-file-name="projects.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/projects.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="298">
-              <caret line="233" column="16" selection-start-line="233" selection-start-column="16" selection-end-line="233" selection-end-column="16" />
+            <state relative-caret-position="390">
+              <caret line="315" column="56" selection-start-line="315" selection-start-column="56" selection-end-line="315" selection-end-column="56" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -47,26 +47,26 @@
                 <element signature="n#style#0;n#div#11;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#12;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#13;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <marker date="1491026563000" expanded="false" signature="1496:1595" placeholder="..." />
-                <marker date="1491026563000" expanded="false" signature="7849:7864" placeholder="..." />
-                <marker date="1491026563000" expanded="false" signature="10622:10637" placeholder="..." />
+                <marker date="1491028672000" expanded="false" signature="1496:1595" placeholder="..." />
+                <marker date="1491028672000" expanded="false" signature="7768:7783" placeholder="..." />
+                <marker date="1491028672000" expanded="false" signature="10461:10476" placeholder="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="drums.png" pinned="false" current-in-tab="true">
+      <file leaf-file-name="drums.png" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/includes/img/drums.png">
           <provider selected="true" editor-type-id="images">
             <state />
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="portfolio.css.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="portfolio.css.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/includes/styles/portfolio.css.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="1505" column="27" selection-start-line="1505" selection-start-column="27" selection-end-line="1505" selection-end-column="27" />
+            <state relative-caret-position="403">
+              <caret line="1753" column="21" selection-start-line="1753" selection-start-column="21" selection-end-line="1753" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -111,8 +111,8 @@
         <option value="$PROJECT_DIR$/navigation.php" />
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/skills.php" />
-        <option value="$PROJECT_DIR$/includes/styles/portfolio.css.php" />
         <option value="$PROJECT_DIR$/projects.php" />
+        <option value="$PROJECT_DIR$/includes/styles/portfolio.css.php" />
       </list>
     </option>
   </component>
@@ -126,10 +126,10 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="PHP" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="212" />
-    <option name="y" value="38" />
-    <option name="width" value="1708" />
-    <option name="height" value="1042" />
+    <option name="x" value="194" />
+    <option name="y" value="31" />
+    <option name="width" value="1685" />
+    <option name="height" value="949" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -222,24 +222,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="scripts" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="port_02" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="port_02" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="includes" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="img" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -427,7 +409,7 @@
       <workItem from="1479748801062" duration="2507000" />
       <workItem from="1479847132893" duration="6000" />
       <workItem from="1490916672059" duration="1069000" />
-      <workItem from="1490977422211" duration="24695000" />
+      <workItem from="1490977422211" duration="27172000" />
     </task>
     <task id="LOCAL-00001" summary="New branch">
       <created>1476738849746</created>
@@ -555,18 +537,25 @@
       <option name="project" value="LOCAL" />
       <updated>1491000143723</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Modified remaining projects.">
+      <created>1491026837939</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1491026837939</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="434770000" />
+    <option name="totallyTimeSpent" value="437247000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="212" y="38" width="1708" height="1042" extended-state="0" />
+    <frame x="194" y="31" width="1685" height="949" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16986795" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17224589" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -639,7 +628,8 @@
     <MESSAGE value="Added projects. Modified projects navigation." />
     <MESSAGE value="Projects page re-do. Fixed navigation to show current page." />
     <MESSAGE value="Adjusted project mobile layouts." />
-    <option name="LAST_COMMIT_MESSAGE" value="Adjusted project mobile layouts." />
+    <MESSAGE value="Modified remaining projects." />
+    <option name="LAST_COMMIT_MESSAGE" value="Modified remaining projects." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -937,18 +927,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/includes/styles/portfolio.css.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="1505" column="27" selection-start-line="1505" selection-start-column="27" selection-end-line="1505" selection-end-column="27" />
-          <folding />
-        </state>
+    <entry file="file://$PROJECT_DIR$/includes/img/drums.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/projects.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="298">
-          <caret line="233" column="16" selection-start-line="233" selection-start-column="16" selection-end-line="233" selection-end-column="16" />
+        <state relative-caret-position="390">
+          <caret line="315" column="56" selection-start-line="315" selection-start-column="56" selection-end-line="315" selection-end-column="56" />
           <folding>
             <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -965,16 +952,19 @@
             <element signature="n#style#0;n#div#11;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#12;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#13;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1491026563000" expanded="false" signature="1496:1595" placeholder="..." />
-            <marker date="1491026563000" expanded="false" signature="7849:7864" placeholder="..." />
-            <marker date="1491026563000" expanded="false" signature="10622:10637" placeholder="..." />
+            <marker date="1491028672000" expanded="false" signature="1496:1595" placeholder="..." />
+            <marker date="1491028672000" expanded="false" signature="7768:7783" placeholder="..." />
+            <marker date="1491028672000" expanded="false" signature="10461:10476" placeholder="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/includes/img/drums.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
+    <entry file="file://$PROJECT_DIR$/includes/styles/portfolio.css.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="403">
+          <caret line="1753" column="21" selection-start-line="1753" selection-start-column="21" selection-end-line="1753" selection-end-column="21" />
+          <folding />
+        </state>
       </provider>
     </entry>
   </component>
