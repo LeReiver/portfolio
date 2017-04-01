@@ -104,6 +104,10 @@ li {
 .project-icon img {
     height: 450px;
 }
+.project-icon.app img {
+    height: 340px;
+    margin-left: 10px;
+}
 .logo-icon img {
     margin-top: 1em;
 }
@@ -823,7 +827,11 @@ a.button:hover {
 /* ------------------------------  media queries ----------------------------------------*/
 
 
-/*@media (max-width: 1200px) {*/
+/*@media (min-width: 1200px) {*/
+
+    .project-icon img {
+        
+    } 
 /*    .logo img {*/
 /*        width: 250px;*/
 /*        height: 250px;*/
@@ -1021,6 +1029,10 @@ a.button:hover {
         height: 125%;
         margin: -20px 0 40px -80px;
     }
+    .project-icon.app img {
+         height: 315px;
+         margin-left: -70px;
+     }
     .project-icon {
         height: 350px;
         display: inline-block;
@@ -1118,8 +1130,12 @@ a.button:hover {
     }
     .project-icon img {
         height: 150%;
-        padding-top: 20px;
-        /*        margin: -.5em 0 -5em 1em;*/
+/*        padding-top: 20px;*/
+                margin-top: -4em;
+    }
+    .project-icon.app img {
+        height: 380px;
+        margin-left: -90px;
     }
     #_button {
         font-size: 250%;
@@ -1231,7 +1247,14 @@ a.button:hover {
         height: 350px;
         display: inline-block;
         padding-top: 50px;
-        margin: -.5em 0 -4em 1em;
+        margin: -1.5em 0 -4em 1em;
+    }
+    .project-icon.app img {
+         height: 320px;
+         margin-left: -80px;
+     }
+    .project-icon img{
+        margin: -2em 0 0 -2em;
     }
     #about p {
         margin: 20px -20px;
@@ -1333,8 +1356,21 @@ a.button:hover {
 }
 
 
-/*@media (max-width: 768px) {*/
-/*    #about h1 {*/
+@media (max-width: 768px) {
+    .project-icon img {
+        height:140%;
+        margin-top: -8em;
+        margin-left: -7em;
+    }
+    .project-icon.app img {
+        margin-top: -3em;
+        margin-left: -7em;
+    }
+    .section.bigbox h3 {
+        margin-top: 100px;
+    }
+}
+
 /*        margin-top: 0.25em;*/
 /*        font-size: 4vw;*/
 /*    }*/
@@ -1517,7 +1553,7 @@ a.button:hover {
         font-size: 5vw;
     }
     #about_2 p {
-       margin: 20px -10px 20px 0;
+       margin: 20px 10px 20px -60px;
         font-size: 1.5em;
         font-weight: 100;
         text-align: start;
@@ -1530,14 +1566,22 @@ a.button:hover {
         padding-right: 1em;
     }
     .section.bigbox h3 {
-         margin-top: 50px;
-        font-size: 180%;
+         margin-top: -10px;
+        margin-left: -100px;
+        font-size: 160%;
      }
+    .section.bigbox h4 {
+        margin-left: -100px;
+    }
     .project-icon img {
-        height: 95%;
-        padding-top: 20px;
-        margin: -.5em 0 -5em -100px;
+        height: 325px;
+        padding-top: 10px;
+        margin: -8em 0 -5em -100px;
         }
+    .project-icon.app img {
+        height: 285px;
+        margin-left: -70px;
+    }
     #_button {
         font-size: 220%;
         margin: 0 0 0 40px;
@@ -1640,6 +1684,10 @@ a.button:hover {
         height: 95%;
         padding-top: 20px;
         /*        margin: -.5em 0 -5em 1em;*/
+    }
+    .project-icon.app img {
+        height: 340px;
+        margin-left: 10px;
     }
 
 }
@@ -1823,6 +1871,10 @@ a.button:hover {
 /*        margin-bottom: 1em;*/
         margin-left: -4em;
     }
+    .project-icon.app img {
+        height: 340px;
+        margin-left: 10px;
+    }
     .project-icon {
         height: 350px;
         width:350px;
@@ -1917,7 +1969,7 @@ a.button:hover {
         margin: .25em 5em 0 0;
     }
     .section.bigbox h3{
-        margin: 40px 0 0 -40px;
+        margin: -40px 0 0 -40px;
     }
     #about_2 p {
         margin-top: 20px;
@@ -1928,8 +1980,12 @@ a.button:hover {
         padding-right: 0;
     }
     .project-icon img {
-        padding-top: 20px;
-        /*        margin: -.5em 0 -5em 1em;*/
+        padding-top: 10px;
+        margin-left: -6em;
+    }
+    .project-icon.app img {
+        height: 230px;
+        margin-left: -60px;
     }
 }
 
@@ -1969,6 +2025,10 @@ a.button:hover {
         height: 70%;
         margin-bottom: 1em;
         margin-left: -8.5em;
+    }
+    .project-icon.app img {
+        height: 340px;
+        margin-left: 10px;
     }
     .orange-underline {
         margin: .5em 4em 0 1em;

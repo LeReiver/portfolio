@@ -31,7 +31,7 @@
         <!--Websites-->
         <div id="about" class="project-icon">
             <div class="container">
-                <div class="row" style="margin-bottom: 15em;">
+                <div class="row" style="margin: 0 0 10em 0;">
                     <div class="col-lg-6 col-xl-12">
                         <div>
                             <div class="project-icon"><a href="includes/images/ccs_lg.jpg" id="ccs"
@@ -55,7 +55,7 @@
                 </div>
 
 
-                <div class="row" style="margin-bottom: 15em;">
+                <div class="row" style="margin-bottom: 10em;">
                     <div class="col-lg-6 col-xl-12">
                         <div>
                             <div class="project-icon"><a href="includes/images/kitchen_commons_lg.jpg" id="kitchen_commons"
@@ -78,7 +78,7 @@
                     </div>
                 </div>
 
-                <div class="row" style="margin-bottom: 15em;">
+                <div class="row" style="margin-bottom: 10em;">
                     <div class="col-lg-6 col-xl-12">
                         <div>
                             <div class="project-icon"><a href="includes/images/guano_lg.jpg" id="guano"
@@ -101,7 +101,7 @@
                 </div>
 
 
-                <div class="row" style="margin-bottom: 15em;">
+                <div class="row" style="margin-bottom: 10em;">
                     <div class="col-lg-6 col-xl-12">
                         <div>
                             <div class="project-icon"><a href="includes/images/burrito_lg.jpg" id="burrito_masala"
@@ -123,7 +123,7 @@
                     </div>
                 </div>
 
-                <div class="row" style="margin-bottom: 15em;">
+                <div class="row" style="margin-bottom: 10em;">
                     <div class="col-lg-6 col-xl-12">
                         <div>
                             <div class="project-icon"><a href="includes/images/buddha_bellies_lg.jpg" id="buddha_bellies"
@@ -145,7 +145,7 @@
                     </div>
                 </div>
 
-                <div class="row" style="margin-bottom: 15em;">
+                <div class="row" style="margin-bottom: 10em;">
                     <div class="col-lg-6 col-xl-12">
                         <div>
                             <div class="project-icon"><a href="includes/images/well_fed_lg.jpg" id="well_fed"
@@ -167,7 +167,7 @@
                     </div>
                 </div>
 
-                <div class="row" style="margin-bottom: 15em;">
+                <div class="row" style="margin-bottom: 10em;">
                     <div class="col-lg-6 col-xl-12">
                         <div>
                             <div class="project-icon"><a href="includes/images/dual_purpose_lg.jpg" id="dual_purpose"
@@ -189,7 +189,7 @@
                     </div>
                 </div>
 
-                <div class="row" style="margin-bottom: 15em;">
+                <div class="row" style="margin-bottom: 10em;">
                     <div class="col-lg-6 col-xl-12">
                         <div>
                             <div class="project-icon"><a href="includes/images/graphics_lg.jpg" id="graphics"
@@ -211,7 +211,7 @@
                     </div>
                 </div>
 
-                <div class="row" style="margin-bottom: 15em;">
+                <div class="row" style="margin-bottom: 10em;">
                     <div class="col-lg-6 col-xl-12">
                         <div>
                             <div class="project-icon"><a href="includes/images/tip_calculator_lg.jpg" id="tip_calculator"
@@ -233,7 +233,7 @@
                     </div>
                 </div>
 
-                    <div class="row" style="margin-bottom: 15em;">
+                    <div class="row" style="margin-bottom: 8em;">
                         <div class="col-lg-6 col-xl-12">
                             <div>
                             <div class="project-icon"><a href="includes/images/volume_converter_lg.jpg" id="volume_converter"
@@ -256,10 +256,10 @@
                     </div>
                 </div>
 
-                <div class="row" style="margin-bottom: 15em;">
+                <div class="row" style="margin-bottom: 10em;">
                     <div class="col-lg-6 col-xl-12">
                         <div>
-                        <div class="project-icon"><a href="includes/images/drums_phone_tablet2.png" id="drums"
+                        <div class="project-icon app"><a href="includes/images/drums_phone_tablet2.png" id="drums"
                                                                                   data-lightbox="vector" data-title="Drums"><img src="includes/img/drums.png" alt="Drums" title="Click To View"></a>
                         </div>
                         </div>
@@ -278,10 +278,10 @@
                     </div>
                 </div>
 
-                <div class="row" style="margin-bottom: 15em;">
+                <div class="row" style="margin-bottom: 10em;">
                     <div class="col-lg-6 col-xl-12">
                         <div>
-                            <div class="project-icon"><a href="includes/images/pigLatin_phone.png" id="name_converter"
+                            <div class="project-icon app"><a href="includes/images/pigLatin_phone.png" id="name_converter"
                                                          data-lightbox="vector" data-title="Pig Latin Name Converter"><img src="includes/img/pigLatin_phone.png" alt="Pig Latin Name Converter" title="Click To View"></a>
                             </div>
                         </div>
@@ -300,10 +300,10 @@
                     </div>
                 </div>
 
-                <div class="row" style="margin-bottom: 15em;">
+                <div class="row" style="margin-bottom: 10em;">
                     <div class="col-lg-6 col-xl-12">
                         <div>
-                            <div class="project-icon"><a href="includes/images/drumsFragment_phone_tablet2.png" id="drums_fragment"
+                            <div class="project-icon app"><a href="includes/images/drumsFragment_phone_tablet2.png" id="drums_fragment"
                                                          data-lightbox="vector" data-title="Drums Fragmented"><img src="includes/img/drumsFragment.png" alt="Drums Fragment" title="Click To View"></a>
                             </div>
                         </div>
@@ -322,10 +322,10 @@
                     </div>
                 </div>
 
-                <div class="row" style="margin-bottom: 15em;">
+                <div class="row" style="margin-bottom: 10em;">
                     <div class="col-lg-6 col-xl-12">
                         <div>
-                            <div class="project-icon"><a href="includes/images/dataview_phone_tablet.png" id="data_view"
+                            <div class="project-icon app"><a href="includes/images/dataview_phone_tablet.png" id="data_view"
                                                          data-lightbox="vector" data-title="Data View"><img src="includes/img/dataview.png"  alt="Tip Calculator" title="Click To View"></a>
                             </div>
                         </div>
