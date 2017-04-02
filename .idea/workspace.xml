@@ -2,19 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="23dfc474-f12c-408a-90d8-8542a8937ce5" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/includes/img/buddhabellies_desktop.png" afterPath="$PROJECT_DIR$/includes/img/buddhabellies_desktop.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/includes/img/burrito_desktop_iphone.png" afterPath="$PROJECT_DIR$/includes/img/burrito_desktop_iphone.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/includes/img/dataview.png" afterPath="$PROJECT_DIR$/includes/img/dataview.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/includes/img/drums.png" afterPath="$PROJECT_DIR$/includes/img/drums.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/includes/img/drumsFragment.png" afterPath="$PROJECT_DIR$/includes/img/drumsFragment.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/includes/img/dual_purpose_desktop.png" afterPath="$PROJECT_DIR$/includes/img/dual_purpose_desktop.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/includes/img/graphics_desktop.png" afterPath="$PROJECT_DIR$/includes/img/graphics_desktop.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/includes/img/guano_desktop_phone.png" afterPath="$PROJECT_DIR$/includes/img/guano_desktop_phone.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/includes/img/kitchen_commons_desktop.png" afterPath="$PROJECT_DIR$/includes/img/kitchen_commons_desktop.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/includes/img/pigLatin_phone.png" afterPath="$PROJECT_DIR$/includes/img/pigLatin_phone.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/includes/img/tip_calculator_desktop.png" afterPath="$PROJECT_DIR$/includes/img/tip_calculator_desktop.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/includes/img/volume_converter_desktop.png" afterPath="$PROJECT_DIR$/includes/img/volume_converter_desktop.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/includes/img/wellfed_desktop.png" afterPath="$PROJECT_DIR$/includes/img/wellfed_desktop.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/includes/img/ccs_desktop.png" afterPath="$PROJECT_DIR$/includes/img/ccs_desktop.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/includes/styles/portfolio.css.php" afterPath="$PROJECT_DIR$/includes/styles/portfolio.css.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/projects.php" afterPath="$PROJECT_DIR$/projects.php" />
@@ -39,12 +27,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="projects.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="projects.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/projects.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="20" column="35" selection-start-line="20" selection-start-column="35" selection-end-line="20" selection-end-column="35" />
+            <state relative-caret-position="3435">
+              <caret line="248" column="73" selection-start-line="248" selection-start-column="73" selection-end-line="248" selection-end-column="73" />
               <folding>
+                <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -59,24 +48,44 @@
                 <element signature="n#style#0;n#div#11;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#12;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#13;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <marker date="1491090820000" expanded="false" signature="1496:1595" placeholder="..." />
+                <marker date="1491100598000" expanded="false" signature="1496:1595" placeholder="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="drums.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/includes/img/drums.png">
+      <file leaf-file-name="ccs_desktop.jpg" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/includes/img/ccs_desktop.jpg">
           <provider selected="true" editor-type-id="images">
             <state />
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="portfolio.css.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="skills.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/skills.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="68" column="22" selection-start-line="68" selection-start-column="22" selection-end-line="68" selection-end-column="22" />
+              <folding>
+                <marker date="1491098389000" expanded="false" signature="1651:1668" placeholder="..." />
+                <marker date="1491098389000" expanded="false" signature="1759:1770" placeholder="..." />
+                <marker date="1491098389000" expanded="false" signature="1928:1939" placeholder="..." />
+                <marker date="1491098389000" expanded="false" signature="2096:2107" placeholder="..." />
+                <marker date="1491098389000" expanded="false" signature="2265:2275" placeholder="..." />
+                <marker date="1491098389000" expanded="false" signature="2434:2444" placeholder="..." />
+                <marker date="1491098389000" expanded="false" signature="2603:2613" placeholder="..." />
+                <marker date="1491098389000" expanded="false" signature="2769:2779" placeholder="..." />
+                <marker date="1491098389000" expanded="false" signature="2934:2944" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="portfolio.css.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/includes/styles/portfolio.css.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="500">
-              <caret line="1989" column="1" selection-start-line="1989" selection-start-column="1" selection-end-line="1989" selection-end-column="1" />
+            <state relative-caret-position="288">
+              <caret line="1040" column="28" selection-start-line="1040" selection-start-column="28" selection-end-line="1040" selection-end-column="28" />
               <folding />
             </state>
           </provider>
@@ -121,8 +130,8 @@
         <option value="$PROJECT_DIR$/navigation.php" />
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/skills.php" />
-        <option value="$PROJECT_DIR$/includes/styles/portfolio.css.php" />
         <option value="$PROJECT_DIR$/projects.php" />
+        <option value="$PROJECT_DIR$/includes/styles/portfolio.css.php" />
       </list>
     </option>
   </component>
@@ -136,10 +145,10 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="PHP" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="194" />
-    <option name="y" value="31" />
-    <option name="width" value="1685" />
-    <option name="height" value="949" />
+    <option name="x" value="-304" />
+    <option name="y" value="1131" />
+    <option name="width" value="1307" />
+    <option name="height" value="852" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -249,6 +258,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="img" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="port_02" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="port_02" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="includes" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="images" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -438,7 +465,7 @@
       <workItem from="1479847132893" duration="6000" />
       <workItem from="1490916672059" duration="1069000" />
       <workItem from="1490977422211" duration="27201000" />
-      <workItem from="1491084858485" duration="5393000" />
+      <workItem from="1491084858485" duration="15453000" />
     </task>
     <task id="LOCAL-00001" summary="New branch">
       <created>1476738849746</created>
@@ -580,19 +607,27 @@
       <option name="project" value="LOCAL" />
       <updated>1491029562772</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="More mobile layout adjustments. UPdated project images to hirgher res .png's">
+      <created>1491090904785</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1491090904785</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="442669000" />
+    <option name="totallyTimeSpent" value="452729000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="194" y="31" width="1685" height="949" extended-state="0" />
+    <frame x="-304" y="1131" width="1307" height="852" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17407182" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22608696" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31438127" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -600,7 +635,6 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20401338" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="PHP-CGI Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -666,7 +700,8 @@
     <MESSAGE value="Adjusted project mobile layouts." />
     <MESSAGE value="Modified remaining projects." />
     <MESSAGE value="Mobile layout adjustments." />
-    <option name="LAST_COMMIT_MESSAGE" value="Mobile layout adjustments." />
+    <MESSAGE value="More mobile layout adjustments. UPdated project images to hirgher res .png's" />
+    <option name="LAST_COMMIT_MESSAGE" value="More mobile layout adjustments. UPdated project images to hirgher res .png's" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -675,12 +710,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/includes/images/linkedIn.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/includes/images/hire_me.jpg" />
     <entry file="file://$PROJECT_DIR$/includes/images/hero.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -918,13 +947,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/skills.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="58" column="37" selection-start-line="58" selection-start-column="37" selection-end-line="58" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/includes/styles/bootstrap.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="275">
@@ -933,31 +955,58 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2385">
-          <caret line="164" column="0" selection-start-line="164" selection-start-column="0" selection-end-line="164" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/includes/img/drums.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/includes/styles/portfolio.css.php">
+    <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="500">
-          <caret line="1989" column="1" selection-start-line="1989" selection-start-column="1" selection-end-line="1989" selection-end-column="1" />
-          <folding />
+        <state relative-caret-position="2055">
+          <caret line="164" column="0" selection-start-line="164" selection-start-column="0" selection-end-line="164" selection-end-column="0" />
+          <folding>
+            <marker date="1490989198000" expanded="false" signature="4942:4977" placeholder="..." />
+            <marker date="1490989198000" expanded="false" signature="6139:6174" placeholder="..." />
+            <marker date="1490989198000" expanded="false" signature="7359:7394" placeholder="..." />
+            <marker date="1490989198000" expanded="false" signature="8601:8636" placeholder="..." />
+          </folding>
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/skills.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="68" column="22" selection-start-line="68" selection-start-column="22" selection-end-line="68" selection-end-column="22" />
+          <folding>
+            <marker date="1491098389000" expanded="false" signature="1651:1668" placeholder="..." />
+            <marker date="1491098389000" expanded="false" signature="1759:1770" placeholder="..." />
+            <marker date="1491098389000" expanded="false" signature="1928:1939" placeholder="..." />
+            <marker date="1491098389000" expanded="false" signature="2096:2107" placeholder="..." />
+            <marker date="1491098389000" expanded="false" signature="2265:2275" placeholder="..." />
+            <marker date="1491098389000" expanded="false" signature="2434:2444" placeholder="..." />
+            <marker date="1491098389000" expanded="false" signature="2603:2613" placeholder="..." />
+            <marker date="1491098389000" expanded="false" signature="2769:2779" placeholder="..." />
+            <marker date="1491098389000" expanded="false" signature="2934:2944" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/img/ccs_desktop.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/images/projects_background.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/projects.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="20" column="35" selection-start-line="20" selection-start-column="35" selection-end-line="20" selection-end-column="35" />
+        <state relative-caret-position="3435">
+          <caret line="248" column="73" selection-start-line="248" selection-start-column="73" selection-end-line="248" selection-end-column="73" />
           <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -972,8 +1021,16 @@
             <element signature="n#style#0;n#div#11;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#12;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#13;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1491090820000" expanded="false" signature="1496:1595" placeholder="..." />
+            <marker date="1491100598000" expanded="false" signature="1496:1595" placeholder="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/styles/portfolio.css.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="1040" column="28" selection-start-line="1040" selection-start-column="28" selection-end-line="1040" selection-end-column="28" />
+          <folding />
         </state>
       </provider>
     </entry>

@@ -31,11 +31,11 @@
         <!--Websites-->
         <div id="about" class="project-icon">
             <div class="container">
-                <div class="row" style="margin: 0 0 10em 0;">
+                <div class="row project" style="margin-bottom: 10em; margin-top: 10px;">
                     <div class="col-lg-6 col-xl-12">
                         <div>
                             <div class="project-icon"><a href="includes/images/ccs_lg.jpg" id="ccs"
-                                                         data-lightbox="vector" data-title="CCS"><img src="includes/img/ccs_desktop.jpg" alt="CCS" title="Click To View"></a>
+                                                         data-lightbox="vector" data-title="CCS"><img src="includes/img/ccs_desktop.png" alt="CCS" title="Click To View"></a>
                             </div>
                         </div>
                     </div>
@@ -55,7 +55,7 @@
                 </div>
 
 
-                <div class="row" style="margin-bottom: 10em;">
+                <div class="row project" style="margin-bottom: 10em;">
                     <div class="col-lg-6 col-xl-12">
                         <div>
                             <div class="project-icon"><a href="includes/images/kitchen_commons_lg.jpg" id="kitchen_commons"
@@ -66,9 +66,9 @@
                     <div class="col-lg-6 col-xl-12">
                         <div class="project_desc">
                             <h3>Kitchen Commons</h3>
-                                <h4>Web Design <span id="pipe">|</span> Site Migration <span id="pipe">|</span>SEO Augmentation</h4>
-                            <p id="skills">As a web development intern for a non-profit organization Kitchen Commons, I assisted in migrating the organization's old Drupal site to a new WordPress site.
-                                I redesigned the new site with custom theme styling implementing changes that enhanced usability, managed plugins and widgets and applied SEO practices.</p>
+                                <h4>Web Design <span id="pipe">|</span> Site Migration <span id="pipe">|</span> SEO Augmentation</h4>
+                            <p id="skills">As a web development intern for a non-profit organization Kitchen Commons, assisted in migrating the organization's old Drupal site to a new WordPress site.
+                                Redesigned the new site with custom theme styling implementing changes that enhanced usability, managed plugins and widgets and applied SEO practices.</p>
                             <table class="button_table">
                                 <tr>
                                     <td><h4><a href="https://kitchencommons.net/" target="_blank"><button id="_button" >To Website</button></a></h4></td>
@@ -78,7 +78,7 @@
                     </div>
                 </div>
 
-                <div class="row" style="margin-bottom: 10em;">
+                <div class="row project" style="margin-bottom: 10em;">
                     <div class="col-lg-6 col-xl-12">
                         <div>
                             <div class="project-icon"><a href="includes/images/guano_lg.jpg" id="guano"
@@ -88,9 +88,9 @@
                     </div>
                     <div class="col-lg-6 col-xl-12">
                         <div class="project_desc">
-                            <h3>Guano (Band)</h3>
+                            <h3>Guano</h3>
                              <h4>Web Development <span id="pipe">|</span> Web Design </h4>
-                            <p id="skills">A mobile-first website, built with PHP and jQuery and a responsive CSS grid utilizing LESS. I Incorporated a modifiable Audio Controller Plugin as an audio player.</p>
+                            <p id="skills">A mobile-first website for a band, built with PHP and jQuery and a responsive CSS grid utilizing LESS. Incorporated a modifiable Audio Controller Plugin as an audio player.</p>
                             <table class="button_table">
                                 <tr>
                                     <td><h4><a href="/../web/guano/" target="_blank"><button id="_button">To Website</button></a></h4></td>
@@ -101,7 +101,7 @@
                 </div>
 
 
-                <div class="row" style="margin-bottom: 10em;">
+                <div class="row project" style="margin-bottom: 10em;">
                     <div class="col-lg-6 col-xl-12">
                         <div>
                             <div class="project-icon"><a href="includes/images/burrito_lg.jpg" id="burrito_masala"
@@ -123,7 +123,7 @@
                     </div>
                 </div>
 
-                <div class="row" style="margin-bottom: 10em;">
+                <div class="row project" style="margin-bottom: 10em;">
                     <div class="col-lg-6 col-xl-12">
                         <div>
                             <div class="project-icon"><a href="includes/images/buddha_bellies_lg.jpg" id="buddha_bellies"
@@ -145,7 +145,7 @@
                     </div>
                 </div>
 
-                <div class="row" style="margin-bottom: 10em;">
+                <div class="row project" style="margin-bottom: 10em;">
                     <div class="col-lg-6 col-xl-12">
                         <div>
                             <div class="project-icon"><a href="includes/images/well_fed_lg.jpg" id="well_fed"
@@ -157,7 +157,7 @@
                         <div class="project_desc">
                             <h3>Well Fed Adventures</h3>
                             <h4>Web Development <span id="pipe">|</span> Web Design </h4>
-                            <p id="skills">A Dreamweaver website built for a fictitious culinary travel company.</p>
+                            <p id="skills">A website built in Dreamweaver for a fictitious culinary travel company.</p>
                             <table class="button_table">
                                 <tr>
                                     <td><h4><a href="/../web/well_fed" target="_blank"><button id="_button" > To Website</button></a></h4></td>
@@ -167,7 +167,7 @@
                     </div>
                 </div>
 
-                <div class="row" style="margin-bottom: 10em;">
+                <div class="row project" style="margin-bottom: 10em;">
                     <div class="col-lg-6 col-xl-12">
                         <div>
                             <div class="project-icon"><a href="includes/images/dual_purpose_lg.jpg" id="dual_purpose"
@@ -189,7 +189,7 @@
                     </div>
                 </div>
 
-                <div class="row" style="margin-bottom: 10em;">
+                <div class="row project" style="margin-bottom: 10em;">
                     <div class="col-lg-6 col-xl-12">
                         <div>
                             <div class="project-icon"><a href="includes/images/graphics_lg.jpg" id="graphics"
@@ -211,7 +211,7 @@
                     </div>
                 </div>
 
-                <div class="row" style="margin-bottom: 10em;">
+                <div class="row project" style="margin-bottom: 10em;">
                     <div class="col-lg-6 col-xl-12">
                         <div>
                             <div class="project-icon"><a href="includes/images/tip_calculator_lg.jpg" id="tip_calculator"
@@ -226,14 +226,14 @@
                             <p id="skills">Built with PHP, HTML5 and CSS3.</p>
                             <table class="button_table">
                                 <tr>
-                                    <td><h4><a href="/../php/tip_calculator" target="_blank"><button id="_button" >To Web App</button></a></h4></td>
+                                    <td><h4><a href="/../php/tip_calculator" target="_blank"><button id="_button" >To Website</button></a></h4></td>
                                 </tr>
                             </table>
                         </div>
                     </div>
                 </div>
 
-                    <div class="row" style="margin-bottom: 8em;">
+                    <div class="row project" style="margin-bottom: 10em;">
                         <div class="col-lg-6 col-xl-12">
                             <div>
                             <div class="project-icon"><a href="includes/images/volume_converter_lg.jpg" id="volume_converter"
@@ -249,14 +249,14 @@
                         <p>Built using PHP, jQuery, AJAX, HTML5 and CSS3.</p>
                         <table class="button_table">
                             <tr>
-                                <td><h4><a href="/../php/volume_converter/" target="_blank"><button id="_button" >To Web App</button></a></h4></td>
+                                <td><h4><a href="/../php/volume_converter/" target="_blank"><button id="_button" >To Website</button></a></h4></td>
                             </tr>
                         </table>
                         </div>
                     </div>
                 </div>
 
-                <div class="row" style="margin-bottom: 10em;">
+                <div class="row project" style="margin-bottom: 10em;">
                     <div class="col-lg-6 col-xl-12">
                         <div>
                         <div class="project-icon app"><a href="includes/images/drums_phone_tablet2.png" id="drums"
@@ -278,7 +278,7 @@
                     </div>
                 </div>
 
-                <div class="row" style="margin-bottom: 10em;">
+                <div class="row project" style="margin-bottom: 10em;">
                     <div class="col-lg-6 col-xl-12">
                         <div>
                             <div class="project-icon app"><a href="includes/images/pigLatin_phone.png" id="name_converter"
@@ -293,14 +293,14 @@
                             <p id="skills"> Using string manipulations, this Android app converts names into Pig Latin.</p>
                             <table class="button_table">
                                 <tr>
-                                    <td><h4><a  target=""><button id="_button" >To App</button></a></h4></td>
+<!--                                    <td><h4><a  target=""><button id="_button" >To App</button></a></h4></td>-->
                                 </tr>
                             </table>
                         </div>
                     </div>
                 </div>
 
-                <div class="row" style="margin-bottom: 10em;">
+                <div class="row project" style="margin-bottom: 10em;">
                     <div class="col-lg-6 col-xl-12">
                         <div>
                             <div class="project-icon app"><a href="includes/images/drumsFragment_phone_tablet2.png" id="drums_fragment"
@@ -315,14 +315,14 @@
                             <p id="skills">This an Android App. Same as Drums, but designed with using Fragments.</p>
                             <table class="button_table">
                                 <tr>
-                                    <td><h4><a  target=""><button id="_button" >To App</button></a></h4></td>
+<!--                                    <td><h4><a  target=""><button id="_button" >To App</button></a></h4></td>-->
                                 </tr>
                             </table>
                         </div>
                     </div>
                 </div>
 
-                <div class="row" style="margin-bottom: 10em;">
+                <div class="row project" style="margin-bottom: 10em;">
                     <div class="col-lg-6 col-xl-12">
                         <div>
                             <div class="project-icon app"><a href="includes/images/dataview_phone_tablet.png" id="data_view"
@@ -337,7 +337,7 @@
                             <p id="skills"> This app was built to showcase the ability to connect to secure database and output data tables.</p>
                             <table class="button_table">
                                 <tr>
-                                    <td><h4><a target=""><button id="_button" >To App</button></a></h4></td>
+<!--                                    <td><h4><a target=""><button id="_button" >To App</button></a></h4></td>-->
                                 </tr>
                             </table>
                         </div>

@@ -168,8 +168,9 @@ li {
 }
 .white-section .section-header h2 {
     color: #ff8700;
-    font-size: 3vw;
+    font-size: 2.8vw;
     font-weight: 100;
+    margin-top: -60px;
 }
 .grey-section {
     background-color: rgba(91, 91, 91, 0.25);
@@ -789,9 +790,15 @@ a.button:hover {
     padding: .5em 1em;
 }
 .row {
-/*    margin: -2em 1.75em;*/
+    margin-top: 2em;
     padding: .5em 0;
 }
+.row.project{
+    margin-bottom: 180px;
+    padding-bottom: 180px;
+       /* border-bottom: solid 0.25px #777; */
+}
+
 .row_project {
     margin: -2em 1.75em;
     padding: .5em 0;
@@ -830,8 +837,8 @@ a.button:hover {
 /*@media (min-width: 1200px) {*/
 
     .project-icon img {
-        
-    } 
+
+    }
 /*    .logo img {*/
 /*        width: 250px;*/
 /*        height: 250px;*/
@@ -1037,7 +1044,7 @@ a.button:hover {
         height: 350px;
         display: inline-block;
         padding-top: 20px;
-        margin: 1em 0 -4em 1em;
+        margin: -1em 0 -4em 1em;
     }
     .section.bigbox {
         padding: 0 2em;
@@ -1066,6 +1073,7 @@ a.button:hover {
     .white-section .section-header h2 {
         font-size: 1.5em;
         margin-bottom: 20px;
+        margin-top: 0;
     }
      .col-md-8.button_table {
         float: right;
@@ -1075,6 +1083,9 @@ a.button:hover {
         margin: -2em 0;
         padding: .5em 0;
     }
+    .row.project {
+        margin-top: -50px;
+     }
     .row_contact {
         margin: .5em -.75em;
         padding: .5em 1em;
@@ -1089,6 +1100,12 @@ a.button:hover {
 /*        margin-bottom: 1em;*/
     }
 
+}
+
+@media screen and (max-width: 1028px) {
+    .project-icon {
+        margin: 1em 0 -4em 1em;
+    }
 }
 
 @media (max-width: 990px) {
@@ -1136,6 +1153,7 @@ a.button:hover {
     .project-icon.app img {
         height: 380px;
         margin-left: -90px;
+        margin-top: 100px;
     }
     #_button {
         font-size: 250%;
@@ -1181,6 +1199,10 @@ a.button:hover {
     .product_desc {
         margin-top: 150px;
     }
+    .row.project{
+         margin-bottom: 160px;
+         padding-bottom: 60px;
+     }
 }
 
 
@@ -1368,6 +1390,9 @@ a.button:hover {
     }
     .section.bigbox h3 {
         margin-top: 100px;
+    }
+    #_button_contact {
+        margin-bottom: 20px;
     }
 }
 
@@ -1566,7 +1591,7 @@ a.button:hover {
         padding-right: 1em;
     }
     .section.bigbox h3 {
-         margin-top: -10px;
+         margin-top: 20px;
         margin-left: -100px;
         font-size: 160%;
      }
@@ -1755,7 +1780,7 @@ a.button:hover {
     #about_2 p {
         font-size: 1.5em;
         margin-top: 20px;
-/*        margin-left: 0;*/
+        margin-left: -50px;
 /*        padding-right: 2.2em;*/
     }
     p #about_2 .bio  {
@@ -1796,10 +1821,12 @@ a.button:hover {
         font-size: 175%;
     }
     .section.bigbox h4 {
-        margin-left: -60px;
+        margin-left: -65px;
     }
     .section.bigbox h3 {
-        margin-top: 50px;
+        margin-top: -50px;
+        margin-left: -55px;
+        font-size: 140%;
     }
     .orange-underline {
         margin: .5em 0;
@@ -1814,7 +1841,7 @@ a.button:hover {
         font-weight: 300;
     }
     #_button {
-        font-size: 80%;
+        font-size: 140%;
         font-weight: 200;
         margin: 0 3em 0 0;
     }
@@ -1869,11 +1896,12 @@ a.button:hover {
     .project-icon img {
         height: 90%;
 /*        margin-bottom: 1em;*/
-        margin-left: -4em;
+        margin-left: -8em;
     }
     .project-icon.app img {
-        height: 340px;
-        margin-left: 10px;
+        height: 240px;
+        margin-left: -60px;
+        margin-top: -70px;
     }
     .project-icon {
         height: 350px;
@@ -1931,6 +1959,7 @@ a.button:hover {
     .white-section .section-header h2 {
         font-size: 1.5em;
         margin-bottom: 20px;
+        margin-top: -20px;
     }
     .jumbotron h3 {
         font-size: 25px;
@@ -1945,6 +1974,9 @@ a.button:hover {
 
 
 @media (max-width: 400px) {
+    .about.container.project {
+        margin-top: -40px;
+    }
     #about h1 {
         font-size: 5vw;
         padding-left: .5em;
@@ -1969,10 +2001,11 @@ a.button:hover {
         margin: .25em 5em 0 0;
     }
     .section.bigbox h3{
-        margin: -40px 0 0 -40px;
+        margin: -30px 0 0 -40px;
     }
     #about_2 p {
         margin-top: 20px;
+        margin-right: 2em;
     }
     #about_bio  p{
         font-size: 1.5em;
@@ -1980,12 +2013,13 @@ a.button:hover {
         padding-right: 0;
     }
     .project-icon img {
-        padding-top: 10px;
-        margin-left: -6em;
+        margin-top: -90px;
+        margin-left: -8em;
+        height: 260px;
     }
     .project-icon.app img {
-        height: 230px;
-        margin-left: -60px;
+        height: 210px;
+        margin-left: -100px;
     }
 }
 
@@ -2004,7 +2038,7 @@ a.button:hover {
     }
     #about_2 p {
         font-size: 1.5em;
-        margin: 5px 5em 0 5%;
+        margin: 15px 3em 0 -40px;
         padding-right: 0;
     }
     #about_bio  p{
@@ -2013,22 +2047,32 @@ a.button:hover {
         padding-right: 0;
         text-align: start;
     }
-    .container {
-        margin-right: 2em;
+    .container.project {
+        margin-top: -160px;
     }
     .section.bigbox h5{
         margin: 1.25em 4em 0 1em;
         padding: 0 2.5em .25em .5em;
         font-size: 150%;
     }
+    .section.bigbox h4 {
+        margin-left: -120px;
+        font-size: 90%;
+        margin-top: 15px;
+    }
+    .section.bigbox h3{
+        margin-left: -130px;
+        margin-top: -100px;
+    }
     .project-icon img {
-        height: 70%;
-        margin-bottom: 1em;
-        margin-left: -8.5em;
+        height: 75%;
+        margin-top: -100px;
+        margin-left: -10em;
     }
     .project-icon.app img {
-        height: 340px;
-        margin-left: 10px;
+        height: 180px;
+        margin-left: -160px;
+        margin-top: -100px;
     }
     .orange-underline {
         margin: .5em 4em 0 1em;
@@ -2047,6 +2091,13 @@ a.button:hover {
         width: 30px;
         height: 30px;
     }
+    #_button {
+        margin-left: 70px;
+        margin-top: 20px;
+    }
+    .white-section .section-header h2 {
+        margin-top: 0;
+    }
 }
 @media (max-width: 300px) {
     body {
@@ -2064,7 +2115,7 @@ a.button:hover {
     }
     #about_2 p {
         font-size: 1.5em;
-        margin: 5px 5em 0 5%;
+        margin: 15px 3em 0 -40px;
         padding-right: 0;
     }
     .header-logo img {
@@ -2072,7 +2123,25 @@ a.button:hover {
         width: 30px;
         height: 30px;
     }
+    .section.bigbox h4 {
+        font-size: 80%;
+        margin-left: -140px;
+    }
+    .section.bigbox h3 {
+        font-size: 120%;
+        margin-left: -130px;
+    }
+    .project-icon img {
+        margin-left: -250px;
+        margin-bottom: -40px;
+    }
+    #_button {
+        margin-left: 100px;
+    }
 }
+
+
+
 @media (max-width: 267px) {
     h3.orange-underline {
         margin-left: -4em;
