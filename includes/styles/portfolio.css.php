@@ -1054,7 +1054,7 @@ a.button:hover {
         margin-top: -1.75em;
     }
     .section.bigbox h4 {
-        margin: 20px 0 0 -35px;
+        margin: 20px 0 0 -20px;
         font-size: 100%;
     }
     .section.bigbox h3 {
@@ -1104,11 +1104,14 @@ a.button:hover {
 
 @media screen and (max-width: 1028px) {
     .project-icon {
-        margin: 1em 0 -4em 1em;
+        margin: 1em 0 -4em 1.5em;
+    }
+    .section.bigbox h4 {
+        margin-left: 5px;
     }
 }
 
-@media (max-width: 990px) {
+@media (max-width: 991px) {
     h1 {
         font-size: 20%;
     }
@@ -1141,6 +1144,9 @@ a.button:hover {
     .section.bigbox h5{
         margin: .25em 4em 0 1em;
         padding-right: 1em;
+    }
+    .section.bigbox h4 {
+        margin-left: -50px;
     }
     .section.bigbox h3 {
         margin: 220px 0 0 -50px;
@@ -2000,8 +2006,11 @@ a.button:hover {
     .section.bigbox h5{
         margin: .25em 5em 0 0;
     }
+    .section.bigbox h4{
+        margin-left: -80px;
+    }
     .section.bigbox h3{
-        margin: -30px 0 0 -40px;
+        margin: -30px 0 0 -80px;
     }
     #about_2 p {
         margin-top: 20px;
