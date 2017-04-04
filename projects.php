@@ -19,16 +19,9 @@
 </head>
 <body data-spy="scroll" data-target="#navbar">
 <?php require('navigation.php'); ?>
-<?php //require('project_navigation.php'); ?>
 <div id="about_2" class="section bigbox">
     <section id="websites"></section>
     <div class="container projects" style="padding-top: 9em;">
-<!--        <div class="row section-header">-->
-<!--            <div class="col-md-12">-->
-<!--                <h1 style="font-size: 2.2em; color: #ff8700; font-stretch: extra-expanded; font-weight: 200; text-align:start;">Web</h1>-->
-<!--            </div>-->
-<!--        </div>-->
-        <!--Websites-->
         <div id="about" class="project-icon">
             <div class="container">
                 <div class="row project" style="margin-bottom: 10em; margin-top: 10px;">
@@ -343,12 +336,6 @@
                         </div>
                     </div>
                 </div>
-<!--                <div class="row"></div>-->
-<!--                <div class="col-md-12">-->
-<!--                    <h1>&nbsp;</h1>-->
-<!--                    <h1>&nbsp;</h1>-->
-<!--                </div>-->
-<!--            </div>-->
                 <h1>&nbsp;</h1>
              </div>
         </div>

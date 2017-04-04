@@ -4,6 +4,7 @@
     <list default="true" id="23dfc474-f12c-408a-90d8-8542a8937ce5" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/includes/styles/portfolio.css.php" afterPath="$PROJECT_DIR$/includes/styles/portfolio.css.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/projects.php" afterPath="$PROJECT_DIR$/projects.php" />
     </list>
     <ignored path="port_02.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -25,50 +26,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="projects.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="projects.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/projects.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3645">
-              <caret line="248" column="73" selection-start-line="248" selection-start-column="73" selection-end-line="248" selection-end-column="73" />
-              <folding>
-                <marker date="1491100598000" expanded="false" signature="1496:1595" placeholder="..." />
-              </folding>
+            <state relative-caret-position="315">
+              <caret line="26" column="41" selection-start-line="26" selection-start-column="41" selection-end-line="26" selection-end-column="41" />
+              <folding />
             </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ccs_desktop.jpg" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/includes/img/ccs_desktop.jpg">
-          <provider selected="true" editor-type-id="images">
-            <state />
           </provider>
         </entry>
       </file>
       <file leaf-file-name="skills.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/skills.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="945">
-              <caret line="68" column="22" selection-start-line="68" selection-start-column="22" selection-end-line="68" selection-end-column="22" />
-              <folding>
-                <marker date="1491098389000" expanded="false" signature="1651:1668" placeholder="..." />
-                <marker date="1491098389000" expanded="false" signature="1759:1770" placeholder="..." />
-                <marker date="1491098389000" expanded="false" signature="1928:1939" placeholder="..." />
-                <marker date="1491098389000" expanded="false" signature="2096:2107" placeholder="..." />
-                <marker date="1491098389000" expanded="false" signature="2265:2275" placeholder="..." />
-                <marker date="1491098389000" expanded="false" signature="2434:2444" placeholder="..." />
-                <marker date="1491098389000" expanded="false" signature="2603:2613" placeholder="..." />
-                <marker date="1491098389000" expanded="false" signature="2769:2779" placeholder="..." />
-                <marker date="1491098389000" expanded="false" signature="2934:2944" placeholder="..." />
-              </folding>
+            <state relative-caret-position="1230">
+              <caret line="87" column="62" selection-start-line="87" selection-start-column="62" selection-end-line="87" selection-end-column="62" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="portfolio.css.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="portfolio.css.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/includes/styles/portfolio.css.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="423">
-              <caret line="1122" column="5" selection-start-line="1122" selection-start-column="5" selection-end-line="1122" selection-end-column="5" />
+            <state relative-caret-position="360">
+              <caret line="24" column="42" selection-start-line="24" selection-start-column="42" selection-end-line="24" selection-end-column="42" />
               <folding />
             </state>
           </provider>
@@ -112,9 +94,9 @@
         <option value="$PROJECT_DIR$/includes/styles/bootstrap.min.css" />
         <option value="$PROJECT_DIR$/navigation.php" />
         <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/includes/styles/portfolio.css.php" />
         <option value="$PROJECT_DIR$/skills.php" />
         <option value="$PROJECT_DIR$/projects.php" />
-        <option value="$PROJECT_DIR$/includes/styles/portfolio.css.php" />
       </list>
     </option>
   </component>
@@ -224,42 +206,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="scripts" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="port_02" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="port_02" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="includes" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="img" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="port_02" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="port_02" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="includes" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="images" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -449,7 +395,8 @@
       <workItem from="1490916672059" duration="1069000" />
       <workItem from="1490977422211" duration="27201000" />
       <workItem from="1491084858485" duration="15476000" />
-      <workItem from="1491243536097" duration="1750000" />
+      <workItem from="1491243536097" duration="1766000" />
+      <workItem from="1491335143517" duration="378000" />
     </task>
     <task id="LOCAL-00001" summary="New branch">
       <created>1476738849746</created>
@@ -605,18 +552,25 @@
       <option name="project" value="LOCAL" />
       <updated>1491104260371</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="Minor adjustments.">
+      <created>1491245580958</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1491245580958</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="454502000" />
+    <option name="totallyTimeSpent" value="454896000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-304" y="1103" width="1307" height="852" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22924902" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23241107" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -693,7 +647,8 @@
     <MESSAGE value="Mobile layout adjustments." />
     <MESSAGE value="More mobile layout adjustments. UPdated project images to hirgher res .png's" />
     <MESSAGE value="More mobile layout adjustments." />
-    <option name="LAST_COMMIT_MESSAGE" value="More mobile layout adjustments." />
+    <MESSAGE value="Minor adjustments." />
+    <option name="LAST_COMMIT_MESSAGE" value="Minor adjustments." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -889,7 +844,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -957,22 +911,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/skills.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="945">
-          <caret line="68" column="22" selection-start-line="68" selection-start-column="22" selection-end-line="68" selection-end-column="22" />
-          <folding>
-            <marker date="1491098389000" expanded="false" signature="1651:1668" placeholder="..." />
-            <marker date="1491098389000" expanded="false" signature="1759:1770" placeholder="..." />
-            <marker date="1491098389000" expanded="false" signature="1928:1939" placeholder="..." />
-            <marker date="1491098389000" expanded="false" signature="2096:2107" placeholder="..." />
-            <marker date="1491098389000" expanded="false" signature="2265:2275" placeholder="..." />
-            <marker date="1491098389000" expanded="false" signature="2434:2444" placeholder="..." />
-            <marker date="1491098389000" expanded="false" signature="2603:2613" placeholder="..." />
-            <marker date="1491098389000" expanded="false" signature="2769:2779" placeholder="..." />
-            <marker date="1491098389000" expanded="false" signature="2934:2944" placeholder="..." />
-          </folding>
-        </state>
+    <entry file="file://$PROJECT_DIR$/includes/images/projects_background.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/includes/img/ccs_desktop.jpg">
@@ -980,25 +921,26 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/includes/images/projects_background.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
+    <entry file="file://$PROJECT_DIR$/includes/styles/portfolio.css.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="42" selection-start-line="24" selection-start-column="42" selection-end-line="24" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/skills.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1230">
+          <caret line="87" column="62" selection-start-line="87" selection-start-column="62" selection-end-line="87" selection-end-column="62" />
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/projects.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3645">
-          <caret line="248" column="73" selection-start-line="248" selection-start-column="73" selection-end-line="248" selection-end-column="73" />
-          <folding>
-            <marker date="1491100598000" expanded="false" signature="1496:1595" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/includes/styles/portfolio.css.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="423">
-          <caret line="1122" column="5" selection-start-line="1122" selection-start-column="5" selection-end-line="1122" selection-end-column="5" />
+        <state relative-caret-position="315">
+          <caret line="26" column="41" selection-start-line="26" selection-start-column="41" selection-end-line="26" selection-end-column="41" />
           <folding />
         </state>
       </provider>
