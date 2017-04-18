@@ -191,7 +191,7 @@ li {
     color: rgba(238, 238, 238, 0);
 }
 .transparent-blue-section {
-     background-color: rgba(19, 32, 58, 0.75); /*rgb(27, 94, 126);*/
+     background-color: rgba(25, 56, 88, 0.69); /*rgb(27, 94, 126);*/
      color: rgba(238, 238, 238, 0);
  }
 .navbar {
@@ -407,6 +407,7 @@ ul.topnav li.icon {display: none;}
     text-align:center;
 }
 .section-hero {
+/*    background-image: url('../../includes/images/hero2__4_op2.jpg');*/
     background-image: url('../../includes/images/hero2__4_op2.jpg');
     margin: 1em 0;
     padding: 0;

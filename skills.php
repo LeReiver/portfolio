@@ -37,6 +37,9 @@
                     <div><div class="skills-icon lt_blue-hover-border"><img src="includes/images/database2.png"></div></div>
                     <h3 class="orange-underline" style="padding-bottom:.5em;margin:.25em 0;">Database & IT</h3>
                     <table id="skills">
+                        <tr><td>Linux/Unix Administration</td></tr>
+                        <tr><td>Bash/Shell Scripting</td></tr>
+                        <tr><td>vim &amp; awk</td></tr>
                         <tr><td>Database Design</td></tr>
                         <tr><td>ERDs</td></tr>
                         <tr><td>SQL</td></tr>
@@ -45,9 +48,6 @@
                         <tr><td>T-SQL</td></tr>
                         <tr><td>Stored Procedures</td></tr>
                         <tr><td>Oracle SQLDeveloper</td></tr>
-                        <tr><td>MS SequelServer</td></tr>
-                        <tr><td>Linux Command Line</td></tr>
-                        <tr><td>vim &amp; awk</td></tr>
                         <tr><td>System Design</td></tr>
                         <tr><td>DFDs</td></tr>
                     </table>

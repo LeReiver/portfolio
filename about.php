@@ -10,10 +10,8 @@
 <html lang="en">
 <head>
     <title>Le-Reiver | About Me</title>
-    <meta name="description" content="I am a Web Developer and Web Designer living in Portland Oregon. I love to create web sites, web applications, databases,
-        and other web based digital media specializing in PHP, MySQL, HTML5 and CSS3. Hire Me.">
-    <meta name="keyword" content="web developer, web designer,Portland, Portland Oregon, web sites, web applications, databases,
-        digital media, PHP, MySQL, HTML5, CSS3, Hire Me">
+    <meta name="description" content="I am a web and multimedia developer in Portland, Oregon. I have been creating digital media for over 16 years, with a background in music performance and audio and video production. I am a recent graduate with degrees in Web Development and Design and Computer Information Systems, as well as a Certificate in Web Application Development. I have solid web development, design and programming skills. My innate curiosity about technology and the growing programming world inspires me to improve, perfect and hone my skills in digital and creative media. Please see the SKILLS tab for additional information on my Web, Database, Android and Audio capabilities.">
+    <meta name="keyword" content="web, multimedia, developer, Portland, Oregon,digital media, music performance, audio production, video production, recent graduate, Web Development and Design Degree, Computer Information Systems Degree, Certificate in Web Application Development, design, programming, skills, technology, digital media, creative media, Skills, Web, Database, Android, Audio">
     <?php require_once ('includes/head_files.php') ?>
 </head>
 <body data-spy="scroll" data-target="#navbar">
@@ -26,7 +24,7 @@
                         <h1 style="font-size: 1.85em; color: #ff8700; font-stretch: extra-expanded; font-weight: 200; text-align:start;  margin-bottom:1em; margin-left: -40px;">About</h1>
 
                         <p id="about_bio" class="bio" style="margin-left:-40px">
-                            I am a web and multimedia developer in Portland, Oregon. I have been creating digital media for over 16 years, with a background in music performance and audio and video production. I am a recent graduate with degrees in Web Development and Design and Computer Information Systems, as well as a Certificate in Web Application Development. I have solid web development, design and programming skills. My innate curiosity about technology and the growing programming world inspires me to improve, perfect and hone my skills in digital and creative media. Please see the SKILLS tab for additional information on my Web, Database, Android and Audio capabilities.
+                            I am a web and multimedia developer in Portland, Oregon. I have been creating digital media for over 16 years, with a background in music performance, audio production, and video production. I am a recent graduate with degrees in Web Development and Design and Computer Information Systems, as well as a Certificate in Web Application Development. I have solid web development, design and programming skills. My innate curiosity about technology and the growing Internet world inspires me to improve, perfect and hone my skills in digital and creative media. Please see the SKILLS tab for additional information on my Web, Database, Android and Audio capabilities.
                         </p>
                     </div>
                     <div class="col-md-5" style="margin-left: -40px">
