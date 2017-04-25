@@ -24,7 +24,10 @@
                         <h1 style="font-size: 1.85em; color: #ff8700; font-stretch: extra-expanded; font-weight: 200; text-align:start;  margin-bottom:1em; margin-left: -40px;">About</h1>
 
                         <p id="about_bio" class="bio" style="margin-left:-40px">
-                            I am a web and multimedia developer in Portland, Oregon. I have been creating digital media for over 16 years, with a background in music performance, audio production, and video production. I am a recent graduate with degrees in Web Development and Design and Computer Information Systems, as well as a Certificate in Web Application Development. I have solid web development, design and programming skills. My innate curiosity about technology and the growing Internet world inspires me to improve, perfect and hone my skills in digital and creative media. Please see the SKILLS tab for additional information on my Web, Database, Android and Audio capabilities.
+                            <!--
+                            I am a web and multimedia developer in Portland, Oregon. I have been creating digital media for over 16 years, with a background in music performance, audio production, and video production. I am a recent graduate with degrees in Web Development and Design and Computer Information Systems, as well as a Certificate in Web Application Development. I have solid web development, design and programming skills. My innate curiosity about technology and the growing Internet world inspires me to improve, perfect and hone my skills in digital and creative media. Please see the SKILLS tab for additional information on my Languages, Technologies, Design and Audio capabilities.
+                        -->
+                        I have three years experience as a Web Developer and Web Application Developer utilizing PHP, JavaScript, HTML5, CSS3/LESS, and SQL/MySQL. With a background in music performance, audio production, and video production, I have been creating digital media for over 16 years. My innate curiosity about technology and the growing Internet world inspires me to improve and perfect my skills in digital and creative media.
                         </p>
                     </div>
                     <div class="col-md-5" style="margin-left: -40px">
@@ -53,7 +56,7 @@
         <div class="container">
             <div class="row section-header">
                 <div class="col-md-12">
-                    <h1 style="font-size: 5em; font-stretch: extra-expanded; font-weight: 100;  color: #ff8700; ">HIRE ME</h1>
+                    <h1 hidden style="font-size: 5em; font-stretch: extra-expanded; font-weight: 100;  color: #ff8700; ">HIRE ME</h1>
                     <h2>&nbsp;</h2>
                     <h2>&nbsp;</h2>
                     <h2>&nbsp;</h2>

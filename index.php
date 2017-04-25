@@ -29,10 +29,10 @@
                                 <h1 class="header_slider w3-animate wait" style="width:100% ">Hello, <br>I am a <span class="title">Website Designer</span></h1>
                                 <h1 class="header_slider w3-animate wait" style="width:100% ">Hello, <br>I am a <span class="title">Web App Developer</span></h1>
                                 <h1 class="header_slider w3-animate wait" style="width:100%">Hello, <br>I am an <span class="title">Android Developer</span></h1>
-                                <h1 class="header_slider w3-animate wait" style="width:100%">Hello, <br>I am a <span class="title">Database Developer</span></h1>
+                                <h1 class="header_slider w3-animate wait" style="width:100%">Hello, <br>I am a <span class="title">Software Developer</span></h1>
                                 <h1 class="header_slider w3-animate wait" style="width:100%">Hello, <br>I am an <span class="title">Audio Producer</span></h1>
-                                <h1 class="header_slider w3-animate wait" style="width:100%">Hello, <br>I am a <span class="title">Video Producer</span></h1>
-                                <h1 class="header_slider w3-animate wait" style="width:100%">Hello, <br>I am a <span class="title">Technical Producer</span></h1>
+                                <!-- <h1 class="header_slider w3-animate wait" style="width:100%">Hello, <br>I am a <span class="title">Video Producer</span></h1>
+                                <h1 class="header_slider w3-animate wait" style="width:100%">Hello, <br>I am a <span class="title">Technical Producer</span></h1> -->
                             </div>
                         </div>
                     </div>

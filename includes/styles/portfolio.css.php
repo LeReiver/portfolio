@@ -124,7 +124,8 @@ li {
     padding-top: 18px;
 }
 .skills-icon img {
-    height: 65px;
+    height: 130px;
+    margin: -30px -30px 80px -30px;
 }
 #circle img {
     height: 2px;
@@ -971,7 +972,7 @@ a.button:hover {
     .white-section .section-header h2 {
         font-size: 1.5em;
         margin-bottom: 20px;
-        margin-top: 0;
+        margin-top: 5px;
     }
      .col-md-8.button_table {
         float: right;
@@ -1652,12 +1653,13 @@ a.button:hover {
         margin-bottom: -30px;
      }
     .skills-icon img {
-        height: 58px;
+        height: 130px;
+        margin-bottom: 60px;
     }
     .white-section .section-header h2 {
         font-size: 1.5em;
         margin-bottom: 20px;
-        margin-top: -20px;
+        margin-top: 0px;
     }
     .jumbotron h3 {
         font-size: 25px;
