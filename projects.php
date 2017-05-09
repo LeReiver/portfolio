@@ -12,7 +12,7 @@
 <html lang="en">
 <head>
     <title>Le-Reiver | Projects</title>
-    <meta name="description" content="I am a web and multimedia developer in Portland, Oregon. I have been creating digital media for over 16 years, with a background in music performance and audio and video production. I am a recent graduate with degrees in Web Development and Design and Computer Information Systems, as well as a Certificate in Web Application Development. I have solid web development, design and programming skills. My innate curiosity about technology and the growing programming world inspires me to improve, perfect and hone my skills in digital and creative media. Please see the SKILLS tab for additional information on my Web, Database, Android and Audio capabilities.">
+    <meta name="description" content="Developing online and mobile solutions using test-driven development and web standard best practices utilizing PHP, JavaScript, Java, SQL/MySQL, and Responsive UX/UIs. As a recent web and software developer graduate, I am seeking an entry-level position where I can assist and contribute to a team of dynamic developers while strengthening my development skills by creating digital solutions utilizing latest frameworks and technologies.">
     <meta name="keyword" content="web developer, web designer, web development, web consulting, Portland, Portland Oregon, web sites, web applications, databases,android apps, Android, digital media, PHP, MySQL, HTML5, CSS3, SEO, jQuery, JavaScript, AJAX, Java, database design, database programming, Le-Reiver, le-reiver, Michael Le-Reiver, Michael Reiver, Reiver,">
     <?php require_once ('includes/head_files.php') ?>
 </head>
@@ -34,7 +34,7 @@
                     <div class="col-lg-6 col-xl-12">
                         <div class="project_desc">
                             <h3 >Coordinated Consulting Services</h3>
-                            <h4>Web Application Development <span id="pipe">|</span> Web Design <span id="pipe">|</span>  Web Consulting</h4>
+                            <h4>Web Application Development <span id="pipe">|</span> Web Design <br>  Web Consulting <span id="pipe">|</span> Database Build</h4>
                             <p id="skills">A private and secure web application for a consulting firm built with PHP, JavaScript, and MySQL that
                                 requiries user account creation and access, user input and uploads data to remote database with report generation capabilities.</p>
                             <table class="button_table">

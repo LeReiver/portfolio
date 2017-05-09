@@ -1180,7 +1180,7 @@ a.button:hover {
     }
     #about_bio  p{
         font-size: 1.5em;
-        margin: 20px 20px 20px 0;
+        margin: 20px -30px 20px 0;
         padding-right: 0;
         text-align: start;
     }
@@ -1380,40 +1380,9 @@ a.button:hover {
 }
 
 @media (max-width: 480px) {
-    .nav_name {
-        margin-left: -.8em;
-        font-size: 1.5em;
-        font-weight: 200;
-    }
-    .navbar-default .project_nav {
-        margin-left: 80px;
-        line-height: 60%;
-    }
-    .container.projects h1 {
-        margin-bottom: -4.5em;
-    }
-    .orange-underline {
-        margin: .5em 1.75em;
-    }
-    .section.bigbox h5{
-        margin: .25em 5em 0 1em;
-    }
-    .section.bigbox h3 {
-         margin-left: -1em;
-     }
     #about_2 p {
-        margin: 0 1em;
+        margin-right: 2.5em;
     }
-    .project-icon img {
-        height: 95%;
-        padding-top: 20px;
-        /*        margin: -.5em 0 -5em 1em;*/
-    }
-    .project-icon.app img {
-        height: 340px;
-        margin-left: 10px;
-    }
-
 }
 
 
