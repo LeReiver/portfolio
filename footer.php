@@ -31,7 +31,7 @@
                 <div class="col-lg-3  col-xs-6">
                     <div class="footer-item">
                         <a href="http://lereiver.com/"><img id="footer-loc" src="includes/img/my_logo2_w.png" alt="Logo image link back to home page"></a>
-                        <div>&copy; 2016</div>
+                        <div>&copy; <?php echo date('Y'); ?></div>
                     </div>
                 </div>
             </div>

@@ -38,6 +38,7 @@ h1 {
     font-stretch: extra-expanded;
     color: #ff8700;
 }
+
 li {
     color: rgb(25, 46, 51);
 }
@@ -87,11 +88,11 @@ li {
     font-family: gentonalight, sans-serif;
 }
 .project-icon {
-    height: 350px;
+/*    height: 350px;*/
     display: inline-block;
-    padding-top: 38px;
-    margin-bottom: -4em;
-    margin-right: 20px;
+/*    padding-top: 38px;*/
+/*    margin-bottom: -4em;*/
+    margin-left: -15px;
 }
 .logo-icon {
     height: 350px;
@@ -101,7 +102,11 @@ li {
     margin-bottom: 1px;
 }
 .project-icon img {
-    height: 80%;
+    height: 450px;
+}
+.project-icon.app img {
+    height: 340px;
+    margin-left: 10px;
 }
 .logo-icon img {
     margin-top: 1em;
@@ -119,7 +124,8 @@ li {
     padding-top: 18px;
 }
 .skills-icon img {
-    height: 65px;
+    height: 130px;
+    margin: -30px -30px 80px -30px;
 }
 #circle img {
     height: 2px;
@@ -129,7 +135,7 @@ li {
     margin-top: 0;
     padding-bottom: 8px;
     border-bottom: 2px solid #ff8700;
-    font-size: 150%;
+/*    font-size: 150%;*/
     font-weight: 300;
 }
 .orange-underline table {
@@ -163,8 +169,9 @@ li {
 }
 .white-section .section-header h2 {
     color: #ff8700;
-    font-size: 3vw;
+    font-size: 2.8vw;
     font-weight: 100;
+    margin-top: -60px;
 }
 .grey-section {
     background-color: rgba(91, 91, 91, 0.25);
@@ -185,7 +192,7 @@ li {
     color: rgba(238, 238, 238, 0);
 }
 .transparent-blue-section {
-     background-color: rgba(19, 32, 58, 0.75); /*rgb(27, 94, 126);*/
+     background-color: rgba(25, 56, 88, 0.69); /*rgb(27, 94, 126);*/
      color: rgba(238, 238, 238, 0);
  }
 .navbar {
@@ -203,19 +210,21 @@ li {
     padding-right: 3em;
     margin-right: 3em;
 }
-.navbar-default .navbar-nav>li>a.current {
-    border-bottom: groove #ff8700 1em;
-    color: #e96656;
-
+.navbar-default .navbar-nav>li>a.selected {
+    color: #ff8700;
 }
-.navbar-default .navbar-nav>.active>a {
-/*    background-color: #eee!important;*/
-    border-bottom: groove #ff8700 1em;
-    color: #e96656;
+.navbar-default .navbar-nav>a {
+    color: #777;
 }
-.navbar-default .nav>li>a:hover, .navbar-default .nav>li>a:focus, .navbar-default .navbar-nav>.active>a:hover {
-    background-color: #eee;
-    color: #e96656;
+/*.navbar-default .navbar-nav>.active>a {*/
+/*     color: #ff8700;*/
+/* }*/
+/*.navbar-default .navbar-nav>.active.selected>a {*/
+/*      color: #ff8700;*/
+/*  }*/
+.navbar-default .nav>li>a:hover, .navbar-default .nav>li>a:focus, .navbar-default .navbar-nav>.selected>a:hover {
+/*    background-color: #eee;*/
+    color: #ff8700;
 }
 .navbar-nav>li>a {
     padding-top: 27px;
@@ -246,13 +255,13 @@ li {
 }
 .navbar-default .navbar-toggle {
     border-color: #ff8700;
+    transition: 0.8s;
 }
 .navbar-default .navbar-brand img.small {
     display: none;
 }
 .nav_name {
     margin-top: -.01em;
-    color: rgb(25, 46, 51);
     margin-left: 0;
     font-size: 1.5em;
     font-family: gentonalight, sans-serif;
@@ -265,6 +274,7 @@ li {
 .nav_list li:hover {
     color: #ff8700;
     font-size: 120%;
+    transition: 0.8s;
 }
 .nav_brand {
     margin-top: -2em;
@@ -298,7 +308,10 @@ ul.topnav li a {
     font-size: 17px;
 }
 
-ul.topnav li a:hover {background-color: #555;}
+ul.topnav li a:hover {
+    background-color: #555;
+    transition: 0.8s;
+}
 
 ul.topnav li.icon {display: none;}
 
@@ -338,7 +351,7 @@ ul.topnav li.icon {display: none;}
     position: fixed;
     top: 1em;
     right: 3em;
-    margin-right: 3em;
+    margin-right: 0.5em;
     padding-right: 0;
     float: right;
 }
@@ -387,14 +400,15 @@ ul.topnav li.icon {display: none;}
     font-family: gentonalight, sans-serif;
 }
 #about.w3-content h1{
-    margin; 0 0 0 3em;
-    font-size: 2.2em;
+    margin: 0 0 0 3em;
+    font-size: 2em;
     color: #ff8700;
     font-stretch: extra-expanded;
     font-weight: 200;
     text-align:center;
 }
 .section-hero {
+/*    background-image: url('../../includes/images/hero2__4_op2.jpg');*/
     background-image: url('../../includes/images/hero2__4_op2.jpg');
     margin: 1em 0;
     padding: 0;
@@ -419,14 +433,25 @@ ul.topnav li.icon {display: none;}
 }
 .section.bigbox {
     padding: 0;
-    background-color: #eee;
+    background-color: #fff;
 }
 .section.bigbox h5{
     font-size: 180%;
     font-weight: 300;
-    color: rgb(25, 46, 51);
+/*    color: #fff;*/
     border-bottom: 2px solid #ff8700;
-    margin-left: -18px;
+/*    margin-top: 30px;*/
+}
+
+.section.bigbox h4 {
+    font-family: gentonalight, sans-serif;
+    color: #777;
+    margin-top: 20px;
+}
+.section.bigbox h3 {
+    font-family: gentonalight, sans-serif;
+    color: #333;
+    margin-top:150px;
 }
 .section.bigbox.speech p {
     padding: 1em 4em;
@@ -454,8 +479,9 @@ ul.topnav li.icon {display: none;}
 .section.footer {
     margin-bottom: -20px;
     padding-bottom: -10px;
-    background-image: url('../images/footer.png');
+/*    background-image: url('../images/footer.png');*/
     background-size: cover;
+    background-color: #000;
     background-repeat: repeat;
     background-position: bottom left;
     background-attachment: scroll;
@@ -544,15 +570,24 @@ ul.topnav li.icon {display: none;}
     font-weight: 200;
 }
 #about_2 p {
-    font-size: 1.5em;
+    font-size: 20px;
     font-weight: 200;
-    margin: 20px 20px 20px 0;
+    margin: 20px 0 0 80px;
+    color: #333;
+    line-height: 120%;
+}
+#pipe {
+    color: #333;
+    font-size: 150%;
+    margin-top: 2px;
+    font-weight: 100;
 }
 #about_bio  p{
     font-size: 1.5em;
     margin: 20px 40px 20px 0;
     padding-right: 0;
-    text-align: justify;
+    text-align: start;
+    color: #333;
 }
 img.fullwidth {
     width: 100%;
@@ -630,9 +665,9 @@ a.button:hover {
     height: 100%;
 }
 #_button {
-    color: rgb(25, 46, 51);
+    color: #ff8700;
     background: transparent;
-    border: thin #ff8700 solid;
+    border: thin #333 solid;
     -webkit-border-radius: 3px;
     -moz-border-radius: 3px;
     border-radius: 3px;
@@ -640,23 +675,25 @@ a.button:hover {
     text-align: center;
     font-size: 120%;
     width: 7.5em;
-    height: 2em;
+    height: 1.8em;
     margin: 0 0 0 15em;
     font-weight: 200;
+    transition: 0.8s;
 }
 #_button_contact {
-    color: rgb(25, 46, 51);
+    color: #ff8700;
     background: transparent;
-    border: thin #ff8700 solid;
+    border: thin #333 solid;
     -webkit-border-radius: 3px;
     -moz-border-radius: 3px;
     border-radius: 3px;
     cursor: pointer;
     text-align: center;
     font-size: 60%;
-    width: 6em;
-    height: 1.5em;
+    width: 7.5em;
+    height: 2.2em;
     font-weight: 200;
+    transition: 0.8s;
 }
 #_button_nav {
     color: rgb(25, 46, 51);
@@ -672,28 +709,31 @@ a.button:hover {
     height: 1.5em;
     margin: 0 1em;
     font-weight: 100;
+    transition: 0.8s;
 }
 #_button:hover {
-    background-color: rgb(255, 255, 255);
-    color: #ff8700;
-    border: thin rgb(62, 88, 93) solid;
-
+    background-color: rgba(196, 185, 193, 0.2);
+    color: #000;
+    border: thin #ff8700 solid;
+    transition: 0.8s;
 }
 #_button:active {
     background-color: rgb(255, 255, 255);
     color: #ff8700;
     border: thin rgb(62, 88, 93) solid;
-
+    transition: 0.8s;
 }
 #_button_nav:hover {
     background-color: rgb(255, 255, 255);
     color: #ff8700;
     border: thin rgb(62, 88, 93) solid;
+    transition: 0.8s;
 }
 #_button_contact:hover {
-    background-color: rgb(255, 255, 255);
-    color: #ff8700;
-    border: thin rgb(62, 88, 93) solid;
+    background-color: rgba(196, 185, 193, 0.2);
+    color: #000;
+    border: thin #ff8700 solid;
+    transition: 0.8s;
 }
 .button_table td {
     /*    padding: 2em 1em 2em 1em;
@@ -752,9 +792,15 @@ a.button:hover {
     padding: .5em 1em;
 }
 .row {
-    margin: -2em 1.75em;
+    margin-top: 2em;
     padding: .5em 0;
 }
+.row.project{
+    margin-bottom: 180px;
+    padding-bottom: 180px;
+       /* border-bottom: solid 0.25px #777; */
+}
+
 .row_project {
     margin: -2em 1.75em;
     padding: .5em 0;
@@ -783,119 +829,14 @@ a.button:hover {
     margin-left: 46%;
 }
 
-/* ------------------------------  media queries ----------------------------------------*/
-@media (min-width: 1200px) {
-    body {
-        background-size: cover;
-    }
-    #about h1 {
-          font-size: 3vw;
-      }
-    .navbar {
-        margin-top 1em;
-    }
-
+.active.selected {
+    color: #ff8700;
 }
+
+/* ------------------------------  media queries ----------------------------------------*/
+
 
 @media (max-width: 1200px) {
-    .logo img {
-        width: 250px;
-        height: 250px;
-    }
-    .logo-icon img {
-        margin: 2em 3em 2em 1em;
-        width: 250px;
-        height: 250px;
-    }
-    .logo-icon {
-        height: 250px;
-        width:250px;
-        padding-top: 60px;
-        margin-bottom: 1px;
-    }
-    #about p {
-        font-size: 1.75em;
-        font-weight: 100;
-    }
-    #about h1 {
-        font-size: 3vw;
-    }
-    #about_2 p {
-        font-size: 1.5em;
-        font-weight: 100;
-        margin: 20px 20px 20px 0;
-    }
-
-    #about_me  p {
-        margin-right: 800px;
-        padding-right: 3em;
-        font-size: 1.75em;
-        font-weight: 300;
-    }
-    #_button {
-        margin: 0 0 0 8em;
-    }
-    #_button a {
-        font-size: 40%;
-        width: 4em;
-        height: 1.5em;
-        margin: 0 2em;
-        font-weight: 200;
-    }
-    #_button_nav  {
-        font-size: 80%;
-        width: 6em;
-        height: 2em;
-        margin: 0 1em;
-        font-weight: 200;
-    }
-
-    .button_table  {
-        margin-left: 6em;
-    }
-    .button_table td {
-        font-weight: 200;
-        font-size: 40%;
-    }
-    .project-icon img {
-        height: 75%;
-    }
-    .navbar-default .navbar-nav>li>a {
-        padding-right: 3em;
-    }
-    .row {
-          margin: -2em 1.75em;
-          padding: .5em 0;
-      }
-    .row_contact {
-        margin: .5em -.75em;
-        padding: .5em 1em;
-    }
-}
-
-@media (max-width: 1024px) {
-    .navbar-default .navbar-brand img.full {
-        display: none;
-    }
-    .navbar-default .navbar-brand img.small {
-        display: inline;
-        position: relative;
-        top: 6px;
-        width: 60px;
-        float: right;
-    }
-    .navbar-default .navbar-nav>li>a {
-        padding-right: 5em;
-    }
-    #projects_nav {
-        padding: 0 0 1em 3em;
-    }
-    #_button {
-        margin: 0 0 0 8em;
-    }
-}
-
-@media (max-width: 991px) {
     .logo img {
         width: 250px;
         height: 250px;
@@ -904,12 +845,12 @@ a.button:hover {
         padding-right: 0;
     }
     .logo-icon img {
-        width: 200px;
-        height: 200px;
+/*        width: 200px;*/
+        height: 400px;
         margin-left: 230px;
     }
     .logo-icon {
-        height: 200px;
+        height: 400px;
         width:200px;
         padding-top: 0;
         margin-bottom: 1px;
@@ -920,7 +861,7 @@ a.button:hover {
          font-family: gentonalight, sans-serif;
          font-weight: 300;
          padding-right: 7em;
-         margin-right: -1.2em;
+         margin-right: -2.2em;
         padding-top:15px;
      }
     .navbar-default .project_nav {
@@ -947,13 +888,13 @@ a.button:hover {
     }
     #about_2 p {
         font-size: 1.5em;
-        margin: 20px 20px 20px 0;
+        margin: 20px 0 20px 50px;
         padding-right: 1em;
      }
     #_button  {
         font-size: 70%;
         font-weight: 200;
-        margin 0 0 0 0;
+        margin: 0 0 0 0;
     }
     #_button_nav  {
         font-size: 40%;
@@ -980,7 +921,7 @@ a.button:hover {
         font-weight: 100;
     }
     .button_table  {
-        margin-left: -2em;
+        margin: -20px 0 0 180px;
     }
     .button_table  a {
         font-size: 1.5em;
@@ -988,17 +929,21 @@ a.button:hover {
 /*        padding-left: 5em;*/
     }
     .section.footer  {
-        margin-bottom: 0px;
+        margin-bottom: 0;
     }
     .project-icon img {
-        height: 65%;
-        margin-left: -2em;
+        height: 125%;
+        margin: -20px 0 40px -80px;
     }
+    .project-icon.app img {
+         height: 315px;
+         margin-left: -70px;
+     }
     .project-icon {
         height: 350px;
         display: inline-block;
         padding-top: 20px;
-        margin: 1em 0 -4em 1em;
+        margin: -1em 0 -4em 1em;
     }
     .section.bigbox {
         padding: 0 2em;
@@ -1007,6 +952,13 @@ a.button:hover {
     .section.bigbox h5{
         margin-top: -1.75em;
     }
+    .section.bigbox h4 {
+        margin: 20px 0 0 -20px;
+        font-size: 100%;
+    }
+    .section.bigbox h3 {
+         margin-top: 20px;
+     }
     .section.project.img {
         text-align: center;
         margin: 5em 3em 1em -2em;
@@ -1020,8 +972,9 @@ a.button:hover {
     .white-section .section-header h2 {
         font-size: 1.5em;
         margin-bottom: 20px;
+        margin-top: 5px;
     }
-     .col-md-8.button_table, {
+     .col-md-8.button_table {
         float: right;
          clear: left;
     }
@@ -1029,6 +982,9 @@ a.button:hover {
         margin: -2em 0;
         padding: .5em 0;
     }
+    .row.project {
+        margin-top: -50px;
+     }
     .row_contact {
         margin: .5em -.75em;
         padding: .5em 1em;
@@ -1040,27 +996,122 @@ a.button:hover {
         margin-left: 44%;
     }
     .container.projects h1 {
-        margin-bottom: 1em;
+/*        margin-bottom: 1em;*/
     }
 
 }
 
-@media (max-width: 845px) {
-    .navbar-default .navbar-nav>li>a {
-        color: #000;
-        font-size: 1.2em;
-        font-family: gentonalight, sans-serif;
-        font-weight: 300;
-        padding-right: 4em;
-        margin-right: 3em;
-        padding-top: 15px;
+@media screen and (max-width: 1028px) {
+    .project-icon {
+        margin: 1em 0 -4em 1.5em;
     }
-    .white-section .section-header h2 {
-        font-size: 4.5vw;
+    .section.bigbox h4 {
+        margin-left: 5px;
     }
 }
 
-@media (max-width: 780px) {
+@media (max-width: 991px) {
+    h1 {
+        font-size: 20%;
+    }
+    .logo img {
+        width: 150px;
+        height: 150px;
+        margin-left: 60px;
+        margin-bottom: -20px;
+    }
+    #about p {
+        margin: 20px -20px;
+        font-size: 1.75em;
+        font-weight: 100;
+        text-align: start;
+    }
+    #about h1 {
+        margin-top: 0.25em;
+        font-weight: 100;
+        font-size: 3vw;
+    }
+    #about_2 p {
+        margin: 20px -10px 20px 0;
+        font-size: 1.5em;
+        font-weight: 100;
+        text-align: start;
+    }
+    .col-md-6 {
+        margin: 0 -2em 0 1em;
+    }
+    .section.bigbox h5{
+        margin: .25em 4em 0 1em;
+        padding-right: 1em;
+    }
+    .section.bigbox h4 {
+        margin-left: -50px;
+    }
+    .section.bigbox h3 {
+        margin: 220px 0 0 -50px;
+    }
+    .project-icon img {
+        height: 150%;
+/*        padding-top: 20px;*/
+                margin-top: -4em;
+    }
+    .project-icon.app img {
+        height: 380px;
+        margin-left: -90px;
+        margin-top: 100px;
+    }
+    #_button {
+        font-size: 250%;
+        margin: 0 0 0 40px;
+        font-weight: 200;
+        height: 2em;
+    }
+    #_button a {
+        font-size: 30%;
+        width: 2em;
+        height: 1.5em;
+        margin: 0;
+        font-weight: 100;
+    }
+    #_button_contact  {
+        font-size: 60%;
+        width: 6em;
+        height: 1.75em;
+        margin: 0 2em 0 0;
+        font-weight: 100;
+    }
+    .button_table td {
+        font-weight: 200;
+        font-size: 30%;
+    }
+    .button_table  {
+        margin-left: -2em;
+    }
+    .button_table  a {
+        font-size: 1.5em;
+        /*        margin-left: -4em;*/
+        padding-left: 8em;
+    }
+    .down {
+        margin-left: 42%;
+    }
+    .container.projects h1 {
+        margin-bottom: -4.5em;
+    }
+    .orange-underline {
+        margin: .5em 0;
+    }
+    .product_desc {
+        margin-top: 150px;
+    }
+    .row.project{
+         margin-bottom: 160px;
+         padding-bottom: 60px;
+     }
+}
+
+
+@media (max-width: 680px) {
     .navbar-default .navbar-brand img.small {
         top: 2px;
         width: 45px;
@@ -1072,6 +1123,9 @@ a.button:hover {
         padding-top: .25em;
         padding-bottom: 10px;
         font-family: gentonalight, sans-serif;
+    }
+    .section-hero {
+        background-image: url('../images/hero2_2_op.jpg');
     }
     #network-text p {
         font-size: 11px;
@@ -1101,7 +1155,14 @@ a.button:hover {
         height: 350px;
         display: inline-block;
         padding-top: 50px;
-        margin: -.5em 0 -4em 1em;
+        margin: -1.5em 0 -4em 1em;
+    }
+    .project-icon.app img {
+         height: 320px;
+         margin-left: -80px;
+     }
+    .project-icon img{
+        margin: -2em 0 0 -2em;
     }
     #about p {
         margin: 20px -20px;
@@ -1119,9 +1180,9 @@ a.button:hover {
     }
     #about_bio  p{
         font-size: 1.5em;
-        margin: 20px 20px 20px 0;
+        margin: 20px -30px 20px 0;
         padding-right: 0;
-        text-align: justify;
+        text-align: start;
     }
     #about h1 {
         margin-top: 0.25em;
@@ -1134,7 +1195,6 @@ a.button:hover {
         font-size: 24px;
     }
     #_button {
-        color: rgb(62, 88, 93);
         font-size: 70%;
         margin: 0 0 0 13em;
         font-weight: 200;
@@ -1176,8 +1236,8 @@ a.button:hover {
         margin-bottom: 0;
     }
     .project-icon img {
-        height: 65%;
-        margin-left: -2.2em;
+        height: 150%;
+        margin-left: -5em;
     }
     .project.img {
         text-align: center;
@@ -1204,136 +1264,28 @@ a.button:hover {
 }
 
 
-@media (max-width: 767px) {
-    #about h1 {
-        margin-top: 0.25em;
-        font-size: 4vw;
-    }
-    #about p {
-        margin: 20px 0 0 20px;
-    }
-    #about_bio  p{
-        font-size: 1.5em;
-        margin: 20px 40px 20px 0;
-        padding-right: 0;
-        text-align: justify;
-    }
-    section.project-icon {
-        height: 350px;
-        width:350px;
-        display: inline-block;
-        padding-top: 20px;
-        margin-bottom: 10px;
-        margin-left: 80px;
-        margin-top: 60px;
-    }
-    .section.bigbox .projects{
-        margin-top: 5em;
-    }
-    .section.bigbox h5{
-        margin-top: .25em;
-    }
-    .nav_name {
-        margin-left: -.5em;
-    }
-    p#about_2.about.phone {
-        font-size: 12%;
-    }
+@media (max-width: 768px) {
     .project-icon img {
-        height: 100%;
+        height:140%;
+        margin-top: -8em;
+        margin-left: -7em;
     }
-    .project-icon {
-        height: 350px;
-        display: inline-block;
-        padding-top: 50px;
-        margin: 0;
+    .project-icon.app img {
+        margin-top: -3em;
+        margin-left: -7em;
     }
-    .section-hero {
-        background-image: url('../images/hero2_2_op.jpg');
+    .section.bigbox h3 {
+        margin-top: 100px;
     }
-    .white-section .section-header h2 {
-        font-size: 5vw;
-    }
-    .down {
-        margin-left: 43%;
-    }
-    #projects_nav {
-        float: left;
-/*        clear: both;*/
-        line-height: 60%;
-        color: #ff8700;
-        display: inline;
-        padding-bottom: 0;
-        padding-left: 50px;
-    }
-    .navbar-default .project_nav {
-        margin-top: -60px;
-    }
-    .navbar-default .navbar-nav>li>a {
-        line-height: 15%;
-    }
-
-    }
-@media (max-width: 720px) {
-    #_button a {
-        font-size: 30%;
-        width: 2em;
-        height: 1.5em;
-        margin: 0;
-        font-weight: 100;
-    }
-    #_button_nav  {
-        font-size: 40%;
-        width: 6em;
-        height: 2em;
-        margin: 0 1em;
-        font-weight: 100;
-    }
-    #_button {
-        font-size: 80%;
-        margin: 0 0 0 10em;
-        font-weight: 200;
-    }
-    .button_table td {
-        font-weight: 200;
-        font-size: 60px;
-    }
-    .button_table  {
-        margin-left: -2em;
-    }
-    .button_table  a {
-        font-size: 1.5em;
-        margin-left: -4em;
-/*        padding-left: 5em;*/
-    }
-    #about h1 {
-        margin-top: 0.25em;
-        font-size: 4.5vw;
-    }
-    .white-section .section-header h2 {
-        font-size: 1.5em;
+    #_button_contact {
         margin-bottom: 20px;
-    }
-    .projects {
-        margin-top: 5em;
-    }
-
-@media (max-width: 610px) {
-    #about h1 {
-        margin-top: 0.25em;
-        font-size: 5vw;
-    }
-    .white-section .section-header h2 {
-        font-size: 5.5vw;
-    }
-    .navbar-default .project_nav {
-        margin-left: 100px;
     }
 }
 
+
 @media (max-width: 590px) {
      h1 {
-        font-size: 20%;
+        font-size: 80%;
      }
     .logo img {
         width: 150px;
@@ -1353,7 +1305,7 @@ a.button:hover {
         font-size: 5vw;
     }
     #about_2 p {
-       margin: 20px -10px 20px 0;
+       margin: 20px 10px 20px -60px;
         font-size: 1.5em;
         font-weight: 100;
         text-align: start;
@@ -1362,17 +1314,29 @@ a.button:hover {
         margin: 0 -2em 0 1em;
     }
     .section.bigbox h5{
-        margin .25em 4em 0 1em;
+        margin: .25em 4em 0 1em;
         padding-right: 1em;
     }
+    .section.bigbox h3 {
+         margin-top: 20px;
+        margin-left: -100px;
+        font-size: 160%;
+     }
+    .section.bigbox h4 {
+        margin-left: -100px;
+    }
     .project-icon img {
-        height: 100%;
-        padding-top: 20px;
-/*        margin: -.5em 0 -5em 1em;*/
+        height: 325px;
+        padding-top: 10px;
+        margin: -8em 0 -5em -100px;
         }
+    .project-icon.app img {
+        height: 285px;
+        margin-left: -70px;
+    }
     #_button {
-        font-size: 80%;
-        margin: 0 3em 0 0;
+        font-size: 220%;
+        margin: 0 0 0 40px;
         font-weight: 200;
     }
     #_button a {
@@ -1410,63 +1374,18 @@ a.button:hover {
     .orange-underline {
              margin: .5em 0;
          }
+    .product_desc {
+        margin-top: 150px;
+    }
 }
-@media (max-width: 540px) {
-    #about h1 {
-        font-size: 5vw;
-    }
-    .down {
-        margin-left: 42%;
-    }
-    .col-md-6 {
-/*        margin: 0 -1em 0 2em;*/
-    }
-    .down {
-        margin-left: 41%;
-    }
-    .white-section .section-header h2 {
-        font-size: 1.5em;
-        margin-bottom: 20px;
-    }
-    .container.projects h1 {
-        margin-bottom: -3em;
-    }
-    .orange-underline {
-        margin: .5em 1.25em;
-    }
 
-
-}
 @media (max-width: 480px) {
-    .nav_name {
-        margin-left: -.8em;
-        font-size: 1.5em;
-        font-weight: 200;
-    }
-    .navbar-default .project_nav {
-        margin-left: 80px;
-        line-height: 60%;
-    }
-    .container.projects h1 {
-        margin-bottom: -4.5em;
-    }
-    .orange-underline {
-        margin: .5em 1.75em;
-    }
-    .section.bigbox h5{
-        margin .25em 5em 0 1em;
-    }
     #about_2 p {
-        margin: 0 1em;
+        margin-right: 2.5em;
     }
 }
-    .project-icon img {
-        height: 95%;
-        padding-top: 20px;
-        /*        margin: -.5em 0 -5em 1em;*/
-    }
 
-}
+
 @media (max-width: 440px) {
     h1 {
         font-size: 2em;
@@ -1474,7 +1393,7 @@ a.button:hover {
     #network-text p {
         font-size: 8px;
         height: 25%;
-        top: ;
+        top: 0;
         transform: translate(-10%, 0%);
         line-height: 10px;
     }
@@ -1528,8 +1447,8 @@ a.button:hover {
     }
     #about_2 p {
         font-size: 1.5em;
-        margin-top: 5px;
-        margin-left: 0;
+        margin-top: 20px;
+        margin-left: -50px;
 /*        padding-right: 2.2em;*/
     }
     p #about_2 .bio  {
@@ -1569,6 +1488,14 @@ a.button:hover {
         padding: 0 1.5em;
         font-size: 175%;
     }
+    .section.bigbox h4 {
+        margin-left: -65px;
+    }
+    .section.bigbox h3 {
+        margin-top: -50px;
+        margin-left: -55px;
+        font-size: 140%;
+    }
     .orange-underline {
         margin: .5em 0;
         padding: 0 2em;
@@ -1582,7 +1509,7 @@ a.button:hover {
         font-weight: 300;
     }
     #_button {
-        font-size: 80%;
+        font-size: 140%;
         font-weight: 200;
         margin: 0 3em 0 0;
     }
@@ -1635,16 +1562,21 @@ a.button:hover {
         max-height: 481px;
     }
     .project-icon img {
-        height: 70%;
-        margin-bottom: 1em;
-        margin-left: -4em;
+        height: 90%;
+/*        margin-bottom: 1em;*/
+        margin-left: -8em;
+    }
+    .project-icon.app img {
+        height: 240px;
+        margin-left: -60px;
+        margin-top: -70px;
     }
     .project-icon {
         height: 350px;
         width:350px;
         display: inline-block;
         padding-top: 50px;
-        margin: -.5em 0 -8em 1em;
+        margin: -2.5em 0 -5em 0;
     }
     .nav_name {
         margin-left: -.85em;
@@ -1690,11 +1622,13 @@ a.button:hover {
         margin-bottom: -30px;
      }
     .skills-icon img {
-        height: 58px;
+        height: 130px;
+        margin-bottom: 60px;
     }
     .white-section .section-header h2 {
         font-size: 1.5em;
         margin-bottom: 20px;
+        margin-top: 0px;
     }
     .jumbotron h3 {
         font-size: 25px;
@@ -1704,7 +1638,14 @@ a.button:hover {
         margin-left: 40%;
     }
 }
+
+
+
+
 @media (max-width: 400px) {
+    .about.container.project {
+        margin-top: -40px;
+    }
     #about h1 {
         font-size: 5vw;
         padding-left: .5em;
@@ -1726,10 +1667,17 @@ a.button:hover {
         margin: .5em 1.75em;
     }
     .section.bigbox h5{
-        margin .25em 5em 0 1em;
+        margin: .25em 5em 0 0;
+    }
+    .section.bigbox h4{
+        margin-left: -80px;
+    }
+    .section.bigbox h3{
+        margin: -30px 0 0 -80px;
     }
     #about_2 p {
-        margin: 0 1em;
+        margin-top: 20px;
+        margin-right: 2em;
     }
     #about_bio  p{
         font-size: 1.5em;
@@ -1737,8 +1685,13 @@ a.button:hover {
         padding-right: 0;
     }
     .project-icon img {
-        padding-top: 20px;
-        /*        margin: -.5em 0 -5em 1em;*/
+        margin-top: -90px;
+        margin-left: -8em;
+        height: 260px;
+    }
+    .project-icon.app img {
+        height: 210px;
+        margin-left: -100px;
     }
 }
 
@@ -1757,7 +1710,7 @@ a.button:hover {
     }
     #about_2 p {
         font-size: 1.5em;
-        margin: 5px 4em 0 0;
+        margin: 15px 3em 0 -40px;
         padding-right: 0;
     }
     #about_bio  p{
@@ -1766,49 +1719,121 @@ a.button:hover {
         padding-right: 0;
         text-align: start;
     }
-    .container {
-        margin-right: 2em;
+    .container.project {
+        margin-top: -160px;
     }
     .section.bigbox h5{
-        margin: 1.25em 2em 0 -1em;
+        margin: 1.25em 4em 0 1em;
         padding: 0 2.5em .25em .5em;
         font-size: 150%;
     }
+    .section.bigbox h4 {
+        margin-left: -120px;
+        font-size: 90%;
+        margin-top: 15px;
+    }
+    .section.bigbox h3{
+        margin-left: -130px;
+        margin-top: -100px;
+    }
     .project-icon img {
-        height: 70%;
-        margin-bottom: 1em;
-        margin-left: -8.5em;
+        height: 75%;
+        margin-top: -100px;
+        margin-left: -10em;
+    }
+    .project-icon.app img {
+        height: 180px;
+        margin-left: -160px;
+        margin-top: -100px;
     }
     .orange-underline {
-        margin: .5em 4.5em 0 1em;
+        margin: .5em 4em 0 1em;
         padding: 0 2em;
-        <!-- width: 310px; -->
+/*        <!-- width: 310px; -->*/
     }
     .container.projects h1 {
         margin-left: 0;
     }
+    .navbar-default .navbar-nav>li>a {
+        font-size: 110%;
+        padding-right: 1em;
+    }
+    .header-logo img {
+        margin-right:-2em;
+        width: 30px;
+        height: 30px;
+    }
+    #_button {
+        margin-left: 70px;
+        margin-top: 20px;
+    }
+    .white-section .section-header h2 {
+        margin-top: 0;
+    }
 }
 @media (max-width: 300px) {
+    body {
+        min-width: 300px;
+    }
     #about h1 {
         font-size: 5vw;
     }
     p.nav_name {
-        font-size: 90%;
+        font-size: 115%;
+        margin-left: -1.5em;
     }
     .down {
         margin-left: 32%;
     }
     #about_2 p {
         font-size: 1.5em;
-        margin: 5px 4em 0 0;
+        margin: 15px 3em 0 -40px;
         padding-right: 0;
     }
     .header-logo img {
-        margin-right:-1em;
+        margin-right:-2em;
+        width: 30px;
+        height: 30px;
+    }
+    .section.bigbox h4 {
+        font-size: 80%;
+        margin-left: -140px;
+    }
+    .section.bigbox h3 {
+        font-size: 120%;
+        margin-left: -130px;
+    }
+    .project-icon img {
+        margin-left: -250px;
+        margin-bottom: -40px;
+    }
+    #_button {
+        margin-left: 100px;
     }
 }
+
+
+
 @media (max-width: 267px) {
     h3.orange-underline {
         margin-left: -4em;
     }
+}
+@media (min-width: 1200px) {
+    body {
+        background-size: cover;
+    }
+    #about h1 {
+        font-size: 3vw;
+    }
+    .navbar {
+        margin-top; 1em;
+    }
+    .section.bigbox h4 {
+        margin: 20px 0 0 30px;
+    }
+    .section.bigbox h3 {
+        margin-top: 20px;
+    }
+
 }
