@@ -23,11 +23,11 @@
     <div class="container projects" style="padding-top: 9em;">
         <div id="about" class="project-icon">
             <div class="container">
-                <div class="row project" style="margin-bottom: 10em; margin-top: 10px;">
+                <div class="row project" style="margin-bottom: 5em; margin-top: 30px;">
                     <div class="col-lg-6 col-xl-12">
                         <div>
                             <div class="project-icon"><a href="includes/images/ccs_lg.jpg" id="ccs"
-                                                         data-lightbox="vector" data-title="CCS"><img src="includes/img/ccs_desktop.png" alt="CCS" title="Click To View"></a>
+                                                         data-lightbox="vector" data-title="CCS"><img src="includes/img/ccs_desktop_md.png" alt="CCS" title="Click To View"></a>
                             </div>
                         </div>
                     </div>
@@ -36,34 +36,49 @@
                             <h3 >Coordinated Consulting Services</h3>
                             <h4>Web Application Development <span id="pipe">|</span> Web Design <br>  Web Consulting <span id="pipe">|</span> Database Build</h4>
                             <p id="skills">A private and secure web application for a consulting firm built with PHP, JavaScript, and MySQL that
-                                requiries user account creation and access, user input and uploads data to remote database with report generation capabilities.</p>
-<!--                            <table class="button_table">-->
-<!--                                <tr>-->
-<!--                                     <td><h4><a href="https://saffron.canvashost.com/~lereive2/ccs/" target="_blank"><button id="_button" >To Website</button></a></h4></td>-->
-<!--                                </tr>-->
-<!--                            </table>-->
+                                requires user account creation and access, user input and uploads data to remote database with report generation capabilities.</p>
                         </div>
                     </div>
                 </div>
 
-
                 <div class="row project" style="margin-bottom: 10em;">
                     <div class="col-lg-6 col-xl-12">
                         <div>
-                            <div class="project-icon"><a href="includes/images/kitchen_commons_lg.jpg" id="kitchen_commons"
-                                                         data-lightbox="vector" data-title="Kitchen Commons"><img src="includes/img/kitchen_commons_desktop.png" alt="Kitchen Commons" title="Click To View"></a>
+                            <div class="project-icon app"><a href="includes/images/drums_phone_tablet2.png" id="drums"
+                                                             data-lightbox="vector" data-title="Drums"><img src="includes/img/drums.png" alt="Drums" title="Click To View"></a>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-6 col-xl-12">
                         <div class="project_desc">
-                            <h3>Kitchen Commons</h3>
-                                <h4>Web Design <span id="pipe">|</span> Site Migration <span id="pipe">|</span> SEO Augmentation</h4>
-                            <p id="skills">As a web development intern for a non-profit organization Kitchen Commons, assisted in migrating the organization's old Drupal site to a new WordPress site.
-                                Redesigned the new site with custom theme styling implementing changes that enhanced usability, managed plugins and widgets and applied SEO practices.</p>
+                            <h3>Drums</h3>
+                            <h4>Android App Development <span id="pipe">|</span> App Design </h4>
+                            <p id="skills">A rudimentary drum machine with language support for Italian and Japanese.</p>
                             <table class="button_table">
                                 <tr>
-                                    <td><h4><a href="https://kitchencommons.net/" target="_blank"><button id="_button" >To Website</button></a></h4></td>
+                                    <td><h4><a href="https://play.google.com/store/apps/details?id=app.lereiver.mike.drums" target="_blank"><button id="_button" >To App</button></a></h4></td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row project" style="margin-bottom: 10em;">
+                    <div class="col-lg-6 col-xl-12">
+                        <div>
+                            <div class="project-icon"><a href="includes/images/tip_calculator_lg.jpg" id="tip_calculator"
+                                                         data-lightbox="vector" data-title="A Tip Calculator"><img src="includes/img/tip_calculator_desktop.png" alt="Tip Calculator" title="Click To View"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-xl-12">
+                        <div class="project_desc">
+                            <h3>A Tip Calculator</h3>
+                            <h4>Web Application Development <span id="pipe">|</span> Web Application Design </h4>
+                            <p id="skills">A Single Page Web Application built with PHP, HTML5 and CSS3.</p>
+                            <table class="button_table">
+                                <tr>
+                                    <td><h4><a href="/../php/tip_calculator" target="_blank"><button id="_button" >To Web App</button></a></h4></td>
                                 </tr>
                             </table>
                         </div>
@@ -92,6 +107,72 @@
                     </div>
                 </div>
 
+
+                <div class="row project" style="margin-bottom: 10em;">
+                    <div class="col-lg-6 col-xl-12">
+                        <div>
+                            <div class="project-icon"><a href="includes/images/volume_converter_lg.jpg" id="volume_converter"
+                                                         data-lightbox="vector" data-title="Cooking Volume Converter"><img src="includes/img/volume_converter_desktop.png" alt="Cooking Volume Converter" title="Click To View"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-xl-12">
+                        <div class="project_desc">
+                            <h3>Cooking Volume Converter</h3>
+                            <h4>Web Application Development <span id="pipe">|</span> Web Application Design </h4>
+                            <p id="skills">
+                            <p>A Single Page Web Application built with PHP, jQuery, AJAX, HTML5 and CSS3.</p>
+                            <table class="button_table">
+                                <tr>
+                                    <td><h4><a href="/../php/volume_converter/" target="_blank"><button id="_button" >To Web App</button></a></h4></td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row project" style="margin-bottom: 10em;">
+                    <div class="col-lg-6 col-xl-12">
+                        <div>
+                            <div class="project-icon app"><a href="includes/images/pigLatin_phone.png" id="name_converter"
+                                                             data-lightbox="vector" data-title="Pig Latin Name Converter"><img src="includes/img/pigLatin_phone.png" alt="Pig Latin Name Converter" title="Click To View"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-xl-12">
+                        <div class="project_desc">
+                            <h3>Pig Latin Name Converter</h3>
+                            <h4>Android App Development <span id="pipe">|</span> App Design </h4>
+                            <p id="skills"> Using string manipulations, this Android app converts names into Pig Latin.</p>
+                            <table class="button_table">
+                                <tr></tr>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row project" style="margin-bottom: 10em;">
+                    <div class="col-lg-6 col-xl-12">
+                        <div>
+                            <div class="project-icon"><a href="includes/images/kitchen_commons_lg.jpg" id="kitchen_commons"
+                                                         data-lightbox="vector" data-title="Kitchen Commons"><img src="includes/img/kitchen_commons_desktop.png" alt="Kitchen Commons" title="Click To View"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-xl-12">
+                        <div class="project_desc">
+                            <h3>Kitchen Commons</h3>
+                            <h4>Web Design <span id="pipe">|</span> Site Migration <span id="pipe">|</span> SEO Augmentation</h4>
+                            <p id="skills">As a web development intern for a non-profit organization Kitchen Commons, assisted in migrating the organization's old Drupal site to a new WordPress site.
+                                Redesigned the new site with custom theme styling implementing changes that enhanced usability, managed plugins and widgets and applied SEO practices.</p>
+                            <table class="button_table">
+                                <tr>
+                                    <td><h4><a href="https://kitchencommons.net/" target="_blank"><button id="_button" >To Website</button></a></h4></td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                </div>
 
                 <div class="row project" style="margin-bottom: 10em;">
                     <div class="col-lg-6 col-xl-12">
@@ -176,135 +257,6 @@
                                 <tr>
                                     <td><h4><a href="/../web/dual_purpose/" target="_blank"><button id="_button" >To Website</button></a></h4></td>
                                 </tr>
-                            </table>
-                        </div>
-                    </div>
-                </div>
-<!---->
-<!--                <div class="row project" style="margin-bottom: 10em;">-->
-<!--                    <div class="col-lg-6 col-xl-12">-->
-<!--                        <div>-->
-<!--                            <div class="project-icon"><a href="includes/images/graphics_lg.jpg" id="graphics"-->
-<!--                                                         data-lightbox="vector" data-title="Graphics for Multimedia"><img src="includes/img/graphics_desktop.png" alt="Graphics for Multimedia" title="Click To View"></a>-->
-<!--                            </div>-->
-<!--                        </div>-->
-<!--                    </div>-->
-<!--                    <div class="col-lg-6 col-xl-12">-->
-<!--                        <div class="project_desc">-->
-<!--                            <h3>Graphics for Multimedia</h3>-->
-<!--                            <h4>Web Development <span id="pipe">|</span> Web Design</h4>-->
-<!--                            <p id="skills">This website was developed to showcase my Adobe Photoshop for multimedia capabilities.</p>-->
-<!--                            <table class="button_table">-->
-<!--                                <tr>-->
-<!--                                    <td><h4><a href="/../web/graphics/" target="_blank"><button id="_button" >To Website</button></a></h4></td>-->
-<!--                                </tr>-->
-<!--                            </table>-->
-<!--                        </div>-->
-<!--                    </div>-->
-<!--                </div>-->
-
-                <div class="row project" style="margin-bottom: 10em;">
-                    <div class="col-lg-6 col-xl-12">
-                        <div>
-                            <div class="project-icon"><a href="includes/images/tip_calculator_lg.jpg" id="tip_calculator"
-                                                         data-lightbox="vector" data-title="A Tip Calculator"><img src="includes/img/tip_calculator_desktop.png" alt="Tip Calculator" title="Click To View"></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-6 col-xl-12">
-                        <div class="project_desc">
-                            <h3>A Tip Calculator</h3>
-                            <h4>Web Application Development <span id="pipe">|</span> Web Application Design </h4>
-                            <p id="skills">A Single Page Web Application built with PHP, HTML5 and CSS3.</p>
-                            <table class="button_table">
-                                <tr>
-                                    <td><h4><a href="/../php/tip_calculator" target="_blank"><button id="_button" >To Web App</button></a></h4></td>
-                                </tr>
-                            </table>
-                        </div>
-                    </div>
-                </div>
-
-                    <div class="row project" style="margin-bottom: 10em;">
-                        <div class="col-lg-6 col-xl-12">
-                            <div>
-                            <div class="project-icon"><a href="includes/images/volume_converter_lg.jpg" id="volume_converter"
-                                                         data-lightbox="vector" data-title="Cooking Volume Converter"><img src="includes/img/volume_converter_desktop.png" alt="Cooking Volume Converter" title="Click To View"></a>
-                            </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-6 col-xl-12">
-                            <div class="project_desc">
-                        <h3>Cooking Volume Converter</h3>
-                                <h4>Web Application Development <span id="pipe">|</span> Web Application Design </h4>
-                        <p id="skills">
-                        <p>A Single Page Web Application built with PHP, jQuery, AJAX, HTML5 and CSS3.</p>
-                        <table class="button_table">
-                            <tr>
-                                <td><h4><a href="/../php/volume_converter/" target="_blank"><button id="_button" >To Web App</button></a></h4></td>
-                            </tr>
-                        </table>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="row project" style="margin-bottom: 10em;">
-                    <div class="col-lg-6 col-xl-12">
-                        <div>
-                        <div class="project-icon app"><a href="includes/images/drums_phone_tablet2.png" id="drums"
-                                                                                  data-lightbox="vector" data-title="Drums"><img src="includes/img/drums.png" alt="Drums" title="Click To View"></a>
-                        </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-6 col-xl-12">
-                        <div class="project_desc">
-                        <h3>Drums</h3>
-                        <h4>Android App Development <span id="pipe">|</span> App Design </h4>
-                        <p id="skills">A rudimentary drum machine with language support for Italian and Japanese.</p>
-                        <table class="button_table">
-                            <tr>
-                                <td><h4><a href="https://play.google.com/store/apps/details?id=app.lereiver.mike.drums" target="_blank"><button id="_button" >To App</button></a></h4></td>
-                            </tr>
-                            </table>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="row project" style="margin-bottom: 10em;">
-                    <div class="col-lg-6 col-xl-12">
-                        <div>
-                            <div class="project-icon app"><a href="includes/images/pigLatin_phone.png" id="name_converter"
-                                                         data-lightbox="vector" data-title="Pig Latin Name Converter"><img src="includes/img/pigLatin_phone.png" alt="Pig Latin Name Converter" title="Click To View"></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-6 col-xl-12">
-                        <div class="project_desc">
-                            <h3>Pig Latin Name Converter</h3>
-                            <h4>Android App Development <span id="pipe">|</span> App Design </h4>
-                            <p id="skills"> Using string manipulations, this Android app converts names into Pig Latin.</p>
-                            <table class="button_table">
-                                <tr></tr>
-                            </table>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="row project" style="margin-bottom: 10em;">
-                    <div class="col-lg-6 col-xl-12">
-                        <div>
-                            <div class="project-icon app"><a href="includes/images/drumsFragment_phone_tablet2.png" id="drums_fragment"
-                                                         data-lightbox="vector" data-title="Drums Fragmented"><img src="includes/img/drumsFragment.png" alt="Drums Fragment" title="Click To View"></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-6 col-xl-12">
-                        <div class="project_desc">
-                            <h3>Fragmented Drums</h3>
-                            <h4>Android App Development <span id="pipe">|</span> App Design </h4>
-                            <p id="skills">This an Android App. Same as Drums, but designed with using Fragments.</p>
-                            <table class="button_table">
-                                <tr></tr>
                             </table>
                         </div>
                     </div>

@@ -26,7 +26,6 @@
                         <div class="col-md-12">
                             <div class="w3-content " style="margin-left: -3em">
                                 <h1 class="header_slider w3-animate wait" style="width:100% ">Hello, <br>I am a <span class="title">Website Developer</span></h1>
-                                <h1 class="header_slider w3-animate wait" style="width:100% ">Hello, <br>I am a <span class="title">Website Designer</span></h1>
                                 <h1 class="header_slider w3-animate wait" style="width:100% ">Hello, <br>I am a <span class="title">Web App Developer</span></h1>
                                 <h1 class="header_slider w3-animate wait" style="width:100%">Hello, <br>I am an <span class="title">Android Developer</span></h1>
                                 <h1 class="header_slider w3-animate wait" style="width:100%">Hello, <br>I am a <span class="title">Software Developer</span></h1>

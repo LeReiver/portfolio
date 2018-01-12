@@ -2,33 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="23dfc474-f12c-408a-90d8-8542a8937ce5" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/includes/images/ccs_lg.jpg" afterPath="$PROJECT_DIR$/includes/images/ccs_lg.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/includes/images/dual_purpose_lg.jpg" afterPath="$PROJECT_DIR$/includes/images/dual_purpose_lg.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/includes/img/buddhabellies_desktop.png" afterPath="$PROJECT_DIR$/includes/img/buddhabellies_desktop.png" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/includes/img/ccs_desktop.jpg" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/includes/images/design.png" afterPath="$PROJECT_DIR$/includes/images/design.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/includes/images/tip_calculator_lg.jpg" afterPath="$PROJECT_DIR$/includes/images/tip_calculator_lg.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/includes/img/ccs_desktop.png" afterPath="$PROJECT_DIR$/includes/img/ccs_desktop.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/includes/img/dataview.png" afterPath="$PROJECT_DIR$/includes/img/dataview.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/includes/img/drums.png" afterPath="$PROJECT_DIR$/includes/img/drums.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/includes/img/drumsFragment.png" afterPath="$PROJECT_DIR$/includes/img/drumsFragment.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/includes/img/dual_purpose_desktop.png" afterPath="$PROJECT_DIR$/includes/img/dual_purpose_desktop.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/includes/img/graphics_desktop.png" afterPath="$PROJECT_DIR$/includes/img/graphics_desktop.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/includes/img/kitchen_commons_desktop.png" afterPath="$PROJECT_DIR$/includes/img/kitchen_commons_desktop.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/includes/img/pigLatin_phone.png" afterPath="$PROJECT_DIR$/includes/img/pigLatin_phone.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/includes/img/tip_calculator_desktop.png" afterPath="$PROJECT_DIR$/includes/img/tip_calculator_desktop.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/includes/img/volume_converter_desktop.png" afterPath="$PROJECT_DIR$/includes/img/volume_converter_desktop.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/includes/img/wellfed_desktop.png" afterPath="$PROJECT_DIR$/includes/img/wellfed_desktop.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dictionaries/mike.xml" afterPath="$PROJECT_DIR$/.idea/dictionaries/mike.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/about.php" afterPath="$PROJECT_DIR$/about.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/footer.php" afterPath="$PROJECT_DIR$/footer.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/includes/contact_process.php" afterPath="$PROJECT_DIR$/includes/contact_process.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/includes/header_slider.php" afterPath="$PROJECT_DIR$/includes/header_slider.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/includes/styles/bootstrap.min.css" afterPath="$PROJECT_DIR$/includes/styles/bootstrap.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/includes/styles/portfolio.css.php" afterPath="$PROJECT_DIR$/includes/styles/portfolio.css.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/navigation.php" afterPath="$PROJECT_DIR$/navigation.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project_navigation.php" afterPath="$PROJECT_DIR$/project_navigation.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/projects.php" afterPath="$PROJECT_DIR$/projects.php" />
     </list>
     <ignored path="port_02.iws" />
@@ -51,14 +32,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="projects.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="projects.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/projects.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="216" column="101" selection-start-line="216" selection-start-column="101" selection-end-line="216" selection-end-column="101" />
+            <state relative-caret-position="495">
+              <caret line="38" column="49" selection-start-line="38" selection-start-column="49" selection-end-line="38" selection-end-column="49" />
               <folding>
-                <marker date="1512510843000" expanded="false" signature="11567:11587" placeholder="..." />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="footer.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/footer.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="18" column="58" selection-start-line="18" selection-start-column="58" selection-end-line="18" selection-end-column="58" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -76,7 +67,7 @@
       <file leaf-file-name="portfolio.css.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/includes/styles/portfolio.css.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2085">
+            <state relative-caret-position="802">
               <caret line="139" column="1" selection-start-line="139" selection-start-column="1" selection-end-line="139" selection-end-column="1" />
               <folding>
                 <marker date="1494391526000" expanded="true" signature="36353:36355" placeholder="{...}" />
@@ -95,11 +86,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="9" column="16" selection-start-line="12" selection-start-column="206" selection-end-line="12" selection-end-column="241" />
+            <state relative-caret-position="480">
+              <caret line="37" column="51" selection-start-line="37" selection-start-column="51" selection-end-line="37" selection-end-column="51" />
               <folding />
             </state>
           </provider>
@@ -143,9 +134,9 @@
         <option value="$PROJECT_DIR$/navigation.php" />
         <option value="$PROJECT_DIR$/includes/styles/portfolio.css.php" />
         <option value="$PROJECT_DIR$/skills.php" />
-        <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/about.php" />
         <option value="$PROJECT_DIR$/projects.php" />
+        <option value="$PROJECT_DIR$/index.php" />
       </list>
     </option>
   </component>
@@ -159,10 +150,10 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="PHP" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="534" />
-    <option name="y" value="1108" />
-    <option name="width" value="1347" />
-    <option name="height" value="846" />
+    <option name="x" value="12" />
+    <option name="y" value="30" />
+    <option name="width" value="1531" />
+    <option name="height" value="974" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -189,7 +180,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -208,9 +198,24 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="port_02" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="port_02" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="includes" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -402,6 +407,8 @@
       <workItem from="1508855750428" duration="1459000" />
       <workItem from="1512510532298" duration="381000" />
       <workItem from="1513370919757" duration="74000" />
+      <workItem from="1515786185980" duration="1374000" />
+      <workItem from="1515789811570" duration="3271000" />
     </task>
     <task id="LOCAL-00001" summary="New branch">
       <created>1476738849746</created>
@@ -582,14 +589,14 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="462275000" />
+    <option name="totallyTimeSpent" value="466920000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="534" y="1108" width="1347" height="846" extended-state="0" />
-    <editor active="false" />
+    <frame x="12" y="30" width="1531" height="974" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23678161" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1457354" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -694,7 +701,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/includes/img/tip_calculator_desktop.png" />
     <entry file="file://$PROJECT_DIR$/includes/img/planets_desktop.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -850,13 +856,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/portfolio.css.php" />
     <entry file="file://$PROJECT_DIR$/projects2.php" />
-    <entry file="file://$PROJECT_DIR$/footer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="38" column="10" selection-start-line="38" selection-start-column="10" selection-end-line="38" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -919,25 +918,34 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/includes/img/ccs_desktop.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/includes/styles/portfolio.css.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2085">
-          <caret line="139" column="1" selection-start-line="139" selection-start-column="1" selection-end-line="139" selection-end-column="1" />
-          <folding>
-            <marker date="1494391526000" expanded="true" signature="36353:36355" placeholder="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/img/ccs_desktop.jpg" />
     <entry file="file://$PROJECT_DIR$/includes/error_log">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/img/tip_calculator_desktop.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projects.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="38" column="49" selection-start-line="38" selection-start-column="49" selection-end-line="38" selection-end-column="49" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="18" column="58" selection-start-line="18" selection-start-column="58" selection-end-line="18" selection-end-column="58" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -949,11 +957,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
+    <entry file="file://$PROJECT_DIR$/includes/styles/portfolio.css.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="9" column="16" selection-start-line="12" selection-start-column="206" selection-end-line="12" selection-end-column="241" />
-          <folding />
+        <state relative-caret-position="802">
+          <caret line="139" column="1" selection-start-line="139" selection-start-column="1" selection-end-line="139" selection-end-column="1" />
+          <folding>
+            <marker date="1494391526000" expanded="true" signature="36353:36355" placeholder="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -965,13 +975,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/projects.php">
+    <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="216" column="101" selection-start-line="216" selection-start-column="101" selection-end-line="216" selection-end-column="101" />
-          <folding>
-            <marker date="1512510843000" expanded="false" signature="11567:11587" placeholder="..." />
-          </folding>
+        <state relative-caret-position="480">
+          <caret line="37" column="51" selection-start-line="37" selection-start-column="51" selection-end-line="37" selection-end-column="51" />
+          <folding />
         </state>
       </provider>
     </entry>
