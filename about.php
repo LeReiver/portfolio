@@ -9,6 +9,15 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-112437058-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-112437058-1');
+    </script>
     <title>Le-Reiver | About Me</title>
     <meta name="description" content="Developing online and mobile solutions using test-driven development and web standard best practices utilizing Java, JavaScript, PHP, SQL/MySQL, and Responsive UX/UIs. Seeking an Associate-level position where I can assist and contribute to a team of dynamic developers while strengthening my development skills by creating digital solutions utilizing latest frameworks and technologies.">
     <meta name="keyword" content="web, multimedia, developer, Portland, Oregon,digital media, music performance, audio production, video production, recent graduate, Web Development and Design Degree, Computer Information Systems Degree, Certificate in Web Application Development, design, programming, skills, technology, digital media, creative media, Skills, Web, Database, Android, Audio">
@@ -24,7 +33,7 @@
                         <h1 style="font-size: 1.85em; color: #ff8700; font-stretch: extra-expanded; font-weight: 200; text-align:start;  margin-bottom:1em; margin-left: -40px;">About</h1>
 
                         <p id="about_bio" class="bio" style="margin-left:-40px">
-                        Developing online and mobile solutions using test-driven development and web standard best practices utilizing Java, JavaScript, PHP, SQL/MySQL, HTML5, CSS3/LESS, and Responsive UX/UIs.<br><br>Seeking a position where I can assist and contribute to a team of dynamic developers while strengthening my development skills by creating digital solutions utilizing latest frameworks and technologies.
+                        Developing online and mobile solutions using web standard best practices and modern frameworks utilizing HTML5/XML, CSS3/LESS, JavaScript/ES6, React.js, PHP, SQL/MySQL, Java, and Responsive UX/UIs.<br><br>Seeking a position where I can assist and contribute to a team of dynamic developers while strengthening my development skills by creating digital solutions utilizing latest frameworks and technologies.
                         </p>
                     </div>
                     <div class="col-md-5" style="margin-left: -40px">
@@ -39,7 +48,7 @@
                             </div>
                             <div class="row_contact">
                                 <textarea title="questions" name="questions" cols="19" rows="3" id="questions"
-                                          placeholder="Need a website? Have Questions?" class="form-control input-box" ></textarea>
+                                          placeholder="Need a website? Have questions? Want to hire me?" class="form-control input-box" ></textarea>
                             </div>
                             <div style=" font-size: 60%; margin-top: -20px;" class="button_table_submit" ><h2>
                                     <button id="_button_contact" type="submit">SUBMIT</button></a></h2></div>

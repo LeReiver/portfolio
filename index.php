@@ -9,6 +9,15 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-112437058-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-112437058-1');
+    </script>
     <title>Michael Le-Reiver</title>
     <meta name="description" content="Developing online and mobile solutions using test-driven development and web standard best practices utilizing Java, JavaScript, PHP, SQL/MySQL, and Responsive UX/UIs. Seeking an Associate-level position where I can assist and contribute to a team of dynamic developers while strengthening my development skills by creating digital solutions utilizing latest frameworks and technologies.">
     <meta name="keyword" content="web developer, web designer,Portland, Portland Oregon, web sites, web applications, databases,
@@ -25,10 +34,10 @@
                         <p></p><br>
                         <div class="col-md-12">
                             <div class="w3-content " style="margin-left: -3em">
+                                <h1 class="header_slider w3-animate wait" style="width:100% ">Hello, <br>I am a <span class="title">Website Designer</span></h1>
                                 <h1 class="header_slider w3-animate wait" style="width:100% ">Hello, <br>I am a <span class="title">Website Developer</span></h1>
                                 <h1 class="header_slider w3-animate wait" style="width:100% ">Hello, <br>I am a <span class="title">Web App Developer</span></h1>
                                 <h1 class="header_slider w3-animate wait" style="width:100%">Hello, <br>I am an <span class="title">Android Developer</span></h1>
-                                <h1 class="header_slider w3-animate wait" style="width:100%">Hello, <br>I am a <span class="title">Software Developer</span></h1>
                                 <h1 class="header_slider w3-animate wait" style="width:100%">Hello, <br>I am an <span class="title">Audio Producer</span></h1>
                             </div>
                         </div>

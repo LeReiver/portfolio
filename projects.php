@@ -11,6 +11,15 @@
 <!doctype html>
 <html lang="en">
 <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-112437058-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-112437058-1');
+    </script>
     <title>Le-Reiver | Projects</title>
     <meta name="description" content="Developing online and mobile solutions using test-driven development and web standard best practices utilizing PHP, JavaScript, Java, SQL/MySQL, and Responsive UX/UIs. As a recent web and software developer graduate, I am seeking an entry-level position where I can assist and contribute to a team of dynamic developers while strengthening my development skills by creating digital solutions utilizing latest frameworks and technologies.">
     <meta name="keyword" content="web developer, web designer, web development, web consulting, Portland, Portland Oregon, web sites, web applications, databases,android apps, Android, digital media, PHP, MySQL, HTML5, CSS3, SEO, jQuery, JavaScript, AJAX, Java, database design, database programming, Le-Reiver, le-reiver, Michael Le-Reiver, Michael Reiver, Reiver,">

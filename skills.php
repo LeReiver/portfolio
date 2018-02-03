@@ -18,16 +18,16 @@
                     <div><div class="skills-icon lt_blue-hover-border"><img src="includes/images/imac_code5.png"></div></div>
                     <h3 class="orange-underline" style="padding-bottom:.5em;margin:.25em 0;">Languages</h3>
                     <table id="skills">
-                        <tr><td>Java</td></tr>
-                        <tr><td>JavaScript</td></tr>
+                        <tr><td>JavaScript/ES6</td></tr>
                         <tr><td>jQuery</td></tr>
+                        <tr><td>React.js</td></tr>
                         <tr><td>PHP</td></tr>
-                        <tr><td>SQL</td></tr>
-                        <tr><td>MySQL</td></tr>
+                        <tr><td>SQL/MySQL</td></tr>
                         <tr><td>CSS3</td></tr>
                         <tr><td>LESS</td></tr>
                         <tr><td>HTML5</td></tr>
                         <tr><td>XML</td></tr>
+                        <tr><td>Java</td></tr>
                         <tr><td>&nbsp;</td></tr>
                     </table>
                 </div>
