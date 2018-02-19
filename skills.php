@@ -18,14 +18,16 @@
                     <div><div class="skills-icon lt_blue-hover-border"><img src="includes/images/imac_code5.png"></div></div>
                     <h3 class="orange-underline" style="padding-bottom:.5em;margin:.25em 0;">Languages</h3>
                     <table id="skills">
-                        <tr><td>HTML5</td></tr>
-                        <tr><td>CSS3 / LESS</td></tr>
+                        <tr><td>JavaScript/ES6</td></tr>
+                        <tr><td>jQuery</td></tr>
+                        <tr><td>React.js</td></tr>
                         <tr><td>PHP</td></tr>
-                        <tr><td>JavaScript</td></tr>
-                        <tr><td>Java</td></tr>
-                        <tr><td>XML</td></tr>
                         <tr><td>SQL/MySQL</td></tr>
-                        <tr><td>PL/SQL</td></tr>
+                        <tr><td>CSS3</td></tr>
+                        <tr><td>LESS</td></tr>
+                        <tr><td>HTML5</td></tr>
+                        <tr><td>XML</td></tr>
+                        <tr><td>Java</td></tr>
                         <tr><td>&nbsp;</td></tr>
                     </table>
                 </div>
@@ -33,14 +35,16 @@
                     <div><div class="skills-icon lt_blue-hover-border"><img src="includes/images/technologies.png"></div></div>
                     <h3 class="orange-underline" style="padding-bottom:.5em;margin:.25em 0;">Technologies</h3>
                     <table id="skills">
-                        <tr><td>jQuery</td></tr>
-                        <tr><td>AngularJS</td></tr>
+                        <tr><td>Git/Version Control</td></tr>
+                        <tr><td>Jira</td></tr>
+                        <tr><td>JavaEE</td></tr>
+                        <tr><td>Servlets/JSTL</td></tr>
+                        <tr><td>Debugging</td></tr>
+                        <tr><td>Unit Testing</td></tr>
+                        <tr><td>Linux CLI</td></tr>
                         <tr><td>Bootstrap</td></tr>
                         <tr><td>WordPress</td></tr>
-                        <tr><td>Git / Version Control</td></tr>
-                        <tr><td>Linux Administration</td></tr>
                         <tr><td>Android Development</td></tr>
-                        <tr><td>Debugging</td></tr>
                         <tr><td>&nbsp;</td></tr>
                     </table>
                 </div>
@@ -58,6 +62,7 @@
                         <tr><td>User Personas</td></tr>
                         <tr><td>User Stories</td></tr>
                         <tr><td>Heuristic Evaluations</td></tr>
+                        <tr><td>UML,ERDs,DFDs</td></tr>
                         <tr><td>&nbsp;</td></tr>
                     </table>
                 </div>
