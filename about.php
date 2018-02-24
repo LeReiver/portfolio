@@ -25,19 +25,19 @@
 </head>
 <body data-spy="scroll" data-target="#navbar">
 <?php require('navigation.php'); ?>
-    <div id="about_bio" class="section bigbox" style="padding-top: 6em;">
+    <div id="about_bio" class="section bigbox">
         <div class="container">
             <div class="row section-header">
                 <div class="col-md-12">
                     <div class="col-md-7">
-                        <h1 style="font-size: 1.85em; color: #ff8700; font-stretch: extra-expanded; font-weight: 200; text-align:start;  margin-bottom:1em; margin-left: -40px;">About</h1>
+                        <h1 style="font-size: 2.5em; color: #ff8700; font-stretch: extra-expanded; font-weight: 200; text-align:start;  margin-bottom:1em; margin-left: -40px;">About</h1>
 
                         <p id="about_bio" class="bio" style="margin-left:-40px">
                         Developing online and mobile solutions using web standard best practices and modern frameworks utilizing HTML5/XML, CSS3/LESS, JavaScript/ES6, React.js, PHP, SQL/MySQL, Java, and Responsive UX/UIs.<br><br>Seeking a position where I can assist and contribute to a team of dynamic developers while strengthening my development skills by creating digital solutions utilizing latest frameworks and technologies.
                         </p>
                     </div>
                     <div class="col-md-5" style="margin-left: -40px">
-                        <h1 style="font-size: 1.85em; color: #ff8700; font-stretch: extra-expanded; font-weight: 200; text-align:start; margin-bottom: 1em;">Contact</h1>
+                        <h1 style="font-size: 2.5em; color: #ff8700; font-stretch: extra-expanded; font-weight: 200; text-align:start; margin-bottom: 1em;">Contact</h1>
 
                         <form id="contact" name="contact" method="post" action="includes/contact_process.php">
                             <div class="row_contact">

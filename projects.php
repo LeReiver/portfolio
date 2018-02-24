@@ -27,11 +27,10 @@
 <body data-spy="scroll" data-target="#navbar">
 <?php require('navigation.php'); ?>
 <div id="about_2" class="section bigbox">
-    <section id="websites"></section>
-    <div class="container projects" style="padding-top: 9em;">
+    <div class="container projects">
         <div id="about" class="project-icon">
             <div class="container">
-                <div class="row project" style="margin-bottom: 5em; margin-top: 30px;">
+                <div class="row project" style="margin-bottom: 10em;">
                     <div class="col-lg-6 col-xl-12">
                         <div>
                             <div class="project-icon">
@@ -45,13 +44,13 @@
                         <div class="project_desc">
                             <h3 >Coordinated Consulting Services</h3>
                             <h4>Web Application Development <span id="pipe">|</span> Web Design <br>  Web Consulting <span id="pipe">|</span> Database Build</h4>
-<!--                            <p id="skills">A private and secure web application for a consulting firm built with PHP, JavaScript, and MySQL that-->
-<!--                                requires user account creation and access, user input and uploads data to remote database with report generation capabilities.</p>-->
+                           <p id="skills">A private and secure web application for a consulting firm built with PHP, JavaScript, and MySQL that
+                               requires user account creation and access, user input and uploads data to remote database with report generation capabilities.</p>
                             <!--  Button to website  -->
-                            <div class="project-button">
+                            <!-- <div class="project-button">
                                 <a href="ccs-description.php">
                                     <button id="_button">View Project</button></a>
-                            </div>
+                            </div> -->
                         </div>
                     </div>
                 </div>
@@ -70,7 +69,7 @@
                         <div class="project_desc">
                             <h3>Drums</h3>
                             <h4>Android App Development <span id="pipe">|</span> App Design </h4>
-<!--                            <p id="skills">A rudimentary drum machine with language support for Italian and Japanese.</p>-->
+                           <p id="skills">A rudimentary drum machine with language support for Italian and Japanese.</p>
                             <!--  Button to website  -->
                             <div class="project-button">
                                 <a href="https://play.google.com/store/apps/details?id=app.lereiver.mike.drums" target="_blank">
@@ -95,7 +94,7 @@
                         <div class="project_desc">
                             <h3>Guano</h3>
                             <h4>Web Development <span id="pipe">|</span> Web Design </h4>
-<!--                            <p id="skills">A mobile-first website for a band, built with PHP and jQuery and a responsive CSS grid utilizing LESS. Incorporated a modifiable Audio Controller Plugin as an audio player.</p>-->
+                           <p id="skills">A mobile-first website for a band, built with PHP and jQuery and a responsive CSS grid utilizing LESS. Incorporated a modifiable Audio Controller Plugin as an audio player.</p>
                             <div class="project-button">
                                 <a href="/../web/guano/" target="_blank">
                                     <button id="_button">View Project</button></a>
@@ -118,7 +117,7 @@
                         <div class="project_desc">
                             <h3>Burrito Masala</h3>
                             <h4>Web Development <span id="pipe">|</span> Web Design </h4>
-<!--                            <p id="skills">This fictitious food cart mobile-first website was built with PHP, utilizing responsive CSS and LESS.</p>-->
+                           <p id="skills">This fictitious food cart mobile-first website was built with PHP, utilizing responsive CSS and LESS.</p>
                             <div class="project-button">
                                 <a href="/../web/burrito_masala/" target="_blank">
                                     <button id="_button">View Project</button></a>
@@ -141,8 +140,8 @@
                         <div class="project_desc">
                             <h3>Kitchen Commons</h3>
                             <h4>Web Design <span id="pipe">|</span> Site Migration <span id="pipe">|</span> SEO Augmentation</h4>
-<!--                            <p id="skills">As a web development intern for a non-profit organization Kitchen Commons, assisted in migrating the organization's old Drupal site to a new WordPress site.-->
-<!--                                Redesigned the new site with custom theme styling implementing changes that enhanced usability, managed plugins and widgets and applied SEO practices.</p>-->
+                           <p id="skills">As a web development intern for a non-profit organization Kitchen Commons, assisted in migrating the organization's old Drupal site to a new WordPress site.
+                               Redesigned the new site with custom theme styling implementing changes that enhanced usability, managed plugins and widgets and applied SEO practices.</p>
                             <div class="project-button">
                                 <a href="https://kitchencommons.net/" target="_blank">
                                     <button id="_button">View Project</button></a>
@@ -165,7 +164,7 @@
                         <div class="project_desc">
                             <h3>A Tip Calculator</h3>
                             <h4>Web Application Development <span id="pipe">|</span> Web Application Design </h4>
-<!--                            <p id="skills">A Single Page Web Application built with PHP, HTML5 and CSS3.</p>
+                            <p id="skills">A Single Page Web Application built with PHP, HTML5 and CSS3.</p>
                             <!--  Button to website  -->
                             <div class="project-button">
                                 <a href="/../php/tip_calculator" target="_blank">
@@ -190,7 +189,7 @@
                         <div class="project_desc">
                             <h3>Cooking Volume Converter</h3>
                             <h4>Web Application Development <span id="pipe">|</span> Web Application Design </h4>
-<!--                            <p id="skills">A Single Page Web Application built with PHP, jQuery, AJAX, HTML5 and CSS3.</p>-->
+                           <p id="skills">A Single Page Web Application built with PHP, jQuery, AJAX, HTML5 and CSS3.</p>
                             <div class="project-button">
                                 <a href="/../php/volume_converter/" target="_blank">
                                     <button id="_button">View Project</button></a>
@@ -213,7 +212,7 @@
                         <div class="project_desc">
                             <h3>Buddha Bellies Noodle House</h3>
                             <h4>Web Development <span id="pipe">|</span> Web Design </h4>
-<!--                            <p id="skills">A fictitious restaurant website built with hand rolled HTML5 and CSS3.</p>-->
+                           <p id="skills">A fictitious restaurant website built with hand rolled HTML5 and CSS3.</p>
                             <div class="project-button">
                                 <a href="/../web/buddha_bellies/" target="_blank">
                                     <button id="_button">View Project</button></a>
@@ -236,7 +235,7 @@
                         <div class="project_desc">
                             <h3>Well Fed Adventures</h3>
                             <h4>Web Development <span id="pipe">|</span> Web Design </h4>
-<!--                            <p id="skills">A website built in Dreamweaver for a fictitious culinary travel company.</p>-->
+                           <p id="skills">A website built in Dreamweaver for a fictitious culinary travel company.</p>
                             <div class="project-button">
                                 <a href="/../web/well_fed" target="_blank">
                                     <button id="_button">View Project</button></a>
@@ -259,7 +258,7 @@
                         <div class="project_desc">
                             <h3>Dual Purpose Motorcycles</h3>
                             <h4>Web Development <span id="pipe">|</span> Web Design</h4>
-<!--                            <p id="skills">A simple, informative website built using AJAX and jQuery.</p>-->
+                           <p id="skills">A simple, informative website built using AJAX and jQuery.</p>
                             <div class="project-button">
                                 <a href="/../web/dual_purpose/" target="_blank">
                                     <button id="_button">View Project</button></a>
@@ -282,7 +281,7 @@
                         <div class="project_desc">
                             <h3>Pig Latin Name Converter</h3>
                             <h4>Android App Development <span id="pipe">|</span> App Design </h4>
-<!--                            <p id="skills"> Using string manipulations, this Android app converts names into Pig Latin.</p>-->
+                           <p id="skills"> Using string manipulations, this Android app converts names into Pig Latin.</p>
 <!--                            <div class="project-button">-->
 <!--                                <a href="" target="_blank">-->
 <!--                                    <button id="_button">View Project</button></a>-->

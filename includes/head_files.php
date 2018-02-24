@@ -10,7 +10,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"/>
     <link rel="shortcut icon" type="image/x-icon" href="/includes/images/favicon.ico">
-    <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Montserrat:400,700|Lato:400,700' type='text/css'>
+    <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Montserrat:400,700|Lato:400,700|family=Crete+Round|Hind+Madurai|Bitter|Mukta+Vaani|News+Cycle' type='text/css'> 
     <link rel="stylesheet" href="includes/styles/portfolio.css.php" type="text/css">
     <link rel="stylesheet" href="includes/styles/bootstrap.css" type="text/css">
     <link rel="stylesheet" href="includes/styles/bootstrap.min.css" type="text/css">

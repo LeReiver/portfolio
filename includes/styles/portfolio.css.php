@@ -14,7 +14,7 @@ body {
     background-repeat: no-repeat;
     background-position: top center;
     background-attachment: fixed;
-    font-family: gentonalight, sans-serif;
+    font-family: 'Lato', sans-serif!important;
     position: relative;
     background-size: cover;
     background-color: rgb(62, 88, 93);
@@ -22,14 +22,13 @@ body {
 p {
     text-align: justify;
     font-weight: 200;
-    font-family: gentonalight, sans-serif;
+    font-family: 'News Cycle', sans-serif;
 }
 a {
     color: #ff8700;
-
 }
 h1, h2 {
-    font-family: gentonalight, sans-serif;
+    font-family: 'Hind Madurai', sans-serif!important;
     text-transform: uppercase;
     font-weight: 100;
 }
@@ -56,13 +55,11 @@ li {
 }
 .jumbotron h1 {
     font-size: 46px;
-    font-family: gentonalight, sans-serif;
 }
 .jumbotron h2 {
     font-size: 40px;
     text-transform: uppercase;
     line-height: 40px;
-    font-family: gentonalight, sans-serif;
 }
 .jumbotron h3 {
     font-size: 1.5em;
@@ -75,17 +72,14 @@ li {
     font-weight: bold;
     text-transform: uppercase;
     display: inline-block;
-    font-family: gentonalight, sans-serif;
 }
 .jumbotron h6 {
     font-size: 18px;
-    font-family: gentonaextralight, sans-serif;
 }
 .jumbotron p {
     font-size: 16px;
     margin-bottom: 1.5em;
     margin-top: 1.5em;
-    font-family: gentonalight, sans-serif;
 }
 .project-icon {
     display: inline-block;
@@ -100,6 +94,7 @@ li {
 }
 .project-icon img {
     height: 450px;
+    margin-top: 60px;
 }
 .project-icon.app img {
     height: 340px;
@@ -197,11 +192,12 @@ li {
 }
 .navbar-default {
     background-color: #000;
+    margin-top: 0 !important;
 }
 .navbar-default .navbar-nav>li>a {
     color: #000;
-    font-size: 1.2em;
-    font-family: gentonalight, sans-serif;
+    font-size: 1.5em;
+    font-family: 'Hind Madurai', sans-serif!important;
     font-weight: 300;
     padding-right: 4em;
     margin-right: 20px;
@@ -209,13 +205,13 @@ li {
 .navbar-default .navbar-nav>li>a.selected {
     color: #ff8700;
 }
-.navbar-default .navbar-nav>a {
-    color: #777;
+.navbar-default .navbar-nav>li>a {
+    color: #999!important;
 }
 .navbar-default .nav>li>a:hover,
 .navbar-default .nav>li>a:focus,
 .navbar-default .navbar-nav>.selected>a:hover {
-    color: #ff8700;
+    color: #ff8700!important;
 }
 .navbar-nav>li>a {
     padding-top: 27px;
@@ -253,9 +249,9 @@ li {
 }
 .nav_name {
     margin-top: -.01em;
-    margin-left: 0;
-    font-size: 1.5em;
-    font-family: gentonalight, sans-serif;
+    margin-left: -10px;
+    font-size: 2em;
+    font-family: 'Hind Madurai', sans-serif !important;
     font-weight: 300;
 }
 .nav_list li {
@@ -387,8 +383,7 @@ ul.topnav li.icon {display: none;}
     padding-bottom: 150px;
 }
 .section-header h2 {
-    padding-bottom: 10px;
-    font-family: gentonalight, sans-serif;
+    padding-bottom: 10px;  
 }
 #about.w3-content h1{
     margin: 0 0 0 3em;
@@ -408,8 +403,7 @@ ul.topnav li.icon {display: none;}
     overflow-x: hidden;
     background-repeat: no-repeat;
     background-position: top center;
-    background-attachment: scroll;
-    font-family: gentonalight, sans-serif;
+    background-attachment: scroll; 
     position: relative;
     z-index: 0;
 }
@@ -434,12 +428,10 @@ ul.topnav li.icon {display: none;}
 }
 
 .section.bigbox h4 {
-    font-family: gentonalight, sans-serif;
     color: #777;
     margin-top: 20px;
 }
 .section.bigbox h3 {
-    font-family: gentonalight, sans-serif;
     color: #333;
     margin-top:250px;
 }
@@ -447,14 +439,14 @@ ul.topnav li.icon {display: none;}
     padding: 1em 4em;
     margin: 4em;
     text-align: justify;
-    font-family: gentonalight, sans-serif;
     font-size: 1.5em;
     font-weight: 100;
 }
 .section.bigbox p {
     margin-top: 45px;
-    font-family: gentonalight, sans-serif;
+    font-family: 'Hind Madurai', sans-serif;
     color: rgb(25, 46, 51);
+    font-weight: 700;
 }
 .section.bigbox .btn-primary {
     background-color: #e96656;
@@ -464,7 +456,7 @@ ul.topnav li.icon {display: none;}
     border-radius: 4px;
     padding: 13px 35px;
     text-transform: uppercase;
-    font-family: gentonalight, sans-serif;
+     
 }
 .section.footer {
     margin-bottom: -20px;
@@ -545,8 +537,8 @@ ul.topnav li.icon {display: none;}
 }
 
 #about h1 {
-    margin: 3px 2em 0 0;
-    font-size: 3vw;
+    margin: 3px 2em 0 -1em;
+    font-size: 50px;
     font-weight: 500;
     text-align: start;
     color: #ff8700;
@@ -570,7 +562,10 @@ ul.topnav li.icon {display: none;}
     margin-top: 2px;
     font-weight: 100;
 }
-#about_bio  p{
+#about_bio {
+    margin-top: 3em
+}
+#about_bio p {
     font-size: 1.5em;
     margin: 20px 40px 20px 0;
     padding-right: 0;
@@ -599,7 +594,6 @@ img.fullwidth2 {
     border-width: 1px;
     padding: 13px 35px;
     text-transform: uppercase;
-    font-family: gentonalight, sans-serif;
     color: #404040;
     border-color: #e96656;
 }
@@ -664,7 +658,6 @@ a.button:hover {
     font-size: 120%;
     width: 7.5em;
     height: 1.8em;
-/*    margin: 0 0 0 15em;*/
     font-weight: 200;
     transition: 0.8s;
 }
@@ -772,25 +765,32 @@ a.button:hover {
 .project-hero img {
     height: 35vw;
     max-width: 1200px;
-    margin: 60px 0 80px -40px;
+    margin: 60px 0 -20px -40px;
     border: 1em solid #222F3F;
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
     border-radius: 10px;
 }
+.project-hero.tablet img {
+    border: none;
+    margin-top:-35px;
+    margin-bottom: -40px;
+}
 .project-title h1 {
-/*    float: left;*/
     font-size: 3em;
     color: #ff8700;
     font-stretch: extra-expanded;
     font-weight: 600;
     text-align: start;
-    margin: -115px 30px;
+    margin-top: -115px;
+}
+.subtitle {
+    font-size: 160%;
+    color: #111;
 }
 .project-title p {
     margin: 0 80px 0 40px;
-    font-size: 20px;
-    font-family: Roboto sans-serif;
+    font-size: 22px;
     font-weight: 400;
 }
 .project-description h2 {
@@ -814,7 +814,7 @@ a.button:hover {
 .testimonials {
     margin: 40px 0 0 0;
 }
-.project-button #_button  {
+.project-button #_button {
     height: 200%;
     font-weight: 500!important;
     font-size: 200%;
@@ -834,6 +834,15 @@ a.button:hover {
     margin-top: 40px;
     width: 560px;
     height: 515px;
+    border: 1em solid #222F3F;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+}
+.project-video-full {
+    height: 35vw;
+    max-width: 1200px;
+    margin: 60px 0 80px -40px;
     border: 1em solid #222F3F;
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
@@ -873,14 +882,18 @@ a.button:hover {
     margin-bottom: 80px;
 }
 .project-process-img {
-/*    height: 20vw;*/
     max-width: 100%;
     background-size: contain;
-    color: #7DA5A2;
+    color: #4A6077;
+}
+.project-process-img img {
+    height: 400px;
+    max-width: 100%;
+    background-size: contain;
+    margin-top: 60px;
 }
 .project-challenges {
     margin: 4em auto;
-
 }
 .project-outcome {
     margin: 4em auto;
@@ -948,10 +961,9 @@ a.button:hover {
     margin-top: 2em;
     padding: .5em 0;
 }
-.row.project{
+.row.project {
     margin-bottom: 180px;
-    padding-bottom: 180px;
-       /* border-bottom: solid 0.25px #777; */
+    margin-top: 100px;
 }
 .row_project {
     margin: -2em 1.75em;
@@ -1011,16 +1023,15 @@ a.button:hover {
         padding-top: 0;
         margin-bottom: 1px;
     }
-    .navbar-default .navbar-nav>li>a {
-        color: #000;
-        font-size: 1.2em;
-        font-family: gentonalight, sans-serif;
-        font-weight: 300;
-        padding-top:15px;
+    .navbar-default .navbar-nav>li {
+        margin-left: 10px;
      }
     .navbar-default .project_nav {
         margin-top: 10px;
         margin-left: 150px;
+    }
+    #about_bio {
+        margin-top: 6em
     }
     #about p {
         margin: 20px -20px;
@@ -1030,8 +1041,6 @@ a.button:hover {
     }
     #about h1 {
         margin-top: 0.125em;
-        font-size: 3vw;
-
     }
     #about_me p {
         margin: 20px 40px;
@@ -1085,7 +1094,7 @@ a.button:hover {
     }
     .project-icon img {
         height: 125%;
-        margin: -20px 0 40px -80px;
+        margin: 45px 0 40px -80px;
     }
     .project-icon.app img {
          height: 315px;
@@ -1135,7 +1144,7 @@ a.button:hover {
         padding: .5em 0;
     }
     .row.project {
-        margin-top: -50px;
+        margin-top: 50px;
      }
     .row_contact {
         margin: .5em -.75em;
@@ -1159,6 +1168,9 @@ a.button:hover {
     .project-process-img {
         margin-bottom: -40px;
     }
+    .project-video-full {
+        height: 50vw;
+    }
 
 }
 
@@ -1166,58 +1178,43 @@ a.button:hover {
     .project-icon {
         margin: 1em 0 -4em 1.5em;
     }
-
     .section.bigbox h4 {
         margin-left: 5px;
     }
-
     .project-hero img {
         height: 55vw;
         position: relative;
         margin: 50px 0 0 -45px;
     }
-
     .project-description img {
-        height: 60vw;
+        height: 400px;
         margin: 50px 0 0 -10px;
     }
-
     .project-description {
         margin-bottom: 20px;
     }
-
-    .project-description h3 {
-        font-size: 20px;
-    }
-
     .project-description p {
         font-size: 2vw;
         padding-right: 2em;
         margin-left: 10px;
     }
-
     .half-page-left p {
         padding-right: 2em;
     }
-
     .half-page-right p {
         padding-left: 2em;
         clear: both;
     }
-
     .project-video-left {
         width: 90vw;
     }
-
     .author {
         /*        margin-top: -80px;*/
         font-size: 1.5em;
     }
-
     .quote.left img {
         height: 4vw;
     }
-
     .quote.right img {
         height: 4vw;
     }
@@ -1248,7 +1245,7 @@ a.button:hover {
     #about h1 {
         margin-top: 0.25em;
         font-weight: 500;
-        font-size: 3vw;
+        font-size: 45px;
     }
     #about_2 p {
         margin: 20px -10px 20px 0;
@@ -1283,6 +1280,9 @@ a.button:hover {
         font-weight: 200;
         height: 2em;
     }
+    .project-button #_button {
+        margin-right: 20px;
+    }
     #_button a {
         font-size: 30%;
         width: 2em;
@@ -1308,6 +1308,14 @@ a.button:hover {
         font-size: 1.5em;
         padding-left: 8em;
     }
+    .navbar-default .navbar-nav {
+        margin-right: -20px;
+    }
+    .navbar-default .navbar-nav>li>a {
+        margin-right: 0;
+        position: relative;
+        left: 80px;
+    }
     .down {
         margin-left: 42%;
     }
@@ -1323,9 +1331,16 @@ a.button:hover {
     .row.project{
          margin-bottom: 160px;
          padding-bottom: 60px;
+         margin-top: 120px;
+    }
+    .project-hero img {
+        margin-bottom: -60px;
+    }
+    .project-hero.tablet img {
+        margin-bottom: -80px;
     }
     .project-description h3 {
-        margin-left -30px;
+        margin-left: -30px;
     }
     .project-description p {
         margin: 20px 0 80px 20px;
@@ -1336,9 +1351,7 @@ a.button:hover {
     .project-process-img {
         margin: 20px 40px -180px 0;
     }
-    .project-process-img img {
-        height: 30vw;
-    }
+
     .project-hero img {
         height: 49vw;
         margin-left: -30px;
@@ -1381,7 +1394,7 @@ a.button:hover {
     .section-header h2 {
         padding-top: .25em;
         padding-bottom: 10px;
-        font-family: gentonalight, sans-serif;
+         
     }
     .section-hero {
         background-image: url('../images/hero2_2_op.jpg');
@@ -1437,7 +1450,7 @@ a.button:hover {
         font-weight: 100;
         text-align: start;
     }
-    #about_bio  p{
+    #about_bio  p {
         font-size: 1.5em;
         margin: 20px -30px 20px 0;
         padding-right: 0;
@@ -1539,6 +1552,11 @@ a.button:hover {
     .section.bigbox h3 {
         margin-top: 100px;
     }
+    #about h1 {
+        font-size: 5vw;
+        margin-top: -20px;
+        margin-bottom: -2.5em;
+    }
     #_button_contact {
         margin-bottom: 20px;
     }
@@ -1554,6 +1572,13 @@ a.button:hover {
          display: inline-block !important;
          margin-bottom: -50px;
          padding: 0;
+    }
+    .navbar-right {
+        <!-- float: right !important; -->
+        margin-right: -85px !important;
+    }
+    .row.project {
+        margin-top: 180px;
     }
     .project-header {
         margin-top: 9.5em;
@@ -1573,6 +1598,9 @@ a.button:hover {
     .project-process-img {
         margin: 20px 40px -60px 0;
     }
+    .container > .navbar-header {
+        margin-right: 0;
+    } 
 }
 
 
@@ -1593,7 +1621,7 @@ a.button:hover {
         text-align: start;
     }
     #about h1 {
-        margin-top: 0.25em;
+        <!-- margin-top: 0.25em; -->
         font-weight: 500;
         font-size: 5vw;
     }
@@ -1625,6 +1653,9 @@ a.button:hover {
     .project-icon.app img {
         height: 285px;
         margin-left: -70px;
+    }
+    .project-button #_button {
+        margin-right: 80px;
     }
     #_button {
         font-size: 220%;
@@ -1821,7 +1852,9 @@ a.button:hover {
     #_button {
         font-size: 140%;
         font-weight: 200;
-/*        margin: 0 3em 0 0;*/
+    }
+    .project-button #_button {
+        margin: 20px 60px 0 0;
     }
     #_button a {
         font-size: 30%;
@@ -1965,7 +1998,12 @@ a.button:hover {
         margin: 0;
     }
     .project-hero img {
-        margin-left: 33px;
+        <!-- margin-left: 33px; -->
+        margin-top: -20px;
+    }
+    .project-hero.tablet img {
+        margin-top: -20px;
+        margin-bottom: -80px;
     }
     .author {
         font-size: 1.25em;
@@ -1987,15 +2025,16 @@ a.button:hover {
         margin-top: -40px;
     }
     #about h1 {
-        font-size: 5vw;
         padding-left: .5em;
+        margin-top: -20px;
+        padding-bottom: 3.5em;
     }
     .col-md-6 {
         margin: 0 1em 0 -4.5em;
         padding: 0 2em;
     }
     p.nav_name {
-        font-size: 130%;
+        font-size: 170%;
     }
     p#about_2.about.phone {
         font-size: 3%;
@@ -2006,14 +2045,14 @@ a.button:hover {
     .orange-underline {
         margin: .5em 1.75em;
     }
-    .section.bigbox h5{
+    .section.bigbox h5 {
         margin: .25em 5em 0 0;
     }
-    .section.bigbox h4{
+    .section.bigbox h4 { 
         margin-left: -80px;
     }
-    .section.bigbox h3{
-        margin: -30px 0 0 -80px;
+    .section.bigbox h3 {
+        <!-- margin: -30px 0 0 -15px; -->
     }
     #about_2 p {
         margin-top: 20px;
@@ -2134,12 +2173,11 @@ a.button:hover {
     }
     .section.bigbox h4 {
         margin-left: -120px;
-        font-size: 90%;
         margin-top: 15px;
     }
     .section.bigbox h3{
-        margin-left: -130px;
-        margin-top: -100px;
+        margin-left: -120px;
+        margin-top: -90px;
     }
     .project-icon img {
         height: 75%;
@@ -2249,11 +2287,8 @@ a.button:hover {
     body {
         background-size: cover;
     }
-    #about h1 {
-        font-size: 3vw;
-    }
     .navbar {
-        margin-top; 1em;
+        margin-top: 1em;
     }
     .section.bigbox h4 {
         margin: 20px 0 0 30px;
