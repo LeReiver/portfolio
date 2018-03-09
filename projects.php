@@ -42,15 +42,15 @@
                     </div>
                     <div class="col-lg-6 col-xl-12">
                         <div class="project_desc">
-                            <h3 >Coordinated Consulting Services</h3>
-                            <h4>Web Application Development <span id="pipe">|</span> Web Design <br>  Web Consulting <span id="pipe">|</span> Database Build</h4>
+                            <h3>Coordinated Consulting Services</h3>
+                            <h4>Web Application Development <span id="pipe">|</span> Web Design <span id="pipe">|</span> Web Consulting <span id="pipe">|</span> Database Build</h4>
                            <p id="skills">A private and secure web application for a consulting firm built with PHP, JavaScript, and MySQL that
                                requires user account creation and access, user input and uploads data to remote database with report generation capabilities.</p>
                             <!--  Button to website  -->
-                            <!-- <div class="project-button">
-                                <a href="ccs-description.php">
-                                    <button id="_button">View Project</button></a>
-                            </div> -->
+<!--                            <div class="project-button">-->
+<!--                                <a href="ccs-description.php">-->
+<!--                                    <button id="_button">View Project</button></a>-->
+<!--                            </div>-->
                         </div>
                     </div>
                 </div>

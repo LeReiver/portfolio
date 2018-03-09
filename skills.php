@@ -18,14 +18,13 @@
                     <div><div class="skills-icon lt_blue-hover-border"><img src="includes/images/imac_code5.png"></div></div>
                     <h3 class="orange-underline" style="padding-bottom:.5em;margin:.25em 0;">Languages</h3>
                     <table id="skills">
-                        <tr><td>JavaScript/ES6</td></tr>
-                        <tr><td>jQuery</td></tr>
-                        <tr><td>React.js</td></tr>
-                        <tr><td>PHP</td></tr>
-                        <tr><td>SQL/MySQL</td></tr>
+                        <tr><td>HTML5</td></tr>
                         <tr><td>CSS3</td></tr>
                         <tr><td>LESS</td></tr>
-                        <tr><td>HTML5</td></tr>
+                        <tr><td>JavaScript/ES6</td></tr>
+                        <tr><td>jQuery</td></tr>
+                        <tr><td>PHP</td></tr>
+                        <tr><td>SQL/MySQL</td></tr>
                         <tr><td>XML</td></tr>
                         <tr><td>Java</td></tr>
                         <tr><td>&nbsp;</td></tr>
@@ -38,7 +37,6 @@
                         <tr><td>Git/Version Control</td></tr>
                         <tr><td>Jira</td></tr>
                         <tr><td>JavaEE</td></tr>
-                        <tr><td>Servlets/JSTL</td></tr>
                         <tr><td>Debugging</td></tr>
                         <tr><td>Unit Testing</td></tr>
                         <tr><td>Linux CLI</td></tr>
@@ -56,7 +54,6 @@
                     <table id="skills">
                         <tr><td>Responsive UI/UX</td></tr>
                         <tr><td>Wireframes</td></tr>
-                        <tr><td>Image Optimization</td></tr>
                         <tr><td>Adobe Photoshop</td></tr>
                         <tr><td>Data Driven Design</td></tr>
                         <tr><td>User Personas</td></tr>
@@ -78,7 +75,6 @@
                         <tr><td>Sound Design</td></tr>
                         <tr><td>Sync To Picture</td></tr>
                         <tr><td>MIDI</td></tr>
-                        <tr><td>&nbsp;</td></tr>
                         <tr><td>&nbsp;</td></tr>
                     </table>
                 </div>

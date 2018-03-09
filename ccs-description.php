@@ -300,7 +300,7 @@
             <img src="includes/images/ccs_lg.jpg" alt="CCS">
             </div> -->
 
-            <div class="project-description">
+            <div class="project-description outcome">
                 <h3>Save webpage as Word document and format for reports</h3>
             </div>
             <!-- Project Outcome Hero Video -->

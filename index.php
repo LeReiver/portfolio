@@ -15,7 +15,6 @@
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
-
       gtag('config', 'UA-112437058-1');
     </script>
     <title>Michael Le-Reiver</title>
@@ -31,34 +30,13 @@
             <div class="container">
                 <div class="row section-header">
                     <div class="col-md-12" >
-                        <p></p><br>
-                        <div class="col-md-12">
-                            <div class="w3-content ">
-                                <h1 class="header_slider w3-animate wait" style="width:100% ">Hello, <br>I am a <span class="title">Web Designer</span></h1>
-                                <h1 class="header_slider w3-animate wait" style="width:100% ">Hello, <br>I am a <span class="title">Web Developer</span></h1>
-                                <h1 class="header_slider w3-animate wait" style="width:100%">Hello, <br>I am an <span class="title">Audio Producer</span></h1>
-                            </div>
-                        </div>
-                    </div>
-                    <div id="align_right" >
-                        <div class="row section-header">
-                            <div class="col-md-12">
-                                <h1>&nbsp;</h1>
-                                <h1>&nbsp;</h1>
-                                <h1>&nbsp;</h1>
-                                <h1>&nbsp;</h1>
-                                <h1>&nbsp;</h1>
-                                <h1>&nbsp;</h1>
-                            </div>
+                        <div class="w3-content ">
+                            <h1 class="header_slider w3-animate wait" style="width:100% ">Hello, <br>I am a <span class="title">Web Designer</span></h1>
+                            <h1 class="header_slider w3-animate wait" style="width:100% ">Hello, <br>I am a <span class="title">Web Developer</span></h1>
+                            <h1 class="header_slider w3-animate wait" style="width:100%">Hello, <br>I am an <span class="title">Audio Producer</span></h1>
                         </div>
                     </div>
                 </div>
-                    <div  class="row section-header">
-                        <div>
-                            <p id="about_2" class="about phone" >My name is Michael Le-Reiver. I live in downtown Portland Oregon. I love creating web sites, web applications, and Android Apps. I also love to produce audio, video, and other digital media.
-                                Please take a look to see what I have been up to. Thank you for stopping by!</p>
-                        </div>
-                    </div>
             </div>
         </div>
     </div>

@@ -184,8 +184,9 @@ li {
     color: rgba(238, 238, 238, 0);
 }
 .transparent-blue-section {
-     background-color: rgba(25, 56, 88, 0.69); /*rgb(27, 94, 126);*/
+     background-color: rgba(25, 56, 88, 0.6); /*rgb(27, 94, 126);*/
      color: rgba(238, 238, 238, 0);
+     height: 100%;
  }
 .navbar {
     width: 80%;
@@ -203,7 +204,7 @@ li {
     margin-right: 20px;
 }
 .navbar-default .navbar-nav>li>a.selected {
-    color: #ff8700;
+    color: #ff8700 !important;
 }
 .navbar-default .navbar-nav>li>a {
     color: #999!important;
@@ -383,7 +384,7 @@ ul.topnav li.icon {display: none;}
     padding-bottom: 150px;
 }
 .section-header h2 {
-    padding-bottom: 10px;  
+    padding-bottom: 10px;
 }
 #about.w3-content h1{
     margin: 0 0 0 3em;
@@ -397,13 +398,13 @@ ul.topnav li.icon {display: none;}
     background-image: url('../../includes/images/hero2__4_op2.jpg');
     margin: 1em 0;
     padding: 0;
-    height: 100%;
+    height: 100vw;
     background-size: cover;
     background-color: rgba(229, 229, 229, 0.3);
     overflow-x: hidden;
     background-repeat: no-repeat;
     background-position: top center;
-    background-attachment: scroll; 
+    background-attachment: scroll;
     position: relative;
     z-index: 0;
 }
@@ -456,7 +457,7 @@ ul.topnav li.icon {display: none;}
     border-radius: 4px;
     padding: 13px 35px;
     text-transform: uppercase;
-     
+
 }
 .section.footer {
     margin-bottom: -20px;
@@ -521,6 +522,9 @@ ul.topnav li.icon {display: none;}
     padding-bottom: 2em;
     margin: 2em 1em;
 }
+#about .section-hero {
+    margin-top: 20px;
+}
 #about .section {
     margin: 2em 1em;
 }
@@ -535,15 +539,13 @@ ul.topnav li.icon {display: none;}
     font-weight: 200;
     line-height: 110%;
 }
-
 #about h1 {
-    margin: 3px 2em 0 -1em;
+    margin: 0 0 0 -0.5em;
     font-size: 50px;
     font-weight: 500;
     text-align: start;
     color: #ff8700;
 }
-
 #about_me p {
     margin: 20px 30px;
     font-size: 1.75em;
@@ -1040,7 +1042,7 @@ a.button:hover {
         font-weight: 200;
     }
     #about h1 {
-        margin-top: 0.125em;
+        font-size: 6vw;
     }
     #about_me p {
         margin: 20px 40px;
@@ -1089,6 +1091,10 @@ a.button:hover {
         font-size: 1.5em;
         margin-left: -4em;
     }
+    .section-hero {
+        height: 800px;
+        margin-top: 2em;
+    }
     .section.footer  {
         margin-bottom: -5px;
     }
@@ -1105,6 +1111,9 @@ a.button:hover {
         display: inline-block;
         padding-top: 20px;
         margin: -1em 0 -4em 1em;
+    }
+    .section-hero {
+        height: 800px;
     }
     .section.bigbox {
         padding: 0 2em;
@@ -1243,9 +1252,10 @@ a.button:hover {
         text-align: start;
     }
     #about h1 {
-        margin-top: 0.25em;
+        margin-top: 0.5em;
+        margin-right: 0;
         font-weight: 500;
-        font-size: 45px;
+        font-size: 5vw;
     }
     #about_2 p {
         margin: 20px -10px 20px 0;
@@ -1357,10 +1367,10 @@ a.button:hover {
         margin-left: -30px;
     }
     .project-title .orange-underline {
-        margin-top: 100px;
+        margin-top: -30px;
     }
     .project-title p {
-        margin: 160px 20px -100px 20px !important;
+   /*  margin: 160px 20px -100px 20px !important; */
     }
     .quote.left img {
         height: 30px;
@@ -1394,7 +1404,10 @@ a.button:hover {
     .section-header h2 {
         padding-top: .25em;
         padding-bottom: 10px;
-         
+
+    }
+    .section-hero {
+        height: 120vw;
     }
     .section-hero {
         background-image: url('../images/hero2_2_op.jpg');
@@ -1458,7 +1471,7 @@ a.button:hover {
     }
     #about h1 {
         margin-top: 0.25em;
-        font-size: 3vw;
+        font-size: 6vw;
     }
     #network-text p {
         font-size: 16px;
@@ -1553,9 +1566,8 @@ a.button:hover {
         margin-top: 100px;
     }
     #about h1 {
-        font-size: 5vw;
-        margin-top: -20px;
-        margin-bottom: -2.5em;
+        font-size: 5.75vw;
+        margin-top: 20px;
     }
     #_button_contact {
         margin-bottom: 20px;
@@ -1600,7 +1612,7 @@ a.button:hover {
     }
     .container > .navbar-header {
         margin-right: 0;
-    } 
+    }
 }
 
 
@@ -1621,9 +1633,7 @@ a.button:hover {
         text-align: start;
     }
     #about h1 {
-        <!-- margin-top: 0.25em; -->
         font-weight: 500;
-        font-size: 5vw;
     }
     #about_2 p {
        margin: 20px 10px 20px -60px;
@@ -1694,8 +1704,8 @@ a.button:hover {
         margin-bottom: -4.5em;
     }
     .orange-underline {
-             margin: .5em 0;
-         }
+        margin: .5em 0;
+    }
     .product_desc {
         margin-top: 150px;
     }
@@ -1703,8 +1713,8 @@ a.button:hover {
 /*        margin-left: 150px;*/
     }
     .navbar-default .project-nav {
-             margin: 55px 0 20px 300px;
-         }
+        margin: 55px 0 20px 300px;
+    }
     .project-nav li {
 /*        margin-left: 30px;*/
     }
@@ -1712,8 +1722,16 @@ a.button:hover {
         margin-left: 85px;
     }
     .project-process-img {
-             margin: 20px 40px 20px 0;
-         }
+        margin: 20px 40px 20px 0;
+    }
+    .project-title p {
+        margin: 20px -20px !important;
+    }
+    .project-description p {
+        margin: 20px -10px 0 !important;
+        font-size: 24px !important;
+        text-align: start;
+    }
 }
 
 @media (max-width: 481px) {
@@ -1811,8 +1829,8 @@ a.button:hover {
     }
     #about h1 {
         text-align: start;
-        font-size: 5.25vw;
-        margin-top: .25em;
+        font-size: 6.75vw;
+        margin-top: 1em;
         font-weight: 500;
         padding-left: .5em;
     }
@@ -1830,7 +1848,9 @@ a.button:hover {
         font-size: 175%;
     }
     .section.bigbox h4 {
-        margin-left: -65px;
+        text-align: center;
+        margin-left: -35px;
+        font-size: 15px;
     }
     .section.bigbox h3 {
         margin-top: -50px;
@@ -1983,7 +2003,7 @@ a.button:hover {
         margin: 50px 0 0 55px!important;
     }
     .project-process p {
-        margin: 0 0 10px 60px;
+        margin: 0 0 0 10px;
         padding-right: 0.5em;
     }
     .project-outcome h3 {
@@ -2004,6 +2024,9 @@ a.button:hover {
     .project-hero.tablet img {
         margin-top: -20px;
         margin-bottom: -80px;
+    }
+    .project-description h2 {
+        margin-top: -55px !important;
     }
     .author {
         font-size: 1.25em;
@@ -2026,7 +2049,6 @@ a.button:hover {
     }
     #about h1 {
         padding-left: .5em;
-        margin-top: -20px;
         padding-bottom: 3.5em;
     }
     .col-md-6 {
@@ -2048,11 +2070,12 @@ a.button:hover {
     .section.bigbox h5 {
         margin: .25em 5em 0 0;
     }
-    .section.bigbox h4 { 
-        margin-left: -80px;
-    }
-    .section.bigbox h3 {
-        <!-- margin: -30px 0 0 -15px; -->
+    .section.bigbox h4 {
+        font-size: 18px;
+        margin-top: 15px;
+        text-align: center;
+        padding-right: 60px;
+        padding-left: 20px;
     }
     #about_2 p {
         margin-top: 20px;
@@ -2077,19 +2100,19 @@ a.button:hover {
         margin: -100px 0 -120px -35px;
     }
     .project-title p {
-        margin: 140px 10px -100px -30px !important;
+        margin: 140px 10px -10px -30px !important;
         text-align: start;
     }
     .project-description h2 {
         font-size: 1.8em;
-        margin: -20px 30px 50px 0;
      }
     .project-description p {
-        margin: 0 -15px 0 -35px;
+        margin: 0 -15px 0 -35px !important;
+        font-size: 20px! important;
         text-align: start;
     }
     .project-process p {
-         margin: 0 0 100px 45px;
+         margin: 0 0 100px 0;
          padding-right: 0.5em;
          text-align: start;
      }
@@ -2098,9 +2121,13 @@ a.button:hover {
     }
     .project-outcome p {
         text-align: start;
+        font-size: 22px !important;
     }
     .project-outcome h3 {
          margin: 50px 0 0 50px!important;
+     }
+     .project-description.outcome h3 {
+         margin: 50px 0 -20px 0;
      }
     .project-process h2 {
         margin-bottom: 40px!important;
@@ -2118,14 +2145,16 @@ a.button:hover {
         margin: 30px 0 -60px -33px;
     }
     .project-title .orange-underline {
-        margin-right: 0;
-        margin-left: 0;
+        margin: 120px 0 -120px;
     }
     .project-video-left {
         margin-bottom: -30px;
         height: 80vw;
         width: 120%;
         border: 0.5em solid #222F3F;
+    }
+    .project-video-full {
+        margin-bottom: -40px;
     }
     .project-nav .nav li {
         margin-left: 10px;
@@ -2136,12 +2165,15 @@ a.button:hover {
     .author {
         margin-top: 5px;
     }
+    .quote.left img {
+        margin-bottom: 10px;
+    }
 }
 
 
 @media (max-width: 350px) {
     #about h1 {
-        font-size: 5vw;
+        font-size: 6.5vw;
     }
     .header-logo img {
         margin-right:-1em;
@@ -2157,7 +2189,7 @@ a.button:hover {
         margin: 15px 3em 0 -40px;
         padding-right: 0;
     }
-    #about_bio  p{
+    #about_bio  p {
         font-size: 1.25em;
         margin: 5px -3em 0 0;
         padding-right: 0;
@@ -2166,14 +2198,18 @@ a.button:hover {
     .container.project {
         margin-top: -160px;
     }
-    .section.bigbox h5{
+    .section.bigbox h5 {
         margin: 1.25em 4em 0 1em;
         padding: 0 2.5em .25em .5em;
         font-size: 150%;
     }
     .section.bigbox h4 {
-        margin-left: -120px;
+        font-size: 18px;
         margin-top: 15px;
+        text-align: center;
+        padding-right: 60px;
+        padding-left: 20px;
+        margin: 15px 30px 0 -50px;
     }
     .section.bigbox h3{
         margin-left: -120px;
@@ -2289,6 +2325,13 @@ a.button:hover {
     }
     .navbar {
         margin-top: 1em;
+    }
+    .section-hero {
+        height: 800px;
+        margin-top: 2em;
+    }
+    #about h1 {
+        font-size: 75px;
     }
     .section.bigbox h4 {
         margin: 20px 0 0 30px;
